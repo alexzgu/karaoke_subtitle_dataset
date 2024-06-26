@@ -1,6 +1,6 @@
 use std::fs::{OpenOptions, File, read_to_string, rename, read_dir};
-use std::path::{Path, PathBuf};
-use std::io::{Write, Result};
+use std::path::{Path};
+use std::io::{Write};
 use regex::Regex;
 
 /// Indexes all raw video files to generate a list of indexed files.
@@ -72,7 +72,7 @@ pub fn index_raw_files() {
 }
 
 /// Extracts the video title, video ID, and subtitle language from the file name.
-pub fn extract_video_info(file_name: &str) -> (String, String, String) {
+fn extract_video_info(file_name: &str) -> (String, String, String) {
     // Parse the file name using regex
     let re = Regex::new(r"^(?P<video_name>.+)\s+\[(?P<video_id>.+)\]\.(?P<subtitle_language>.+)\.vtt$").unwrap();
     if let Some(captures) = re.captures(file_name) {
@@ -111,7 +111,7 @@ fn append_entry_to_index_file(index_file_path: &str, entry: &String) -> i32 {
 /// If it does, set index number to last index number + 1.
 /// If it doesn't, create index file.
 /// *Returns* the next index number available.
-fn initialize_index_file(index_file_path:&str) -> i32 {
+pub fn initialize_index_file(index_file_path:&str) -> i32 {
     let index_file = read_to_string(index_file_path);
     match index_file {
         Ok(file) => {
