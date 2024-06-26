@@ -1,4 +1,4 @@
 /target
 /.idea
-/data/raw
-/data/indexed
+/data/
+/data_processing/personal_notes

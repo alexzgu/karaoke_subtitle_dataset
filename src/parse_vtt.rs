@@ -1,19 +1,26 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader, Write}; // Import Write trait
 use regex::Regex;
-use crate::index_data;
-
 
 pub fn parse_vtts() {
     let data_directory = "data/";
-    let index_file_path: &str = &format!("{data_directory}/indexed/index.tsv");
-    let current_idx: i32 = index_data::initialize_index_file(index_file_path);
-    for i in 0..current_idx {
-        parse_vtt(i, data_directory);
+    // read into data/indexed/vtts/
+    let dir_path = format!("{}/indexed/vtts", data_directory);
+
+    // Read the directory
+    if let Ok(entries) = std::fs::read_dir(&dir_path) {
+        for entry in entries {
+            if let Ok(entry) = entry {
+                parse_vtt(entry.file_name().to_str().unwrap(), data_directory);
+            }
+        }
     }
 }
 
-fn parse_vtt(file_idx: i32, data_directory: &str) {
+fn parse_vtt(file: &str, data_directory: &str) {
+
+    // extract file index
+    let file_idx = file.trim_end_matches(".vtt");
 
     let input_file = format!("{}/indexed/vtts/{}.vtt", data_directory, file_idx);
     let output_file = format!("{}/parsed/{}.csv", data_directory, file_idx);
@@ -89,7 +96,7 @@ fn parse_vtt(file_idx: i32, data_directory: &str) {
                             }
                         } else {
                             // For console printing or additional handling
-                            println!("Line [{}], unprocessed: {}", line_count, item);
+                            println!("File Idx [{}], Line [{}], unprocessed: {}", file_idx, line_count, item);
                         }
                     }
                 }
@@ -114,6 +121,6 @@ fn unformatted_text(text: &String) -> String {
     cleaned_line = re.replace_all(&cleaned_line, "|").to_string();
     cleaned_line = cleaned_line.replace("||", "|");
     // exclude first two and last two characters
-    cleaned_line = cleaned_line.chars().skip(2).take(cleaned_line.len() - 4).collect();
+    //cleaned_line = cleaned_line.chars().skip(2).take(cleaned_line.len() - 4).collect();
     cleaned_line
 }
