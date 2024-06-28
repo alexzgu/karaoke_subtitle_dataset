@@ -103,7 +103,7 @@ fn parse_vtt(file: &str, data_directory: &str) {
             } else {
                 // Process text line
                 // Accumulate text
-                let cleaned_line = line.replace("\"", "\\\"");
+                let cleaned_line = line.replace("\"", "");
 
                 text.push_str(&cleaned_line);
                 //text.push(' '); // Add space to separate lines in the text field
@@ -114,7 +114,7 @@ fn parse_vtt(file: &str, data_directory: &str) {
 
 fn unformatted_text(text: &String) -> String {
     let mut cleaned_line = text.clone();
-    let re = Regex::new(r"[ !,'?\t\u{200B}]").unwrap();
+    let re = Regex::new(r"[ -!,'?\t\u{200B}]").unwrap();
     cleaned_line = re.replace_all(&cleaned_line, "").to_string();
     // pattern to replace any "<...>" tags with "|"
     let re = Regex::new(r"<[^>]*>").unwrap();
