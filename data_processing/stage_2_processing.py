@@ -58,6 +58,17 @@ def main():
 
             df = print_singletons(df, filename, output_df)
 
+            # if there are any nulls, print
+            if df.isnull().values.any():
+                print(filename + " has null values")
+                df = df.dropna(how='any', axis=0)
+
+            # if a row has unformatted = "", print into console and remove
+            # just for you, 91.csv ;)
+            if (df['unformatted'] == "").any():
+                print(filename + " has empty unformatted values")
+                df = df[df['unformatted'] != ""]
+
             df.to_csv(os.path.abspath("../data/stage_2_processed/csvs/" + filename), index=False)
 
     output_df.to_csv(os.path.abspath("../data/stage_2_processed/singletons.csv"), index=False)
