@@ -33,7 +33,7 @@ fn parse_vtt(file: &str, data_directory: &str) {
     let mut output = File::create(output_file).expect("Failed to create output file");
 
     // Write CSV header
-    writeln!(output, "start_time,end_time,position_percentage,line_percentage,text").unwrap();
+    writeln!(output, "start,end,position,line,text").unwrap();
 
     // State variables
     let mut start_time = String::new();
@@ -114,7 +114,7 @@ fn parse_vtt(file: &str, data_directory: &str) {
 
 fn unformatted_text(text: &String) -> String {
     let mut cleaned_line = text.clone();
-    let re = Regex::new(r"[ ,'?\t\u{200B}]").unwrap();
+    let re = Regex::new(r"[ !,'?\t\u{200B}]").unwrap();
     cleaned_line = re.replace_all(&cleaned_line, "").to_string();
     // pattern to replace any "<...>" tags with "|"
     let re = Regex::new(r"<[^>]*>").unwrap();
