@@ -19,21 +19,41 @@ def filter_non_alphanumeric(s):
 def chain_labeling(df: pd.DataFrame):
     # adds a column containing unformatted text
     chain_threshold = 0.5
+    current_chain_label = 0
 
     df['unformatted'] = df['text'].apply(unformatted)
 
     df = df.sort_values(by=['unformatted', 'start']).reset_index(drop=True)
+
+    df['chain_label'] = [current_chain_label] * df.shape[0]
 
     # adds a new column called 'start_of_new_chain' to the dataframe
     prev_row_unf_text = ""
     prev_end = 0
     start_of_new_chain = []
     for i, row in df.iterrows():
-        start_of_new_chain.append(not (row['unformatted'] == prev_row_unf_text
-                                       and (row['start'] - prev_end) < chain_threshold))
+        row_value = not (row['unformatted'] == prev_row_unf_text
+                         and (row['start'] - prev_end) < chain_threshold)
+        start_of_new_chain.append(row_value)
         prev_row_unf_text = row['unformatted']
+        if row_value:
+            current_chain_label += 1
+        df.loc[i, 'chain_label'] = current_chain_label
         prev_end = row['end']
     df['start_of_new_chain'] = start_of_new_chain
+
+    # group by text and chain label, then aggregate start(min) and end(max)
+    df = (df.groupby(['text', 'chain_label']).agg(
+        start=('start', 'min'),
+        end=('end', 'max'),
+        position=('position', 'first'),
+        line=('line', 'first'),
+        unformatted=('unformatted', 'first'),
+        start_of_new_chain=('start_of_new_chain', 'first'),
+        file_name=('file_name', 'first')
+    ))
+    df['text'] = df.index.get_level_values('text')
+    df = df.sort_values(by=['unformatted', 'start']).reset_index(drop=True)
 
     return df
 
