@@ -1,5 +1,6 @@
 /target
 /.idea
+/roumanji_data/
 /data/
 /data_processing/personal_notes
 data_processing/generating_tokens.ipynb
