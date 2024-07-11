@@ -24,7 +24,7 @@ Notes:
 3. Type the below command into terminal:
 
 ```bash
-yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt --write-sub --sub-lang en "{URL of playlist}"
+yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt --write-sub --sub-lang {language of subtitles (en/ja/etc.)} "{URL of playlist}"
 ```
 
 Make sure the videos are in .webm format!
