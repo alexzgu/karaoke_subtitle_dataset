@@ -2,13 +2,6 @@ import os
 import pandas as pd
 
 
-def find_common_start_idx(string1: str, string2: str) -> int:
-    idx = 0
-    while idx < len(string1) and idx < len(string2) and string1[idx] == string2[idx]:
-        idx += 1
-    return idx
-
-
 def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
     # replace all || in every 'text' entry with |
     df['text'] = df['text'].apply(lambda x: x.replace('||', '|'))
@@ -16,64 +9,62 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
     # sort first by unformatted ascending, then by start descending
     df = df.sort_values(by=['unformatted', 'start'], ascending=[True, False]).reset_index(drop=True)
 
+    # prev_unformatted is the 'unformatted' value of the previous row, with "" for the first row
+    df['prev_unformatted'] = df['unformatted'].shift(1)
+    df.at[0, 'prev_unformatted'] = ""
+
     # value of the next row's 'text' entry, with "" for the last row
     df['next_text'] = df['text'].shift(-1)
     df.at[len(df) - 1, 'next_text'] = ""
-    
-    # if singleton, df['common_start_idx'] = -1
-    # if unformatted = next_unformatted, then
-    # df['common_start_idx'] = find_common_start_idx(next_text, text)
-    # else, df['common_start_idx'] = -1
-    df['common_start_idx'] = [-1] * len(df)
-    for i in range(len(df) - 1):
-        if df.iloc[i]['unformatted'] == df.iloc[i + 1]['unformatted']:
-            df.at[df.index[i], 'common_start_idx'] = find_common_start_idx(df.iloc[i]['text'], df.iloc[i + 1]['text'])
 
-    # if common_start_idx = -1, then remainder is text
-    # else, remainder is text[common_start_idx:]
-    df['remainder'] = df['text']
-    for i in range(len(df)):
-        if df.iloc[i]['common_start_idx'] != -1:
-            df.at[df.index[i], 'remainder'] = df.iloc[i]['next_text'][df.iloc[i]['common_start_idx']:]
-    # remove | from remainder
-    df['remainder'] = df['remainder'].str.replace('|', '')
-
-    # prev_shared_idx
-    df['prev_shared_idx'] = df['common_start_idx'].shift(1)
-    df.at[0, 'prev_shared_idx'] = -1
-    # make prev_shared_idx an integer
-    df['prev_shared_idx'] = df['prev_shared_idx'].astype(int)
-
+    # if first and last character of text is |, then remove them
+    df['text'] = df['text'].apply(lambda x: x[1:-1] if x[0] == '|' and x[-1] == '|' else x)
+    # segments is a list of string separated by |
+    df['segments'] = df['text'].str.split('|')
+    # next_segments
+    df['next_segments'] = df['segments'].shift(-1)
+    # for last row, next_segments = []
+    df.at[len(df) - 1, 'next_segments'] = []
+    # prev_segments
+    df['prev_segments'] = df['segments'].shift(1)
+    df.at[0, 'prev_segments'] = []
+    # if singleton, then remainder = ""
+    # else if start of new chain, then remainder = unformatted - last element of segments
+    # (in the abstract sense; the below implementation makes an assumption)
+    # else remainder = last element of next_segments
+    df['remainder'] = df.apply(
+        lambda x: "" if x['singleton'] else x['unformatted'][:len(x['unformatted']) - len(x['segments'][-1])] if x[
+            'start_of_new_chain'] else x['next_segments'][-1], axis=1)
     # prev_remainder
     df['prev_remainder'] = df['remainder'].shift(1)
     df.at[0, 'prev_remainder'] = ""
 
-    # if prev_idx = -1, then token = remainder
-    # else, token = remainder - prev_remainder, where prev_remainder is at the end of the current remainder
-    # for example, if remainder = "abcde" and prev_remainder = "cde", then token = "ab"
-    df['token'] = df['remainder']
-    for i in range(len(df)):
-        if df.iloc[i]['prev_shared_idx'] != -1:
-            df.at[df.index[i], 'token'] = df.iloc[i]['remainder'][:-len(df.iloc[i]['prev_remainder'])]
+    # if start of new chain or unformatted != prev_unformatted, then token = remainder
+    # else token = the slice of remainder that ends right before index len(remainder) - len(prev_remainder)
+    df['token'] = df.apply(
+        lambda x: x['remainder'] if x['start_of_new_chain'] or x['unformatted'] != x['prev_unformatted']
+        else x['remainder'][:len(x['remainder']) - len(x['prev_remainder'])], axis=1)
+
+    debug = False
+    if not debug:
+        df.drop(columns=['prev_unformatted', 'next_text', 'segments', 'next_segments', 'prev_segments', 'remainder',
+                         'prev_remainder'], inplace=True)
 
     return df
 
 
 def main():
-    output_df = pd.DataFrame(
-        columns=['start', 'end', 'position', 'line', 'text',
-                 'file_name', 'unformatted', 'start_of_new_chain', 'singleton'])
+    input_path = "../data/stage_2_processed/csvs/"
+    output_path = "../data/stage_3_processed/"
 
-    for filename in os.listdir(os.path.abspath("../data/stage_1_processed/")):
-        with open(os.path.abspath("../data/stage_1_processed/" + filename)) as f:
+    for filename in os.listdir(os.path.abspath(input_path)):
+        with open(os.path.abspath(input_path + filename)) as f:
             df = pd.read_csv(f)
 
             # processing
             df = generate_tokens(df)
 
-            df.to_csv(os.path.abspath("../data/stage_2_processed/csvs/" + filename), index=False)
-
-    output_df.to_csv(os.path.abspath("../data/stage_2_processed/singletons.csv"), index=False)
+            df.to_csv(os.path.abspath(output_path + "csvs/" + filename), index=False)
 
 
 if __name__ == '__main__':
