@@ -35,8 +35,12 @@ def filter_rows(df):
 
 
 def main():
-    for filename in os.listdir(os.path.abspath("../data/parsed/")):
-        with open(os.path.abspath("../data/parsed/" + filename)) as f:
+    # directory paths
+    input_path = "../data/parsed/"
+    output_path = "../data/stage_1_processed/"
+
+    for filename in os.listdir(os.path.abspath(input_path)):
+        with open(os.path.abspath(input_path + filename)) as f:
             df = pd.read_csv(f)
 
             # if there are any nulls, print
@@ -48,7 +52,7 @@ def main():
             df = convert_time(df)
             df = clean_text(df)
 
-            df.to_csv(os.path.abspath("../data/stage_1_processed/" + filename), index=False)
+            df.to_csv(os.path.abspath(output_path + filename), index=False)
 
 
 if __name__ == '__main__':

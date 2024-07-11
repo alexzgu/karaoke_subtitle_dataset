@@ -121,12 +121,15 @@ def print_singletons(df, output_df):
 
 
 def main():
+    input_path = "../data/stage_1_processed/"
+    output_path = "../data/stage_2_processed/"
+
     output_df = pd.DataFrame(
         columns=['start', 'end', 'position', 'line', 'text',
                  'file_name', 'unformatted', 'start_of_new_chain', 'singleton'])
 
-    for filename in os.listdir(os.path.abspath("../data/stage_1_processed/")):
-        with open(os.path.abspath("../data/stage_1_processed/" + filename)) as f:
+    for filename in os.listdir(os.path.abspath(input_path)):
+        with open(os.path.abspath(input_path + filename)) as f:
             df = pd.read_csv(f)
 
             df = find_singletons(df, filename)
@@ -135,9 +138,9 @@ def main():
 
             print_singletons(df, output_df)
 
-            df.to_csv(os.path.abspath("../data/stage_2_processed/csvs/" + filename), index=False)
+            df.to_csv(os.path.abspath(output_path + "csvs/" + filename), index=False)
 
-    output_df.to_csv(os.path.abspath("../data/stage_2_processed/singletons.csv"), index=False)
+    output_df.to_csv(os.path.abspath(output_path + "singletons.csv"), index=False)
 
 
 if __name__ == '__main__':

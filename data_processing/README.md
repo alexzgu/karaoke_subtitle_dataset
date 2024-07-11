@@ -17,6 +17,10 @@ Make sure the videos are in .webm format!
     - stage_1_processed/
     - stage_2_processed/
       - csvs/
+    - stage_3_processed/
+      - csvs/
+    - final_dataset/
+      - csvs/
 
 3. run src/index_data::index_raw_files (when in doubt, delete index.tsv and rerun)
 
@@ -25,3 +29,7 @@ Make sure the videos are in .webm format!
 5. run data_processing/stage_1_processing.py
 
 6. run data_processing/stage_2_processing.py
+
+7. run data_processing/stage_3_processing.py
+
+8. run data_processing/generate_final_dataset.py
