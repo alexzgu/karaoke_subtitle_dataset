@@ -1,7 +1,11 @@
 /target
 /.idea
 /roumanji_data/
+/roumanji_data_processing/personal_notes
+/roumanji_data_processing/generating_tokens.ipynb
+/roumanji_data_processing/processing_parsed_vtts.ipynb
 /data/
 /data_processing/personal_notes
 data_processing/generating_tokens.ipynb
 data_processing/processing_parsed_vtts.ipynb
+*.csv
