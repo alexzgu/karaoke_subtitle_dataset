@@ -1,13 +1,10 @@
 Tutorial:
-1. I typed the below command into terminal:
 
-```bash
-yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt --write-sub --sub-lang en "{URL of playlist}"
-```
+Notes:
+- Ran this from Arch Linux, so the commands might be different for other OSes.
+- requires yt-dlp, rust, and python
 
-Make sure the videos are in .webm format!
-
-2. Create the below directories at project root:
+1. Create the below directories at project root:
 - data/
     - raw/
     - indexed/
@@ -22,14 +19,24 @@ Make sure the videos are in .webm format!
     - final_dataset/
       - csvs/
 
-3. run src/index_data::index_raw_files (when in doubt, delete index.tsv and rerun)
+2. cd into data/raw/
 
-4. run src/parse_vtt::parse_vtts
+3. Type the below command into terminal:
 
-5. run data_processing/stage_1_processing.py
+```bash
+yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt --write-sub --sub-lang en "{URL of playlist}"
+```
 
-6. run data_processing/stage_2_processing.py
+Make sure the videos are in .webm format!
 
-7. run data_processing/stage_3_processing.py
+4. run src/index_data::index_raw_files (when in doubt, delete index.tsv and rerun)
 
-8. run data_processing/generate_final_dataset.py
+5. run src/parse_vtt::parse_vtts
+
+6. run data_processing/stage_1_processing.py
+
+7. run data_processing/stage_2_processing.py
+
+8. run data_processing/stage_3_processing.py
+
+9. run data_processing/generate_final_dataset.py
