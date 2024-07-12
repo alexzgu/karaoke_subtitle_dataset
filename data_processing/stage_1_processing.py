@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import re
 
 
 def convert_time(df):
@@ -15,10 +16,27 @@ def convert_time(df):
 
 def clean_text(df):
     # Remove any '~', '-", and parentheses
-    df['text'] = df['text'].str.replace('~', '')
-    df['text'] = df['text'].str.replace('-', '')
-    df['text'] = df['text'].str.replace('(', '')
-    df['text'] = df['text'].str.replace(')', '')
+    # df['text'] = df['text'].str.replace('~', '')
+    # df['text'] = df['text'].str.replace('-', '')
+    # df['text'] = df['text'].str.replace('(', '')
+    # df['text'] = df['text'].str.replace(')', '')
+
+    # removes any characters that is not alphanumeric or japanese character
+    # df['text'] = df['text'].str.replace(r'[^\w\sぁ-んァ-ン一-龯]', '')
+
+    # strip all characters from the front and back of 'text' that are not alphanumeric
+    # or a kana character (hiragana or katakana) (even stripping japanese punctuation)
+    #df['text'] = df['text'].str.replace(r'[\w\u3040-\u309F\u30A0-\u30FF]+', '')
+    def clean_string(input_str: str) -> str:
+        pattern = r'[\w\u3040-\u309F\u30A0-\u30FF|]+'
+
+        # Use re.findall to extract all matching substrings
+        filtered = re.findall(pattern, input_str)
+
+        # Join the filtered substrings to form the final cleaned string
+        cleaned_str = ''.join(filtered)
+        return cleaned_str
+    df['text'] = df['text'].apply(clean_string)
 
     # Lowercase
     df['text'] = df['text'].str.lower()

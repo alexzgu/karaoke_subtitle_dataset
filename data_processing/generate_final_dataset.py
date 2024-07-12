@@ -6,7 +6,11 @@ def process_file(df: pd.DataFrame) -> pd.DataFrame:
     # sort by start ascending, then reset index
     df = df.sort_values(by='start').reset_index(drop=True)
 
-    df.drop(columns=['unformatted', 'start_of_new_chain', 'file_name', 'text', 'singleton'], inplace=True)
+    # print if a file has null values
+    if df.isnull().values.any():
+        print(df['file_name'][0] + " has null values")
+
+    df.drop(columns=['unformatted', 'start_of_new_chain', 'file_name', 'singleton'], inplace=True)
 
     return df
 

@@ -74,6 +74,7 @@ def find_singletons(df, filename):
 
     # removes rows where the unformatted text appears exactly twice (corresponds to unformatted_tallies = 2)
     # and its length (alphanumeric characters) is greater than 10
+    """
     df['unformatted_length'] = df['unformatted'].apply(lambda x: len(filter_non_alphanumeric(x)))
     # print any rows that meet the condition into console
     if ((df['unformatted_length'] > twice_length_limit) & (df['unformatted'].map(unformatted_tallies) == 2)).any():
@@ -86,6 +87,7 @@ def find_singletons(df, filename):
                   (df['unformatted'].map(unformatted_tallies) == 2))].copy()
     # drop unformatted_length
     df = df.drop(columns=['unformatted_length'])
+    """
 
     # adds a column containing booleans
     # true if this row and the next row both have 'True' in the 'start_of_new_chain' column

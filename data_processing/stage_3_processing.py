@@ -5,13 +5,19 @@ import pandas as pd
 def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
     # replace all || in every 'text' entry with |
     df['text'] = df['text'].apply(lambda x: x.replace('||', '|'))
+    # remove leading and trailing '|'
+    df['text'] = df['text'].str.strip('|')
+
+    df = df.sort_values(by=['start'], ascending=[True]).reset_index(drop=True)
+
+    df['end_of_chain'] = False
+    # if row is the first in df or precedes a row with 'start_of_new_chain' = True, then 'end_of_chain' = True
+    for i in range(1, len(df)):
+        df.at[i - 1, 'end_of_chain'] = df.at[i, 'start_of_new_chain']
+    df.at[len(df) - 1, 'end_of_chain'] = True
 
     # sort first by unformatted ascending, then by start descending
     df = df.sort_values(by=['unformatted', 'start'], ascending=[True, False]).reset_index(drop=True)
-
-    # prev_unformatted is the 'unformatted' value of the previous row, with "" for the first row
-    df['prev_unformatted'] = df['unformatted'].shift(1)
-    df.at[0, 'prev_unformatted'] = ""
 
     # value of the next row's 'text' entry, with "" for the last row
     df['next_text'] = df['text'].shift(-1)
@@ -28,27 +34,44 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
     # prev_segments
     df['prev_segments'] = df['segments'].shift(1)
     df.at[0, 'prev_segments'] = []
-    # if singleton, then remainder = ""
-    # else if start of new chain, then remainder = unformatted - last element of segments
-    # (in the abstract sense; the below implementation makes an assumption)
-    # else remainder = last element of next_segments
+
+    from typing import List
+
+    def get_remainder_2(segments: List[str], next_segments: List[str]) -> str:
+        """Start of new chain = False"""
+
+        dupe_idx = 1
+        while dupe_idx < len(segments) and segments[-dupe_idx] == next_segments[-dupe_idx]:
+            dupe_idx += 1
+        # search for idx of first instance when next_segments[-idx] is found in unformatted
+
+        # return next_segments[-dupe_idx]
+        # instead of just the above, return the joint of the above and all elements after it
+        return ''.join(next_segments[-dupe_idx:])
+
     df['remainder'] = df.apply(
-        lambda x: "" if x['singleton'] else x['unformatted'][:len(x['unformatted']) - len(x['segments'][-1])] if x[
-            'start_of_new_chain'] else x['next_segments'][-1], axis=1)
+        lambda x: x['unformatted'] if x[
+            'start_of_new_chain'] else get_remainder_2(x['segments'], x['next_segments']), axis=1)
+
     # prev_remainder
     df['prev_remainder'] = df['remainder'].shift(1)
     df.at[0, 'prev_remainder'] = ""
 
-    # if start of new chain or unformatted != prev_unformatted, then token = remainder
-    # else token = the slice of remainder that ends right before index len(remainder) - len(prev_remainder)
-    df['token'] = df.apply(
-        lambda x: x['remainder'] if x['start_of_new_chain'] or x['unformatted'] != x['prev_unformatted']
-        else x['remainder'][:len(x['remainder']) - len(x['prev_remainder'])], axis=1)
+    def token_function(remainder: str, prev_remainder: str) -> str:
+        # if prev_remainder is a substring of remainder, then return remainder - prev_remainder
+        # else return remainder
+        if prev_remainder == "":
+            return remainder
+        if prev_remainder in remainder:
+            return remainder[:len(remainder) - len(prev_remainder)]
+        return remainder
+
+    df['token'] = df.apply(lambda x: x['unformatted'] if x['singleton'] else token_function(x['remainder'], x['prev_remainder']), axis=1)
 
     debug = False
     if not debug:
-        df.drop(columns=['prev_unformatted', 'next_text', 'segments', 'next_segments', 'prev_segments', 'remainder',
-                         'prev_remainder'], inplace=True)
+        df.drop(columns=['next_text', 'segments', 'next_segments', 'prev_segments', 'remainder',
+                         'prev_remainder', 'end_of_chain'], inplace=True)
 
     return df
 
