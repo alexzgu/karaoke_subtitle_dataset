@@ -7,3 +7,4 @@ data_processing/processing_parsed_vtts.ipynb
 /archives/
 *.csv
 data_processing/__pycache__/
+*.zip
