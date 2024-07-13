@@ -114,13 +114,15 @@ fn parse_vtt(file: &str, data_directory: &str) {
 
 fn unformatted_text(text: &String) -> String {
     let mut cleaned_line = text.clone();
-    let re = Regex::new(r"[ -!,'?\t\u{200B}]").unwrap();
+
+    // removes all spaces, commas, newlines, tabs, zero-width space, pipe, and double quotes
+    let re = Regex::new(r"[ ,\n\t\u{200B}\u{007C}\u{0022}]").unwrap();
     cleaned_line = re.replace_all(&cleaned_line, "").to_string();
+
     // pattern to replace any "<...>" tags with "|"
     let re = Regex::new(r"<[^>]*>").unwrap();
     cleaned_line = re.replace_all(&cleaned_line, "|").to_string();
     cleaned_line = cleaned_line.replace("||", "|");
-    // exclude first two and last two characters
-    //cleaned_line = cleaned_line.chars().skip(2).take(cleaned_line.len() - 4).collect();
+
     cleaned_line
 }
