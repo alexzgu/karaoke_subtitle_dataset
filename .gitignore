@@ -6,3 +6,4 @@ data_processing/generating_tokens.ipynb
 data_processing/processing_parsed_vtts.ipynb
 /archives/
 *.csv
+data_processing/__pycache__/
