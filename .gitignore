@@ -1,8 +1,9 @@
 /target
 /.idea
-/archives/
 /data/
 /data_processing/personal_notes
 data_processing/generating_tokens.ipynb
 data_processing/processing_parsed_vtts.ipynb
+/archives/
+/t1_data/
 *.csv
