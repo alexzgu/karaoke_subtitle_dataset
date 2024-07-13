@@ -15,6 +15,7 @@ pub fn parse_vtts() {
             }
         }
     }
+    println!("Note: the output relating to unprocessed lines is for debugging purposes. :)");
 }
 
 fn parse_vtt(file: &str, data_directory: &str) {
