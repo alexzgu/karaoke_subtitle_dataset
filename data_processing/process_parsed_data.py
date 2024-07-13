@@ -51,7 +51,12 @@ def main():
 
             df = process_file(f)
 
-            df.to_csv(os.path.abspath(output_path + "csvs/" + filename), index=False)
+            # if the directory does not exist, create it
+            csv_output = output_path + "csvs/"
+            if not os.path.exists(os.path.abspath(csv_output)):
+                os.makedirs(os.path.abspath(csv_output))
+
+            df.to_csv(os.path.abspath(csv_output + filename), index=False)
 
         # make a copy of the index file
         with open(os.path.abspath(index_file_path)) as f:
