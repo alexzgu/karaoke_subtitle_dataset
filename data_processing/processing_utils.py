@@ -18,6 +18,15 @@ def convert_time(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def filter_rows(df):
+    df = df.drop_duplicates()
+
+    # Drop rows where 'line' = -1 or 'line' >= 50
+    df = df[(df['line'] != -1) & (df['line'] < 50)]
+
+    return df
+
+
 def unformatted(text: str) -> str:
     """
     Removes any '|' from the text.
@@ -103,7 +112,7 @@ def chain_labeling(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def join_common_segments(segments: List[str], next_segments: List[str]) -> List[str]:
+def join_common_segments(segments: List[str], next_segments: List[str], minus_one=False) -> List[str]:
     """
     Joins common segments between the current row and the next row.
 
@@ -111,6 +120,7 @@ def join_common_segments(segments: List[str], next_segments: List[str]) -> List[
     which came from stylistic (arbitrary) choices present in the original data.
     :param segments:
     :param next_segments:
+    :param minus_one: If True, minus one to the dupe idx after the while loop.
     :return: A (standardized) list of strings with 2 elements.
     """
     dupe_idx = 1
@@ -118,17 +128,23 @@ def join_common_segments(segments: List[str], next_segments: List[str]) -> List[
     while dupe_idx < len(segments) and segments[-dupe_idx] == next_segments[-dupe_idx]:
         dupe_idx += 1
 
-    joined_after = ''.join(segments[-dupe_idx:])
-    joined_before = ''.join(segments[:-dupe_idx])
+    output_segment = segments
+
+    if minus_one:
+        dupe_idx -= 1
+
+    joined_after = ''.join(output_segment[-dupe_idx:])
+    joined_before = ''.join(output_segment[:-dupe_idx])
 
     return [joined_before, joined_after]
 
 
-def create_remainder(df: pd.DataFrame, f) -> pd.DataFrame:
+def create_remainder(df: pd.DataFrame, f, debug: bool = False) -> pd.DataFrame:
     """
     Creates a 'remainder' column in the dataframe.
     :param df:
     :param f:
+    :param debug: If True, includes intermediate columns in the output.
     :return:
     """
     # replace all ||, |||, etc. in every 'text' entry with |
@@ -142,8 +158,33 @@ def create_remainder(df: pd.DataFrame, f) -> pd.DataFrame:
     # segments is a list of string separated by |
     df['segments'] = df['text'].str.split('|')
 
+    # if for every two consecutive rows, the second row has 'segments' identical to that of the first row
+    # (and both 'singleton' false), then remove the second row. if the second row happens to have 'end_of_chain' = True,
+    # then set the first row's 'end_of_chain' = True.
+    # if first row now has both start_of_new_chain and end_of_chain = True because of this,
+    # then set singleton = True for the first row.
+    to_drop = []
+    for i in range(len(df) - 1):
+        if (df.loc[i, 'segments'] == df.loc[i + 1, 'segments'] and
+                not df.loc[i, 'singleton'] and not df.loc[i + 1, 'singleton']):
+            if df.loc[i + 1, 'end_of_chain']:
+                df.loc[i, 'end_of_chain'] = True
+            to_drop.append(i + 1)
+            if df.loc[i, 'start_of_new_chain'] and df.loc[i, 'end_of_chain']:
+                df.loc[i, 'singleton'] = True
+
+    df = df.drop(to_drop).reset_index(drop=True)
+
+    # next_segments and prev_segments
     df['next_segments'] = df['segments'].shift(-1)
+    df.loc[df.index[-1], 'next_segments'] = ['']
     df['prev_segments'] = df['segments'].shift(1)
+    df.loc[df.index[0], 'prev_segments'] = ['']
+
+    # segment length
+    df['segment_length'] = df['segments'].apply(len)
+    # next segment length
+    df['next_segment_length'] = df['next_segments'].apply(len)
 
     # for rows with start_of_new_chain = True, keep them as is.
     # else, replace segments with the joined version
@@ -151,6 +192,8 @@ def create_remainder(df: pd.DataFrame, f) -> pd.DataFrame:
         lambda x: [''.join(x['segments'])] if x['end_of_chain']
         else x['segments'] if len(x['segments']) <= 2
         else join_common_segments(x['segments'], x['prev_segments']) if x['start_of_new_chain']
+        else join_common_segments(x['next_segments'], x['segments'], minus_one=True)
+        if x['next_segment_length'] > x['segment_length'] and not x['end_of_chain']
         else join_common_segments(x['segments'], x['next_segments']), axis=1)
 
     df['next_segments'] = df['segments'].shift(-1)
@@ -160,21 +203,18 @@ def create_remainder(df: pd.DataFrame, f) -> pd.DataFrame:
         lambda x: x['unformatted'] if x['start_of_new_chain']
         else x['next_segments'][-1], axis=1)
 
-    # print filename if df has any updated segments with length 0 or > 2
-    if df['segments'].apply(lambda x: len(x) == 0 or len(x) > 2).any():
-        print(f.name + " has updated segments with length 0 or > 2")
-        # print(df[df['updated_segments'].apply(lambda x: len(x) == 0 or len(x) > 2)])
-
     # drop segment columns
-    df = df.drop(columns=['next_segments', 'prev_segments','segments'])
+    if not debug:
+        df = df.drop(columns=['next_segments', 'prev_segments', 'segments'])
 
     return df
 
 
-def tokenize(df: pd.DataFrame) -> pd.DataFrame:
+def tokenize(df: pd.DataFrame, debug: bool = False) -> pd.DataFrame:
     """
     Creates a 'token' column in the dataframe.
     :param df:
+    :param debug: If True, includes intermediate columns in the output.
     :return:
     """
     # prev_remainder
@@ -184,9 +224,11 @@ def tokenize(df: pd.DataFrame) -> pd.DataFrame:
     # else, token = remainder[:len(remainder)-len(prev_remainder)]
     df['token'] = df.apply(
         lambda x: x['remainder'] if x['end_of_chain']
-        else x['remainder'][:len(x['remainder']) - len(x['prev_remainder'])], axis=1)
+        # else x['remainder'][:len(x['remainder']) - len(x['prev_remainder'])], axis=1)
+        else x['remainder'][0:x['remainder'].rfind(x['prev_remainder'])], axis=1)
 
     # drop remainder and prev_remainder columns
-    df = df.drop(columns=['prev_remainder'])
+    if not debug:
+        df = df.drop(columns=['prev_remainder', 'remainder'])
 
     return df
