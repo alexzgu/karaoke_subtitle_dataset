@@ -4,7 +4,9 @@ from processing_utils import *
 
 def process_file(f) -> pd.DataFrame:
     df = pd.read_csv(f)
-    df = sort_rows(df)
+    df = create_remainder(df)
+    df = sort_remainder(df)
+    df = tokenize(df)
     return df
 
 

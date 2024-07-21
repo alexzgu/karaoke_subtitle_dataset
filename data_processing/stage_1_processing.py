@@ -20,12 +20,13 @@ def process_file(f) -> pd.DataFrame:
     df['text'] = df['text'].str.lower()
 
     df['unformatted'] = df['text'].apply(unformatted)
-
-    df = collapse_same_partitions(df)
-    df = remove_one_offs(df)
-    df = chain_labeling(df)
-
+    # df = remove_one_offs(df)
     df = create_segments(df)
+
+    # temporary for debugging purposes
+    # drop 'line', 'position', and 'text' columns
+    # !!! DEBUGGING PURPOSES ONLY
+    df = df.drop(columns=['line', 'position', 'text'])
 
     return df
 
