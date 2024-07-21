@@ -36,11 +36,15 @@ def unformatted(text: str) -> str:
     return text.replace('|', '')
 
 
+import pandas as pd
+
+
 def collapse_same_partitions(df: pd.DataFrame, chain_threshold: float = 0.5) -> pd.DataFrame:
     """
     Combines rows with the same 'text' values and 'start' times within 'chain_threshold' seconds.
+    Marks rows preceding a 'start_of_new_chain' with an indicator.
 
-    Side effect: it adds `start_of_new_chain` column to df.
+    Side effect: it adds `start_of_new_chain` and `indicator` columns to df.
     :param df:
     :param chain_threshold:
     :return: modified df
@@ -49,23 +53,33 @@ def collapse_same_partitions(df: pd.DataFrame, chain_threshold: float = 0.5) -> 
     df = df.sort_values(by=['unformatted', 'start']).reset_index(drop=True)
     df['chain_label'] = [current_chain_label] * df.shape[0]
 
-    # adds a new column called 'start_of_new_chain' to the dataframe
+    # adds new columns called 'start_of_new_chain' and 'indicator' to the dataframe
     prev_row_unf_text = ""
     prev_end = 0
     start_of_new_chain = []
+    indicator = []
     for i, row in df.iterrows():
         row_value = not (row['unformatted'] == prev_row_unf_text
                          and (row['start'] - prev_end) < chain_threshold)
         start_of_new_chain.append(row_value)
+
+        # Set indicator for the previous row if this row starts a new chain
+        if i > 0:
+            indicator.append(row_value)
+        if i == df.shape[0] - 1:  # For the last row
+            indicator.append(False)
+
         prev_row_unf_text = row['unformatted']
         if row_value:
             current_chain_label += 1
         df.loc[i, 'chain_label'] = current_chain_label
         prev_end = row['end']
-    df['start_of_new_chain'] = start_of_new_chain
 
-    # group by text and chain label, then aggregate start(min) and end(max)
-    df = (df.groupby(['text', 'chain_label']).agg(
+    df['start_of_new_chain'] = start_of_new_chain
+    df['indicator'] = indicator
+
+    # group by text, chain label, and indicator, then aggregate start(min) and end(max)
+    df = (df.groupby(['text', 'chain_label', 'indicator']).agg(
         start=('start', 'min'),
         end=('end', 'max'),
         position=('position', 'first'),
@@ -132,6 +146,14 @@ def join_common_segments(segments: List[str], next_segments: List[str], minus_on
 
     if minus_one:
         dupe_idx -= 1
+        after1 = ''.join(output_segment[-dupe_idx:])
+        before1 = ''.join(output_segment[:-dupe_idx])
+        after2 = ''.join(output_segment[-(dupe_idx+2):])
+        before2 = ''.join(output_segment[:-(dupe_idx+2)])
+        diff1 = abs(len(after1) - len(before1))
+        diff2 = abs(len(after2) - len(before2))
+        if diff2 < diff1:
+            dupe_idx += 1
 
     joined_after = ''.join(output_segment[-dupe_idx:])
     joined_before = ''.join(output_segment[:-dupe_idx])
@@ -176,6 +198,7 @@ def create_remainder(df: pd.DataFrame, f, debug: bool = False) -> pd.DataFrame:
     df = df.drop(to_drop).reset_index(drop=True)
 
     # next_segments and prev_segments
+    df['old_segments'] = df['segments']
     df['next_segments'] = df['segments'].shift(-1)
     df.loc[df.index[-1], 'next_segments'] = ['']
     df['prev_segments'] = df['segments'].shift(1)
@@ -205,7 +228,8 @@ def create_remainder(df: pd.DataFrame, f, debug: bool = False) -> pd.DataFrame:
 
     # drop segment columns
     if not debug:
-        df = df.drop(columns=['next_segments', 'prev_segments', 'segments'])
+        df = df.drop(columns=['next_segments', 'prev_segments', 'segments', 'old_segments', 'segment_length',
+                              'next_segment_length'])
 
     return df
 
