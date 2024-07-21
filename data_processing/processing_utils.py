@@ -6,7 +6,7 @@ import ast
 def filter_rows(df):
     """
     NOTE: used only for RO data, NOT JP data!!!
-    
+
     In other words, this is for dataset-specific processing, which you may not need.
     Would recommend commenting out this function first.
     :param df:
@@ -121,9 +121,11 @@ def compute_common_number(df: pd.DataFrame) -> pd.DataFrame:
         diff = counts_start - counts_end
         if diff:
             return max(diff, key=lambda x: x[1])[0]
+        else:
+            return -1
 
     chain_number_memory = None
-    df['common_number'] = -1
+    df['common_number'] = None
 
     for i in df.index[::-1]:
         if df.loc[i, 'ref_end']:
