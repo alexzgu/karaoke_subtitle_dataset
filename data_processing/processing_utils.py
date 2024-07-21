@@ -1,5 +1,15 @@
 import pandas as pd
-from typing import List
+import re
+import ast
+
+
+def filter_rows(df):
+    df = df.drop_duplicates()
+
+    # Drop rows where 'line' = -1 or 'line' >= 50
+    df = df[(df['line'] != -1) & (df['line'] < 50)]
+
+    return df
 
 
 def convert_time(df: pd.DataFrame) -> pd.DataFrame:
@@ -18,25 +28,8 @@ def convert_time(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def filter_rows(df):
-    df = df.drop_duplicates()
-
-    # Drop rows where 'line' = -1 or 'line' >= 50
-    df = df[(df['line'] != -1) & (df['line'] < 50)]
-
-    return df
-
-
 def unformatted(text: str) -> str:
-    """
-    Removes any '|' from the text.
-    :param text:
-    :return: text without '|'
-    """
-    return text.replace('|', '')
-
-
-import pandas as pd
+    return re.sub(r'<[^>]*>', '', text)
 
 
 def collapse_same_partitions(df: pd.DataFrame, chain_threshold: float = 0.5) -> pd.DataFrame:
@@ -126,133 +119,123 @@ def chain_labeling(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def join_common_segments(segments: List[str], next_segments: List[str], minus_one=False) -> List[str]:
-    """
-    Joins common segments between the current row and the next row.
+def create_segments(df: pd.DataFrame) -> pd.DataFrame:
+    df['segments'] = df['text'].apply(lambda x: x.split('</c>'))
 
-    In short, it was used to solve a technical issue with inconsistent formatting in the data,
-    which came from stylistic (arbitrary) choices present in the original data.
-    :param segments:
-    :param next_segments:
-    :param minus_one: If True, minus one to the dupe idx after the while loop.
-    :return: A (standardized) list of strings with 2 elements.
-    """
-    dupe_idx = 1
+    df['segments'] = df['segments'].apply(
+        lambda x: [(int(re.search(r'<(\d+)>', i).group(1)), re.sub(r'<\d+>', '', i)) if re.search(r'<\d+>', i)
+                   else (i, '') for i in x if i != ''])
 
-    while dupe_idx < len(segments) and segments[-dupe_idx] == next_segments[-dupe_idx]:
-        dupe_idx += 1
+    # compute the length of each segment
+    df['counts'] = df['segments'].apply(lambda x: [(i[0], len(i[1])) for i in x])
 
-    output_segment = segments
+    # sum the lengths of segments with the same segment number
+    df['counts'] = df['counts'].apply(lambda x: [(i[0], sum([j[1] for j in x if j[0] == i[0]])) for i in x])
+    df['counts'] = df['counts'].apply(lambda x: list(set(x)))
+    # first element of each tuple converted to an integer
+    # part of filename after 'processed/' and before '.csv'
+    df['counts'] = df['counts'].apply(lambda x: [(int(i[0]), i[1]) for i in x])
 
-    if minus_one:
-        dupe_idx -= 1
-        after1 = ''.join(output_segment[-dupe_idx:])
-        before1 = ''.join(output_segment[:-dupe_idx])
-        after2 = ''.join(output_segment[-(dupe_idx+2):])
-        before2 = ''.join(output_segment[:-(dupe_idx+2)])
-        diff1 = abs(len(after1) - len(before1))
-        diff2 = abs(len(after2) - len(before2))
-        if diff2 < diff1:
-            dupe_idx += 1
+    # look at the rows of the df in reverse order
+    # make a new column called 'counts_end', which is computed by the following:
+    # if the row is end_of_chain, set counts_end to counts
+    # else, set counts_end to the counts of the most recent end_of_chain row seen
+    # iterate through the rows in reverse order
+    counts_end_memory = None
+    df['counts_end'] = None  # Initialize the column
+    for i in df.index[::-1]:  # Iterate in reverse order
+        if df.loc[i, 'end_of_chain']:
+            counts_end_memory = df.loc[i, 'counts']
+        df.at[i, 'counts_end'] = counts_end_memory
 
-    joined_after = ''.join(output_segment[-dupe_idx:])
-    joined_before = ''.join(output_segment[:-dupe_idx])
+    # chain number is computed as the following:
+    # if the row is the start of a chain, you first find
+    # the tuple in counts that is not in counts_end, and set the chain number to the first element of that tuple
+    # else, set the chain number to the chain number of the last start_of_new_chain row seen
+    # code here !!!
+    # chain number computation
 
-    return [joined_before, joined_after]
+    # filename column
 
+    chain_number_memory = None
+    df['chain_number'] = None  # Initialize the column
+    for i in df.index:
+        if df.loc[i, 'start_of_new_chain']:
+            counts_set = set(df.loc[i, 'counts'])
+            counts_end_set = set(df.loc[i, 'counts_end']) if df.loc[i, 'counts_end'] is not None else set()
+            diff = counts_set - counts_end_set
+            # if diff has more than one element, print the filename and the diff set
+            if diff:
+                # get the first element of the element of the diff set with the largest second element
+                chain_number_memory = max(diff, key=lambda x: x[1])[0]
+        df.at[i, 'chain_number'] = chain_number_memory
 
-def create_remainder(df: pd.DataFrame, f, debug: bool = False) -> pd.DataFrame:
-    """
-    Creates a 'remainder' column in the dataframe.
-    :param df:
-    :param f:
-    :param debug: If True, includes intermediate columns in the output.
-    :return:
-    """
-    # replace all ||, |||, etc. in every 'text' entry with |
-    df['text'] = df['text'].apply(lambda x: x.replace('||', '|'))
-    # remove leading and trailing '|'
-    df['text'] = df['text'].str.strip('|')
-
-    # sort first by unformatted ascending, then by start descending
-    df = df.sort_values(by=['unformatted', 'start'], ascending=[True, False]).reset_index(drop=True)
-
-    # segments is a list of string separated by |
-    df['segments'] = df['text'].str.split('|')
-
-    # if for every two consecutive rows, the second row has 'segments' identical to that of the first row
-    # (and both 'singleton' false), then remove the second row. if the second row happens to have 'end_of_chain' = True,
-    # then set the first row's 'end_of_chain' = True.
-    # if first row now has both start_of_new_chain and end_of_chain = True because of this,
-    # then set singleton = True for the first row.
-    to_drop = []
-    for i in range(len(df) - 1):
-        if (df.loc[i, 'segments'] == df.loc[i + 1, 'segments'] and
-                not df.loc[i, 'singleton'] and not df.loc[i + 1, 'singleton']):
-            if df.loc[i + 1, 'end_of_chain']:
-                df.loc[i, 'end_of_chain'] = True
-            to_drop.append(i + 1)
-            if df.loc[i, 'start_of_new_chain'] and df.loc[i, 'end_of_chain']:
-                df.loc[i, 'singleton'] = True
-
-    df = df.drop(to_drop).reset_index(drop=True)
-
-    # next_segments and prev_segments
-    df['old_segments'] = df['segments']
-    df['next_segments'] = df['segments'].shift(-1)
-    df.loc[df.index[-1], 'next_segments'] = ['']
-    df['prev_segments'] = df['segments'].shift(1)
-    df.loc[df.index[0], 'prev_segments'] = ['']
-
-    # segment length
-    df['segment_length'] = df['segments'].apply(len)
-    # next segment length
-    df['next_segment_length'] = df['next_segments'].apply(len)
-
-    # for rows with start_of_new_chain = True, keep them as is.
-    # else, replace segments with the joined version
-    df['segments'] = df.apply(
-        lambda x: [''.join(x['segments'])] if x['end_of_chain']
-        else x['segments'] if len(x['segments']) <= 2
-        else join_common_segments(x['segments'], x['prev_segments']) if x['start_of_new_chain']
-        else join_common_segments(x['next_segments'], x['segments'], minus_one=True)
-        if x['next_segment_length'] > x['segment_length'] and not x['end_of_chain']
-        else join_common_segments(x['segments'], x['next_segments']), axis=1)
-
-    df['next_segments'] = df['segments'].shift(-1)
-
-    # remainder is unformatted if start_of_new_chain; otherwise, next_segments[-1]
-    df['remainder'] = df.apply(
-        lambda x: x['unformatted'] if x['start_of_new_chain']
-        else x['next_segments'][-1], axis=1)
-
-    # drop segment columns
-    if not debug:
-        df = df.drop(columns=['next_segments', 'prev_segments', 'segments', 'old_segments', 'segment_length',
-                              'next_segment_length'])
+    # drop counts and counts_end columns
+    df = df.drop(columns=['counts', 'counts_end'])
 
     return df
 
 
-def tokenize(df: pd.DataFrame, debug: bool = False) -> pd.DataFrame:
-    """
-    Creates a 'token' column in the dataframe.
-    :param df:
-    :param debug: If True, includes intermediate columns in the output.
-    :return:
-    """
-    # prev_remainder
-    df['prev_remainder'] = df['remainder'].shift(1)
+def compute_remainder_for_row(row):
+    chain_number = row['chain_number']
+    segments_str = row['segments']
 
-    # if end_of_chain, then token = remainder
-    # else, token = remainder[:len(remainder)-len(prev_remainder)]
-    df['token'] = df.apply(
-        lambda x: x['remainder'] if x['end_of_chain']
-        # else x['remainder'][:len(x['remainder']) - len(x['prev_remainder'])], axis=1)
-        else x['remainder'][0:x['remainder'].rfind(x['prev_remainder'])], axis=1)
+    # Convert string representation of list of tuples back to actual list of tuples
+    segments = ast.literal_eval(segments_str)
 
-    # drop remainder and prev_remainder columns
-    if not debug:
-        df = df.drop(columns=['prev_remainder', 'remainder'])
+    remainder = ""
+    found_chain = False
+    for i, segment in enumerate(segments):
+        if segment[0] == chain_number:
+            found_chain = True
+        if found_chain:
+            remainder += segment[1]
 
+    return remainder
+
+
+def create_remainder(df: pd.DataFrame) -> pd.DataFrame:
+    df['remainder'] = df.apply(lambda x: x['unformatted'] if x['end_of_chain'] else compute_remainder_for_row(x),
+                               axis=1)
+
+    return df
+
+
+def sort_remainder(df: pd.DataFrame) -> pd.DataFrame:
+    # Create a mask for singleton rows
+    singleton_mask = df['singleton'] == True
+
+    # Create a temporary column to store the end_of_chain remainders
+    df['temp_remainder'] = df['remainder']
+
+    # Iterate through the DataFrame to handle chains
+    chain_remainder = None
+    for i in range(len(df)):
+        if df.loc[i, 'start_of_new_chain']:
+            # Find the corresponding end_of_chain row
+            end_index = df.index[df['end_of_chain'] & (df.index >= i)].min()
+            chain_remainder = df.loc[end_index, 'remainder']
+
+        if not singleton_mask[i]:
+            if df.loc[i, 'start_of_new_chain']:
+                df.loc[i, 'temp_remainder'] = chain_remainder
+            elif i > 0:  # Not the first row
+                df.loc[i, 'temp_remainder'] = df.loc[i - 1, 'remainder']
+
+    # Update the remainder column
+    df.loc[~singleton_mask, 'remainder'] = df.loc[~singleton_mask, 'temp_remainder']
+
+    # Drop the temporary column
+    df = df.drop('temp_remainder', axis=1)
+
+    return df
+
+
+def tokenize(df: pd.DataFrame) -> pd.DataFrame:
+    # next_remainder and prev_remainder columns
+    df['next_remainder'] = df['remainder'].shift(-1)
+    # if end_of_chain is True, token remainder
+    # else, token is remainder[:len(remainder) - len(next_remainder)]
+    df['token'] = df.apply(lambda x: x['remainder'] if x['end_of_chain']
+    else x['remainder'][:len(x['remainder']) - len(x['next_remainder'])], axis=1)
     return df
