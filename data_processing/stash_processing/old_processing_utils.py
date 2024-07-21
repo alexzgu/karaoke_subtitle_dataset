@@ -132,8 +132,7 @@ def create_segments(df: pd.DataFrame) -> pd.DataFrame:
     # sum the lengths of segments with the same segment number
     df['counts'] = df['counts'].apply(lambda x: [(i[0], sum([j[1] for j in x if j[0] == i[0]])) for i in x])
     df['counts'] = df['counts'].apply(lambda x: list(set(x)))
-    # first element of each tuple converted to an integer
-    # part of filename after 'processed/' and before '.csv'
+    # first element of each tuple converted to an integer (this is for debugging purposes)
     df['counts'] = df['counts'].apply(lambda x: [(int(i[0]), i[1]) for i in x])
 
     # look at the rows of the df in reverse order
