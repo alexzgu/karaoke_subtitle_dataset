@@ -4,7 +4,10 @@ from processing_utils import *
 
 def process_file(f) -> pd.DataFrame:
     df = pd.read_csv(f)
-    df = sort_rows(df)
+    df = convert_segments_to_tuples(df)
+
+    df = create_partitions(df)
+
     return df
 
 

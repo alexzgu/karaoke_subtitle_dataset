@@ -5,28 +5,27 @@ from processing_utils import *
 def process_file(f) -> pd.DataFrame:
     df = pd.read_csv(f)
 
-    # !!! note that this is only for english subtitles
-    df = filter_rows(df)
+    df = df.drop_duplicates()
+    df = filter_rows(df)  # !!! NOTE that this is only for EN subtitles
 
     # if there are any nulls, print
     if df.isnull().values.any():
         print(f + " has null values")
         df = df.dropna(how='any', axis=0)
 
-    df = df.drop_duplicates()
     df = convert_time(df)
 
     df['text'] = df['text'].apply(lambda x: x.replace("'", "\\'"))
     df['text'] = df['text'].str.lower()
 
     df['unformatted'] = df['text'].apply(unformatted)
-    # df = remove_one_offs(df)
     df = create_segments(df)
 
-    # temporary for debugging purposes
-    # drop 'line', 'position', and 'text' columns
-    # !!! DEBUGGING PURPOSES ONLY
-    df = df.drop(columns=['line', 'position', 'text'])
+    df = df.drop(columns=['line', 'position', 'text'])  # !!! DEBUGGING PURPOSES ONLY
+
+    df = compute_counts(df)
+    df = compute_common_number(df)
+    df = df.drop(columns=['counts'])
 
     return df
 
