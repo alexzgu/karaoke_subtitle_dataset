@@ -12,8 +12,7 @@ def filter_rows(df):
     :param df:
     :return: df with some rows removed
     """
-
-    # Drop rows where 'line' = -1 or 'line' >= 50
+    # drop rows where 'line' = -1 or 'line' >= 50
     df = df[(df['line'] != -1) & (df['line'] < 50)]
 
     return df
@@ -25,13 +24,14 @@ def convert_time(df: pd.DataFrame) -> pd.DataFrame:
     :param df: df with 'start' and 'end' columns (strings)
     :return: df with modified 'start' and 'end' columns (now floats)
     """
-    # Convert 'start' and 'end' columns to Timedelta
+    # convert 'start' and 'end' columns to Timedelta
     df['start'] = pd.to_timedelta(df['start'])
     df['end'] = pd.to_timedelta(df['end'])
 
-    # Convert Timedelta to total seconds with 3 decimal places
+    # convert Timedelta to total seconds with 3 decimal places
     df['start'] = df['start'].dt.total_seconds().round(3)
     df['end'] = df['end'].dt.total_seconds().round(3)
+
     return df
 
 
@@ -54,22 +54,22 @@ def create_segments(df: pd.DataFrame) -> pd.DataFrame:
     df['segments'] = df['segments'].apply(
         lambda x: [(int(re.search(r'<(\d+)>', i).group(1)), re.sub(r'<\d+>', '', i)) if re.search(r'<\d+>', i)
                    else (i, '') for i in x if i != ''])
+
     return df
 
 
 def convert_segments_to_tuples(df: pd.DataFrame) -> pd.DataFrame:
     """
     Converts the 'segments' column from string to list of tuples.
-    Needed if segments are stored in an intermediate file, which is then read as a string
-    when the intermediate file is read.
-    :param df:
+    Needed if segments are stored in an intermediate file that is read later.
+    :param df: with 'segments' column
     :return: modified df with 'segments' column as list of tuples
     """
-
     def string_to_tuple_list(segment_str):
         return ast.literal_eval(segment_str)
 
     df['segments'] = df['segments'].apply(string_to_tuple_list)
+
     return df
 
 
@@ -77,36 +77,37 @@ def compute_ref_start_end(df: pd.DataFrame) -> pd.DataFrame:
     """
     Assumes dataframe is sorted unformatted ascending, start descending.
     Adds 'ref_start' and 'ref_end' columns to the df.
-    :param df: must have 'unformatted' column
+    :param df: with 'unformatted' column
     :return: modified df with 'ref_start' and 'ref_end' columns
     """
     df['ref_start'] = df['unformatted'] != df['unformatted'].shift(1)
     df['ref_end'] = df['ref_start'].shift(-1)
-    # first row has 'ref_start' = True
-    df.loc[0, 'ref_start'] = True
-    # last row has 'ref_end' =  True
-    df.loc[df.index[-1], 'ref_end'] = True
+    df.loc[0, 'ref_start'] = True # first row
+    df.loc[df.index[-1], 'ref_end'] = True # last row
+
     return df
 
 
 def compute_counts_ref(df: pd.DataFrame) -> pd.DataFrame:
     """
     Computes the 'counts_ref' column, which is a list of tuples (segment label, count).
-    :param df: must have 'ref_start' and 'ref_end' columns
+    :param df: with 'ref_start', 'ref_end' columns
     :return: modified df with 'counts_ref' column
     """
     df['counts_ref'] = None
     current_counts = None
+
     for idx, row in df.iterrows():
         if row['ref_start']:
             current_counts = row['counts']
         df.at[idx, 'counts_ref'] = current_counts
+
     return df
 
 
 def compute_count_diff_helper(counts_start, counts_end) -> int:
     """
-    Computes the common number between two sets of tuples (segment label, count).
+    Computes the common number between two sets of tuples of the format (segment label, count).
     :param counts_start:
     :param counts_end:
     :return: common number (int)
@@ -132,7 +133,7 @@ def compute_count_diff_helper(counts_start, counts_end) -> int:
 def compute_counts(df: pd.DataFrame) -> pd.DataFrame:
     """
     Computes the 'counts' column, which 'tallies' the number of characters under each segment label.
-    :param df:
+    :param df: with 'segments', 'counts' columns
     :return: modified df with 'counts', a set of tuples (segment label, count)
     """
     # compute the length of each segment
@@ -141,6 +142,7 @@ def compute_counts(df: pd.DataFrame) -> pd.DataFrame:
     # sum the lengths of segments with the same segment number
     df['counts'] = df['counts'].apply(lambda x: [(i[0], sum([j[1] for j in x if j[0] == i[0]])) for i in x])
     df['counts'] = df['counts'].apply(lambda x: list(set(x)))
+
     return df
 
 
@@ -150,11 +152,11 @@ def compute_common_number(df: pd.DataFrame) -> pd.DataFrame:
     - Produces the 'ref_start', 'ref_end', and 'count_ref' intermediate columns.
     - Computes the 'common_number' column (-1 if there is no common number).
 
-    :param df: with 'counts' column
+    :param df: with 'unformatted', 'line', 'start', 'counts', 'counts_ref' columns
     :return: modified df
     """
 
-    # sort by unformatted ascending, then start descending
+    # this sorting order is very crucial!!!
     df = df.sort_values(by=['unformatted', 'line', 'start'], ascending=[True, False, False]).reset_index(drop=True)
     df = compute_ref_start_end(df)
     df = compute_counts_ref(df)
@@ -172,13 +174,24 @@ def compute_common_number(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def clean_segments(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Removes all instances of <> tags from every segment of the list, for all segments entries.
+    :param df: with 'segments' column
+    :return: modified df
+    """
     # for each entry in segments, remove any instance of <> tags from every segment of the list
     df['segments'] = df['segments'].apply(lambda x: [(i[0], re.sub(r'<[^>]*>', '', i[1])) for i in x])
     return df
 
 
 def create_remainders(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Creates the 'remainder' column by using the 'segments' and 'common_number' data.
+    :param df: with 'segments'. 'common_number' columns
+    :return: df with 'remainder' column
+    """
     # 'remainder' column
+    # technical details below:
     # if the row has common_number = 0, then the remainder is the unformatted text
     # else, if none of the segments have the common_number, then the remainder is the unformatted text
     # else, the remainder is the concatenation of the segments starting with
@@ -213,45 +226,42 @@ def compute_remainder_for_row_helper(row: pd.Series) -> str:
 
 def collapse_similar_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Collapses the 'start', 'end', 'remainder' columns based on similarity with next row
-    :param df: Input DataFrame
-    :return: Modified DataFrame
-    """
-    # Create a copy of the DataFrame to avoid SettingWithCopyWarning
-    df = df.copy()
+    Collapses the 'start', 'end', 'remainder' columns based on similarity with next row.
 
-    # Add 'next_end' and 'next_remainder' columns
+    This is to handle subtitles, where the characters 'fade in'.
+    :param df: with 'start', 'end', 'remainder' columns
+    :return: modified df
+    """
     df['next_end'] = df['end'].shift(-1)
     df['next_remainder'] = df['remainder'].shift(-1)
 
-    # Initialize a list to store indices to drop
+    # iterate through rows, and dropping any similar rows
     current_idx = 0
     indices_to_drop = []
 
     for i in range(len(df) - 1):
         if df.iloc[i]['remainder'] == df.iloc[i]['next_remainder'] and df.iloc[i]['start'] == df.iloc[i]['next_end']:
-            # Update the current row
+            # update the current row
             df.loc[df.index[current_idx], ['start', 'next_end', 'next_remainder']] = df.iloc[i + 1][
                 ['start', 'next_end', 'next_remainder']].values
-            # Mark the next row for deletion
+            # mark the next row for deletion
             indices_to_drop.append(df.index[i + 1])
         else:
-            # Move to the next row
+            # move onto the next row
             current_idx = i + 1
 
-    # Drop the marked rows
     df = df.drop(indices_to_drop)
-
-    # Remove temporary columns
     df = df.drop(['next_end', 'next_remainder'], axis=1)
-
-    # Reset the index if needed
     df = df.reset_index(drop=True)
-
     return df
 
 
 def rotate_remainders(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Rearranges the remainder entries into the correct positions.
+    :param df: with 'unformatted', 'remainder' columns
+    :return:
+    """
     df['next_remainder'] = df['remainder'].shift(-1)
     df.at[df.index[-1], 'next_remainder'] = df.at[df.index[-1], 'remainder']
 
@@ -269,11 +279,19 @@ def rotate_remainders(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def create_tokens(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Creates tokens based on information from the remainders.
+    :param df: with 'remainder' column.
+    :return:
+    """
     df['prev_remainder'] = df['remainder'].shift(1)
     df.at[0, 'prev_remainder'] = ''
+
     df['prev_unformatted'] = df['unformatted'].shift(1)
     df.at[0, 'prev_unformatted'] = ''
+
     df['token'] = df.apply(token_helper, axis=1)
+
     return df
 
 
@@ -283,14 +301,17 @@ def token_helper(row: pd.Series) -> str:
     :param row: a single row of a DataFrame
     :return: the 'tokens' string
     """
-    if row['unformatted'] != row['prev_unformatted']:
+    if row['unformatted'] != row['prev_unformatted']:  # new line
         return row['remainder']
-    elif row['prev_remainder'] == row['remainder']:
+    elif row['prev_remainder'] == row['remainder']:  # chorus lines
         return row['remainder']
     else:
+        # continuing the line (normal/vast majority of the case)
         if row['remainder'].endswith(row['prev_remainder']):
             return row['remainder'][:-len(row['prev_remainder'])]
+        # not sure if it's (still) needed, but just in case
         if row['prev_remainder'].endswith(row['remainder']):
             return row['remainder']
         else:
+            # this shouldn't happen; can be used for debugging
             return "ERROR"

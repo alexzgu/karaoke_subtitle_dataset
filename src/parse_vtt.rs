@@ -4,6 +4,9 @@ use std::io::{BufRead, BufReader, Write}; // Import Write trait
 use regex::Regex;
 
 
+/// Parses all VTT files and outputs CSV files containing parsed data.
+/// The input location is data/indexed/vtts/ by default, but a custom input directory can be specified.
+/// The output location is data/parsed/ by default, but a custom output directory can be specified.
 pub fn parse_vtts(custom_input_directory: Option<&str>, custom_output_directory: Option<&str>) {
     let data_directory = "data/";
     // read into data/indexed/vtts/
@@ -23,6 +26,7 @@ pub fn parse_vtts(custom_input_directory: Option<&str>, custom_output_directory:
     }
 }
 
+/// Parses a single VTT file and outputs the parsed data to a CSV file.
 fn parse_vtt(file: &str, data_directory: &str, custom_output_directory: Option<&str>) {
     let file_idx = file.trim_end_matches(".vtt");
     let input_file = format!("{}/indexed/vtts/{}.vtt", data_directory, file_idx);
