@@ -31,7 +31,7 @@ fn parse_vtt(file: &str, data_directory: &str) {
     writeln!(output, "start,end,position,line,text").unwrap();
 
     let mut color_map = HashMap::new();
-    let mut color_index = 0;
+    let mut color_index = 1;
     // Updated regex pattern to match cue() and capture its contents
     let color_regex = Regex::new(r"cue\((c\.[^\)]+)\)").unwrap();
 

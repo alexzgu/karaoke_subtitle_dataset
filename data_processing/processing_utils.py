@@ -65,11 +65,68 @@ def convert_segments_to_tuples(df: pd.DataFrame) -> pd.DataFrame:
     :param df:
     :return: modified df with 'segments' column as list of tuples
     """
+
     def string_to_tuple_list(segment_str):
         return ast.literal_eval(segment_str)
 
     df['segments'] = df['segments'].apply(string_to_tuple_list)
     return df
+
+
+def compute_ref_start_end(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Assumes dataframe is sorted unformatted ascending, start descending.
+    Adds 'ref_start' and 'ref_end' columns to the df.
+    :param df: must have 'unformatted' column
+    :return: modified df with 'ref_start' and 'ref_end' columns
+    """
+    df['ref_start'] = df['unformatted'] != df['unformatted'].shift(1)
+    df['ref_end'] = df['ref_start'].shift(-1)
+    # first row has 'ref_start' = True
+    df.loc[0, 'ref_start'] = True
+    # last row has 'ref_end' =  True
+    df.loc[df.index[-1], 'ref_end'] = True
+    return df
+
+
+def compute_counts_ref(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Computes the 'counts_ref' column, which is a list of tuples (segment label, count).
+    :param df: must have 'ref_start' and 'ref_end' columns
+    :return: modified df with 'counts_ref' column
+    """
+    df['counts_ref'] = None
+    current_counts = None
+    for idx, row in df.iterrows():
+        if row['ref_start']:
+            current_counts = row['counts']
+        df.at[idx, 'counts_ref'] = current_counts
+    return df
+
+
+def compute_count_diff_helper(counts_start, counts_end) -> int:
+    """
+    Computes the common number between two sets of tuples (segment label, count).
+    :param counts_start:
+    :param counts_end:
+    :return: common number (int)
+    """
+    # set of segment labels in counts_start
+    start_indices = set([i[0] for i in counts_start])
+    end_indices = set([i[0] for i in counts_end])
+    diff = start_indices - end_indices
+    if diff:
+        # example:
+        # counts_start = [(1, 5), (2, 3), (3, 4), (4, 1)]
+        # counts_end = [(1, 5), (3, 4)]
+        # start_indices = {1, 2, 3, 4}
+        # end_indices = {1, 3}
+        # diff = {2, 4}
+        # want to choose 2 because it corresponds to the element with the largest count
+        counts_diff = [(i, j) for i, j in counts_start if i in diff]
+        return max(counts_diff, key=lambda x: x[1])[0]
+    else:
+        return 0
 
 
 def compute_counts(df: pd.DataFrame) -> pd.DataFrame:
@@ -89,66 +146,151 @@ def compute_counts(df: pd.DataFrame) -> pd.DataFrame:
 
 def compute_common_number(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Sorts the df by 'unformatted' ascending, then 'start' descending.
-    Computes the 'common_number' column (-1 if there is no common number).
+    - Sorts the df by 'unformatted' ascending, then 'start' descending.
+    - Produces the 'ref_start', 'ref_end', and 'count_ref' intermediate columns.
+    - Computes the 'common_number' column (-1 if there is no common number).
 
-    :param df: must have 'counts' column
-    :return:
+    :param df: with 'counts' column
+    :return: modified df
     """
-    # assumption: the dataframe has the 'counts' columns
 
     # sort by unformatted ascending, then start descending
     df = df.sort_values(by=['unformatted', 'start'], ascending=[True, False]).reset_index(drop=True)
-
-    df['ref_end'] = df['unformatted'].shift(-1) != df['unformatted']
-    df['ref_start'] = df['ref_end'].shift(1)
-    # first row has 'ref_start' = True and 'ref_end' = False
-    df.loc[0, 'ref_start'] = True
-    df.loc[0, 'ref_end'] = False
-
-    # compute another list of tuples column ('counts_ref')
-    df['counts_ref'] = None
-    current_counts = None
-    for idx, row in df.iterrows():
-        if row['ref_start']:
-            current_counts = row['counts']
-        df.at[idx, 'counts_ref'] = current_counts
+    df = compute_ref_start_end(df)
+    df = compute_counts_ref(df)
 
     # compute common number column
-    def compute_count_diff(counts_start, counts_end) -> int:
-        counts_start = set(counts_start)
-        counts_end = set(counts_end)
-        diff = counts_start - counts_end
-        if diff:
-            return max(diff, key=lambda x: x[1])[0]
-        else:
-            return -1
-
     chain_number_memory = None
     df['common_number'] = None
 
     for i in df.index[::-1]:
         if df.loc[i, 'ref_end']:
-            chain_number_memory = compute_count_diff(df.loc[i, 'counts'], df.loc[i, 'counts_ref'])
+            chain_number_memory = compute_count_diff_helper(df.loc[i, 'counts'], df.loc[i, 'counts_ref'])
         df.at[i, 'common_number'] = chain_number_memory
 
-    df = df.drop(columns=['ref_start', 'ref_end', 'counts_ref'])
-
     return df
 
 
-def create_partitions(df: pd.DataFrame) -> pd.DataFrame:
-    # assumption: the dataframe has 'segments' column
-    def process_segment(segment_str):
-        # convert string representation of list to actual list of tuples
-        # if segments is a string
-        if isinstance(segment_str, str):
-            segments = ast.literal_eval(segment_str)
+def clean_segments(df: pd.DataFrame) -> pd.DataFrame:
+    # for each entry in segments, remove any instance of <> tags from every segment of the list
+    df['segments'] = df['segments'].apply(lambda x: [(i[0], re.sub(r'<[^>]*>', '', i[1])) for i in x])
+    return df
+
+
+def create_remainders(df: pd.DataFrame) -> pd.DataFrame:
+    # 'remainder' column
+    # if the row has common_number = 0, then the remainder is the unformatted text
+    # else, if none of the segments have the common_number, then the remainder is the unformatted text
+    # else, the remainder is the concatenation of the segments starting with
+    # the first instance of a segment with the common_number
+    # use lambda function to apply to each row
+    df['remainder'] = df.apply(lambda x: compute_remainder_for_row_helper(x), axis=1)
+    return df
+
+
+def compute_remainder_for_row_helper(row: pd.Series) -> str:
+    """
+    Computes the 'remainder' column for a single row.
+    :param row: a single row of a DataFrame
+    :return: the 'remainder' string
+    """
+    if row['common_number'] == 0:
+        return row['unformatted']
+    else:
+        # find first segment with the index that contains the common number
+        # example: [(1, 'abc'), (2, 'def'), (1, 'ghi'), (3, 'jkl')], common_number = 2
+        # matching_idx = 1
+        # output: 'defghijkl'
+        matching_idx = next((i for i, v in enumerate(row['segments']) if v[0] == row['common_number']), None)
+        # matching_idx is guaranteed not to be None
+        output = ''.join([i[1] for i in row['segments'][matching_idx:]])
+
+        if output == '':
+            return row['unformatted']
         else:
-            segments = segment_str
-        # extract the second element (string) from each tuple and join
-        return '|'.join([i[1] for i in segments])
+            return output
 
-    # apply the processing function to each row
-    df['partition'] = df['segments'].apply(process_segment)
+
+def collapse_similar_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Collapses the 'start', 'end', 'remainder' columns based on similarity with next row
+    :param df: Input DataFrame
+    :return: Modified DataFrame
+    """
+    # Create a copy of the DataFrame to avoid SettingWithCopyWarning
+    df = df.copy()
+
+    # Add 'next_end' and 'next_remainder' columns
+    df['next_end'] = df['end'].shift(-1)
+    df['next_remainder'] = df['remainder'].shift(-1)
+
+    # Initialize a list to store indices to drop
+    current_idx = 0
+    indices_to_drop = []
+
+    for i in range(len(df) - 1):
+        if df.iloc[i]['remainder'] == df.iloc[i]['next_remainder'] and df.iloc[i]['start'] == df.iloc[i]['next_end']:
+            # Update the current row
+            df.loc[df.index[current_idx], ['start', 'next_end', 'next_remainder']] = df.iloc[i + 1][
+                ['start', 'next_end', 'next_remainder']].values
+            # Mark the next row for deletion
+            indices_to_drop.append(df.index[i + 1])
+        else:
+            # Move to the next row
+            current_idx = i + 1
+
+    # Drop the marked rows
+    df = df.drop(indices_to_drop)
+
+    # Remove temporary columns
+    df = df.drop(['next_end', 'next_remainder'], axis=1)
+
+    # Reset the index if needed
+    df = df.reset_index(drop=True)
+
     return df
+
+
+def rotate_remainders(df: pd.DataFrame) -> pd.DataFrame:
+    df['next_remainder'] = df['remainder'].shift(-1)
+    df.at[df.index[-1], 'next_remainder'] = df.at[df.index[-1], 'remainder']
+
+    df['next_unformatted'] = df['unformatted'].shift(-1)
+    df.at[df.index[-1], 'next_unformatted'] = ""
+
+    # make this a lambda function
+    df['remainder'] = df.apply(lambda x: x['next_remainder'] if x['unformatted'] == x['next_unformatted']
+                               else x['unformatted'], axis=1)
+
+    # drop the temporary columns
+    df = df.drop(columns=['next_remainder', 'next_unformatted'])
+
+    return df
+
+
+def create_tokens(df: pd.DataFrame) -> pd.DataFrame:
+    df['prev_remainder'] = df['remainder'].shift(1)
+    df.at[0, 'prev_remainder'] = ''
+    df['prev_unformatted'] = df['unformatted'].shift(1)
+    df.at[0, 'prev_unformatted'] = ''
+    df['token'] = df.apply(token_helper, axis=1)
+    return df
+
+
+def token_helper(row: pd.Series) -> str:
+    """
+    Computes the 'tokens' column for a single row.
+    :param row: a single row of a DataFrame
+    :return: the 'tokens' string
+    """
+    if row['unformatted'] != row['prev_unformatted']:
+        return row['remainder']
+    elif row['prev_remainder'] == row['remainder']:
+        return row['remainder']
+    else:
+        if row['remainder'].endswith(row['prev_remainder']):
+            return row['remainder'][:-len(row['prev_remainder'])]
+        if row['prev_remainder'].endswith(row['remainder']):
+            return row['remainder']
+        else:
+            return "ERROR"

@@ -3,31 +3,34 @@ from processing_utils import *
 
 
 def process_file(f) -> pd.DataFrame or None:
-
-    df = pd.read_csv(f)
+    na_values = ["",
+                 "#N/A",
+                 "#N/A N/A",
+                 "-1.#IND",
+                 "-1.#QNAN",
+                 "1.#IND",
+                 "1.#QNAN",
+                 "<NA>",
+                 "N/A",
+                 "NULL",
+                 "n/a", ]
+    df = pd.read_csv(f, na_values=na_values, keep_default_na=False)
     # if the df has less than 3 rows, then skip it
     if len(df) < 3:
         print(f"Skipping {f.name.split('/')[-1]} because it has less than 3 rows.")
         return None
 
-    # warning: may cause an error if the df is empty
-    # just remove the corresponding file from the directory of input files
-    # if you want to exclude the file
-    # df = convert_segments_to_tuples(df)
-
-    df = create_segments(df)
-    df = df.drop(columns=['line', 'position', 'text'])  # !!! DEBUGGING PURPOSES ONLY
-    df = compute_counts(df)
-
-    df = compute_common_number(df)
-
-    df = df.drop(columns=['counts_ref', 'counts'])
+    # drop columns 'segments', 'ref_start', 'ref_end', 'common_number', 'next_end', 'next_remainder'
+    df = df.drop(columns=['segments', 'ref_start', 'ref_end', 'common_number'])
+    # df = compute_ref_start_end(df)
+    df = rotate_remainders(df)
+    df = create_tokens(df)
 
     return df
 
 
 def main():
-    stage_no = 2
+    stage_no = 4
     input_path = f"../data/stage_{stage_no - 1}_processed/"
     output_path = f"../data/stage_{stage_no}_processed/"
 
