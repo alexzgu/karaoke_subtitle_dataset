@@ -6,6 +6,8 @@ The parsing process is intended to be as simple as possible, while also retainin
 
 The below figure summarizes what this process does.
 
+![image of process](input_output.png "Process")
+
 ___
 
 <h1>Tutorial</h1>
