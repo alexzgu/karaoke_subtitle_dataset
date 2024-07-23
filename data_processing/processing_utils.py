@@ -155,7 +155,7 @@ def compute_common_number(df: pd.DataFrame) -> pd.DataFrame:
     """
 
     # sort by unformatted ascending, then start descending
-    df = df.sort_values(by=['unformatted', 'start', 'line'], ascending=[True, False, True]).reset_index(drop=True)
+    df = df.sort_values(by=['unformatted', 'line', 'start'], ascending=[True, False, False]).reset_index(drop=True)
     df = compute_ref_start_end(df)
     df = compute_counts_ref(df)
 
