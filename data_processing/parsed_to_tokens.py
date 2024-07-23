@@ -43,6 +43,9 @@ def process_file(f) -> pd.DataFrame or None:
 
     df = df.drop(columns=['counts_ref', 'counts'])
 
+    # sort by 'start' ascending, then by 'line' descending
+    df = df.sort_values(by=['start', 'line'], ascending=[True, False])
+
     # --------------------------------------------
 
     df = clean_segments(df)
