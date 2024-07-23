@@ -11,7 +11,7 @@ def process_file(f) -> pd.DataFrame or None:
         return None
 
     df = df.drop_duplicates()
-    df = filter_rows(df)  # !!! NOTE that this is only for EN subtitles
+    # df = filter_rows(df)  # !!! NOTE that this is only for EN subtitles
 
     # if there are any nulls, print
     if df.isnull().values.any():

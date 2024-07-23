@@ -20,9 +20,7 @@ def process_file(f) -> pd.DataFrame or None:
         print(f"Skipping {f.name.split('/')[-1]} because it has less than 3 rows.")
         return None
 
-    # drop columns 'segments', 'ref_start', 'ref_end', 'common_number', 'next_end', 'next_remainder'
     df = df.drop(columns=['segments', 'ref_start', 'ref_end', 'common_number'])
-    # df = compute_ref_start_end(df)
     df = rotate_remainders(df)
     df = create_tokens(df)
 

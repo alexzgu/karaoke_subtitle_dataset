@@ -10,11 +10,6 @@ def process_file(f) -> pd.DataFrame or None:
         print(f"Skipping {f.name.split('/')[-1]} because it has less than 3 rows.")
         return None
 
-    # warning: may cause an error if the df is empty
-    # just remove the corresponding file from the directory of input files
-    # if you want to exclude the file
-    # df = convert_segments_to_tuples(df)
-
     df = create_segments(df)
     df = df.drop(columns=['line', 'position', 'text'])  # !!! DEBUGGING PURPOSES ONLY
     df = compute_counts(df)
