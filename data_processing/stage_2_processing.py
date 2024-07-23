@@ -11,7 +11,7 @@ def process_file(f) -> pd.DataFrame or None:
         return None
 
     df = create_segments(df)
-    df = df.drop(columns=['line', 'position', 'text'])  # !!! DEBUGGING PURPOSES ONLY
+    df = df.drop(columns=['position', 'text'])  # !!! DEBUGGING PURPOSES ONLY
     df = compute_counts(df)
 
     df = compute_common_number(df)
