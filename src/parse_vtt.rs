@@ -4,26 +4,32 @@ use std::io::{BufRead, BufReader, Write}; // Import Write trait
 use regex::Regex;
 
 
-pub fn parse_vtts() {
+pub fn parse_vtts(custom_input_directory: Option<&str>, custom_output_directory: Option<&str>) {
     let data_directory = "data/";
     // read into data/indexed/vtts/
-    let dir_path = format!("{}/indexed/vtts", data_directory);
+    let mut dir_path = format!("{}/indexed/vtts", data_directory);
+    match custom_input_directory {
+        Some(input_directory) => { dir_path = format!("{}", input_directory); }
+        None => {}
+    }
 
     // Read the directory
     if let Ok(entries) = std::fs::read_dir(&dir_path) {
         for entry in entries {
             if let Ok(entry) = entry {
-                parse_vtt(entry.file_name().to_str().unwrap(), data_directory);
+                parse_vtt(entry.file_name().to_str().unwrap(), data_directory, custom_output_directory);
             }
         }
     }
 }
 
-fn parse_vtt(file: &str, data_directory: &str) {
+fn parse_vtt(file: &str, data_directory: &str, custom_output_directory: Option<&str>) {
     let file_idx = file.trim_end_matches(".vtt");
     let input_file = format!("{}/indexed/vtts/{}.vtt", data_directory, file_idx);
-    let output_file = format!("{}/parsed/{}.csv", data_directory, file_idx);
-
+    let output_file = match custom_output_directory {
+        Some(dir) => format!("{}", dir),
+        None => format!("{}/parsed/{}.csv", data_directory, file_idx)
+    };
     let file = File::open(input_file.clone()).expect("Failed to open input file");
     let reader = BufReader::new(file);
     let mut output = File::create(output_file).expect("Failed to create output file");
