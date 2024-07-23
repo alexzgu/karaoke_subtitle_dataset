@@ -14,7 +14,10 @@ ___
 
 <h2>Notes</h2>
 - Ran this from Arch Linux, so the commands might be different for other OSes.
-- requires yt-dlp, rust, and python
+- Tools used:
+  - rust
+  - python
+  - yt-dlp (optional: see below)
 
 <h2>Steps</h2>
 <h3>1. Create the below directories at project root:</h3>
@@ -27,14 +30,17 @@ ___
        - parsed/
        - final_dataset/
 ```
-<h3>2. `cd` into `data/raw/`</h3>
-
-<h3>3. Type the below command into terminal:</h3>
-    ```bash
-    yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt --write-sub --sub-lang {language of subtitles (en/ja/etc.)} "{URL of playlist}"
-    ```
-    <p>Note that some videos may be in formats other than .webm, or may not come with subtitles (which may be in a different language than the one specified).
+<h3>2. Attain vtt files</h3>
+<h4>Option 1: use `yt-dlp`</h4>
+1. `cd` into `data/raw/`
+2. Type the following into terminal:
+`yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt 
+    --write-sub --sub-lang {language of subtitles (en/ja/etc.)} "{URL of playlist}"`
+<p><b>Note:</b> some videos may be downloaded in formats other than .webm, or may not come with subtitles (which may be in a different language than the one specified).
     It is up to you to sort out these discrepancies manually.</p>
+<h4>Option 2: other means</h4>
+
+    
 
 <h3>4. Run `src/main.rs `</h3>
 
