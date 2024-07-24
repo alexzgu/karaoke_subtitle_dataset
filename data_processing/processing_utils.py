@@ -3,21 +3,6 @@ import re
 import ast
 
 
-def filter_rows(df):
-    """
-    NOTE: used only for RO data, NOT JP data!!!
-
-    In other words, this is for dataset-specific processing, which you may not need.
-    Would recommend commenting out this function first.
-    :param df:
-    :return: df with some rows removed
-    """
-    # drop rows where 'line' = -1 or 'line' >= 50
-    df = df[(df['line'] != -1) & (df['line'] < 50)]
-
-    return df
-
-
 def convert_time(df: pd.DataFrame) -> pd.DataFrame:
     """
     Converts the string timestamps 'start' and 'end' columns to seconds elapsed (float) with 3 decimal places.
@@ -309,7 +294,6 @@ def token_helper(row: pd.Series) -> str:
         # continuing the line (normal/vast majority of the case)
         if row['remainder'].endswith(row['prev_remainder']):
             return row['remainder'][:-len(row['prev_remainder'])]
-        # not sure if it's (still) needed, but just in case
         if row['prev_remainder'].endswith(row['remainder']):
             return row['remainder']
         else:
