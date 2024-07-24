@@ -36,9 +36,7 @@ ___
 
 <h1>Tutorial</h1>
 
-<h2>Notes</h2>
-
-<h3>Tools used</h3>
+<h2>Tools</h2>
 
 - Rust
 
@@ -47,10 +45,10 @@ ___
 - [YT-DLP](https://github.com/yt-dlp) (default, but optional: see below)
 
 <h2>Steps</h2>
-<h3>1. Create the below directories at project root:</h3>
+1. Create the below directories at project root:
 
 ![Directory Structure](about/directories.png)
-<h3>2. Attain WebVTT files</h3>
+2. Attain WebVTT files
 <p>By default, the indexing functionality written here is intended to use both a VTT
 and its video to be downloaded from yt-dlp. If you do not want to download the video 
 while generating the dataset, I suggest going for <b>Option 2</b>.</p>
@@ -76,7 +74,7 @@ than the one specified).</p>
 
 2. Place them in `data/indexed/` (default option), or in a custom directory.
 
-<h3>3. Run `src/main.rs `</h3>
+3. Run `src/main.rs `
 If you chose the default (<b>Option 1</b>), then run the file as is.
 Otherwise (<b>Option 2</b>)...
 
@@ -86,17 +84,17 @@ Otherwise (<b>Option 2</b>)...
    and output (`data/parsed/` default) directory
    for the `parse_files()` function.
 
-<h3>4. `cd` to `data_processing/` </h3>
+4. `cd` to `data_processing/`
 
 - (because the below script uses relative paths)
 
-<h3>5. Run `data_processing/parsed_to_tokens.py`</h3>
+5. Run `data_processing/parsed_to_tokens.py`
 
 - If you chose the default options, run as-is.
 
 - Otherwise, the custom input you specify should match the output of the `parse_files()` function in `src/main.rs`.
 
-<h3>6. Enjoy the final* generated dataset!</h3>
+6. Enjoy the final* generated dataset!
 *further cleaning is left to the user
 
 Sidenote: the `data_processing/stage_{1/2/3/4}_processing.py` files are available for debugging purposes.
