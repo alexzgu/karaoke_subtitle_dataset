@@ -6,14 +6,14 @@ The parsing process is intended to be as simple as possible, while also retainin
 
 The below figure summarizes what this process does.
 
-![image of process](input_output.png "Process")
+![image of process](about/input_output.png "Process")
 
 ---
 <h1>High-Level Overview</h1>
 
 Below is a high-level overview of the data parsing pipeline (inaccuracies present for presentation purposes).
 
-![Pipeline](pipeline.png "Pipeline")
+![Pipeline](about/pipeline.png "Pipeline")
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 Below are <u>examples</u> and <u>non-examples</u> of supported subtitle formatting.</h3>
 
-![image of examples and nonexamples of supported color formats](examples.png "Examples")
+![image of examples and nonexamples of supported color formats](about/examples.png "Examples")
 
 
 
