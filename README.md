@@ -1,7 +1,7 @@
 <h1>Purpose</h1>
 
-This is intended to parse publicly available karaoke-style subtitles
-found on YT into datasets containing timestamped tokens.
+This is intended to parse publicly available karaoke-style subtitles (<b>WebVTT format</b>)
+into datasets containing timestamped tokens.
 
 The parsing process is intended to be as simple as possible,
 while also retaining as much of the information present in the original data.
@@ -14,9 +14,9 @@ ___
 
 <h1>Assumptions about the Data</h1>
 
-1. The original subtitles data are in <b>WebVTT</b> file format that supports <> formating tags.
+1. The original subtitles data are in <b>WebVTT</b> file format that supports color formatting.
 2. The parsing process takes a <b>color-based</b> approach to separate the text into the tokens (see examples below).
-   1. If your subtitles <u>do not</u> use color to separate spoken text in a line, 
+   1. If your subtitles do not use color to separate spoken text in a line, 
    this repository will not help you. I suggest looking elsewhere.
 3. The entire line of text must be <b>visible</b> and <b>unchanged</b> the entire time it's displayed (see examples below).
 
@@ -28,8 +28,7 @@ Below are <u>examples</u> and <u>non-examples</u> of supported subtitle formatti
 ---
 <h1>High-Level Overview</h1>
 
-Below is a high-level overview of the data parsing pipeline
-(inaccuracies present for presentation purposes).
+Below is a high-level overview of the data parsing pipeline.
 
 ![Pipeline](about/pipeline.png "Pipeline")
 
