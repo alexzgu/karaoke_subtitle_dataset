@@ -1,8 +1,10 @@
 <h1>Purpose</h1>
 
-This is intended to parse publicly available karaoke-style subtitles found on YT into datasets containing timestamped tokens.
+This is intended to parse publicly available karaoke-style subtitles
+found on YT into datasets containing timestamped tokens.
 
-The parsing process is intended to be as simple as possible, while also retaining as much of the information present in the original data.
+The parsing process is intended to be as simple as possible,
+while also retaining as much of the information present in the original data.
 
 The below figure summarizes what this process does.
 
@@ -11,7 +13,8 @@ The below figure summarizes what this process does.
 ---
 <h1>High-Level Overview</h1>
 
-Below is a high-level overview of the data parsing pipeline (inaccuracies present for presentation purposes).
+Below is a high-level overview of the data parsing pipeline
+(inaccuracies present for presentation purposes).
 
 ![Pipeline](about/pipeline.png "Pipeline")
 
@@ -28,8 +31,10 @@ ___
 <h2>Steps</h2>
 <h3>1. Create the below directories at project root:</h3>
 ![Directory Structure](about/directories.png)
-<h3>2. Attain vtt files</h3>
-<p>By default, the indexing functionality written here is intended to use both a VTT and its video to be downloaded from yt-dlp. If you do not want to download the video while generating the dataset, I suggest going for <b>Option 2</b>.</p>
+<h3>2. Attain WebVTT files</h3>
+<p>By default, the indexing functionality written here is intended to use both a VTT
+and its video to be downloaded from yt-dlp. If you do not want to download the video 
+while generating the dataset, I suggest going for <b>Option 2</b>.</p>
 <h4>Option 1: Use `yt-dlp`</h4>
 
 1. `cd` into `data/raw/`
@@ -39,20 +44,22 @@ ___
     --write-sub --sub-lang {language of subtitles (en/ja/etc.)} "{URL of playlist}"`
 
 <p><b>Note:</b> some videos may be downloaded in formats other than .webm, 
-or may not come with subtitles (which may be in a different language than the one specified).</p>
+or may not come with subtitles (which may be in a different language
+than the one specified).</p>
 
 <p>It is up to you to sort out these discrepancies manually.</p>
 
 <h4>Option 2: Use other means</h4>
 1. Attain WebVTT files.
 
-<b>Tip:</b> If you want just the VTT's (and no videos) while using yt-dlp, you can add the `--skip-download` flag.
+   1. <b>Tip:</b> If you want just the VTT's (and no videos) while using yt-dlp, you can add the `--skip-download` flag 
+   (refer to <b>Option 1</b> for a template `yt-dlp` call).
 
 2. Place them in `data/indexed/` (default option), or in a custom directory.
 
 <h3>4. Run `src/main.rs `</h3>
-If you chose the default (option 1), then run the file as is.
-Otherwise (option 2)...
+If you chose the default (<b>Option 1</b>), then run the file as is.
+Otherwise (<b>Option 2</b>)...
 
 - Comment out the index_files() line.
 
@@ -64,9 +71,9 @@ Otherwise (option 2)...
 - (because the below script uses relative paths)
 
 <h3>6. Run `data_processing/parsed_to_tokens.py`</h3>
-- if you chose the default options, run as-is
+- If you chose the default options, run as-is.
 
-- otherwise, the custom input you specify should match the output of the `parse_files()` function in `src/main.rs`.
+- Otherwise, the custom input you specify should match the output of the `parse_files()` function in `src/main.rs`.
 
 <h3>7. Enjoy the final* generated dataset!</h3>
 *further cleaning is left to the user
@@ -79,6 +86,7 @@ ___
 
 1. The original subtitles data are in WebVTT format that supports <> formating tags.
 2. The parsing process takes a <u>color-based</u> approach to separate the text into the tokens (see examples below).
+   1. If your subtitles do not use color to separate spoken text in a line, this repository will not help you.
 3. The entire line of text must be <u>visible</u> and <u>unchanged</u> the entire time it's displayed (see examples below).
 
 Below are <u>examples</u> and <u>non-examples</u> of supported subtitle formatting.</h3>
