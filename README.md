@@ -66,6 +66,7 @@ but (OPTIONALLY) by removing the `--skip-download` tag you can also download the
 Just make sure to have a `videos/` directory and have the videos in `.webm` format before proceeding.
 
 <h4>Option 2: Use other means</h4>
+
 1. Attain WebVTT files through some other means.
 
 2. Place them in `data/raw/` (default option), or in a custom directory.
