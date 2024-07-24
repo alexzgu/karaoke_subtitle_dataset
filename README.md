@@ -10,6 +10,21 @@ The below figure summarizes what this process does.
 
 ![image of process](about/input_output.png "Process")
 
+___
+
+<h1>Assumptions about the Data</h1>
+
+1. The original subtitles data are in <b>WebVTT</b> file format that supports <> formating tags.
+2. The parsing process takes a <b>color-based</b> approach to separate the text into the tokens (see examples below).
+   1. If your subtitles <u>do not</u> use color to separate spoken text in a line, 
+   this repository will not help you. I suggest looking elsewhere.
+3. The entire line of text must be <b>visible</b> and <b>unchanged</b> the entire time it's displayed (see examples below).
+
+Below are <u>examples</u> and <u>non-examples</u> of supported subtitle formatting.</h3>
+
+![image of examples and nonexamples of supported color formats](about/examples.png "Examples")
+
+
 ---
 <h1>High-Level Overview</h1>
 
@@ -57,7 +72,7 @@ than the one specified).</p>
 
 2. Place them in `data/indexed/` (default option), or in a custom directory.
 
-<h3>4. Run `src/main.rs `</h3>
+<h3>3. Run `src/main.rs `</h3>
 If you chose the default (<b>Option 1</b>), then run the file as is.
 Otherwise (<b>Option 2</b>)...
 
@@ -67,32 +82,18 @@ Otherwise (<b>Option 2</b>)...
    and output (`data/parsed/` default) directory
    for the `parse_files()` function.
 
-<h3>5. `cd` to `data_processing/` </h3>
+<h3>4. `cd` to `data_processing/` </h3>
 - (because the below script uses relative paths)
 
-<h3>6. Run `data_processing/parsed_to_tokens.py`</h3>
+<h3>5. Run `data_processing/parsed_to_tokens.py`</h3>
 - If you chose the default options, run as-is.
 
 - Otherwise, the custom input you specify should match the output of the `parse_files()` function in `src/main.rs`.
 
-<h3>7. Enjoy the final* generated dataset!</h3>
+<h3>6. Enjoy the final* generated dataset!</h3>
 *further cleaning is left to the user
 
 Sidenote: the `data_processing/stage_{1/2/3/4}_processing.py` files are available for debugging purposes.
-
-___
-
-<h1>Assumptions about the Data</h1>
-
-1. The original subtitles data are in WebVTT format that supports <> formating tags.
-2. The parsing process takes a <u>color-based</u> approach to separate the text into the tokens (see examples below).
-   1. If your subtitles do not use color to separate spoken text in a line, this repository will not help you.
-3. The entire line of text must be <u>visible</u> and <u>unchanged</u> the entire time it's displayed (see examples below).
-
-Below are <u>examples</u> and <u>non-examples</u> of supported subtitle formatting.</h3>
-
-![image of examples and nonexamples of supported color formats](about/examples.png "Examples")
-
 
 
 
