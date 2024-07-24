@@ -39,8 +39,11 @@ ___
 <h2>Notes</h2>
 
 <h3>Tools used</h3>
+
 - Rust
+
 - Python
+
 - [YT-DLP](https://github.com/yt-dlp) (default, but optional: see below)
 
 <h2>Steps</h2>
@@ -84,9 +87,11 @@ Otherwise (<b>Option 2</b>)...
    for the `parse_files()` function.
 
 <h3>4. `cd` to `data_processing/` </h3>
+
 - (because the below script uses relative paths)
 
 <h3>5. Run `data_processing/parsed_to_tokens.py`</h3>
+
 - If you chose the default options, run as-is.
 
 - Otherwise, the custom input you specify should match the output of the `parse_files()` function in `src/main.rs`.
