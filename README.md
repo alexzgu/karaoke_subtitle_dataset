@@ -37,6 +37,7 @@ ___
 <h1>Tutorial</h1>
 
 <h2>Notes</h2>
+
 <h3>Tools used</h3>
 - Rust
 - Python
