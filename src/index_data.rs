@@ -5,7 +5,7 @@ use regex::Regex;
 
 /// Indexes all raw video files to generate a list of indexed files.
 /// Note: the contents of these files have not been processed yet.
-pub fn index_raw_files() {
+pub fn index_raw_files(include_and_require_video: bool) {
     let data_directory = "data/";
     // initialize index file
     let index_file_path: &str = &format!("{data_directory}/indexed/index.tsv");
@@ -33,17 +33,18 @@ pub fn index_raw_files() {
                         println!("Skipping file: {}", file_name);
                         continue;
                     }
+
                     let video_exists = find_video(&video_name, &video_id, &dir_path);
-                    match video_exists {
-                        0 => {
+                    match (video_exists, include_and_require_video) {
+                        (0, true) => {
                             println!("Video file not found for: {}", file_name);
                         }
-                        1 => {
+                        (1, true) | (0, false) => {
                             let entry = format!("{}\t{}\t{}\t{}\n", idx, &video_name, &video_id, &language);
                             let appended = append_entry_to_index_file(index_file_path, &entry);
                             match appended {
                                 1 => {
-                                    let indexed = index_files(idx, &file_name, &video_name, &video_id, &data_directory);
+                                    let indexed = index_files(idx, &file_name, &video_name, &video_id, &data_directory, include_and_require_video);
                                     match indexed {
                                         1 => {
                                             idx += 1;
@@ -158,7 +159,7 @@ fn find_video(video_name: &str, video_id: &str, directory: &str) -> i32 {// Cons
     }
 }
 
-fn index_files(idx: i32, file_name: &str, video_name: &str, video_id: &str, data_directory: &str) -> i32 {
+fn index_files(idx: i32, file_name: &str, video_name: &str, video_id: &str, data_directory: &str, include_and_require_video: bool) -> i32 {
     // renames the vtt file "{...}.vtt" to idx.vtt
     // and moves it from "{data_directory}/raw" to "{data_directory}/indexed/vtts"
     // and renames the video file "{...}.webm" to idx.webm (refer to video_path)
@@ -168,9 +169,19 @@ fn index_files(idx: i32, file_name: &str, video_name: &str, video_id: &str, data
     let video_dest = format!("{data_directory}/indexed/videos/{idx}.webm");
     let vtt_dest = format!("{data_directory}/indexed/vtts/{idx}.vtt");
 
-    let video_path = format!("{data_directory}/raw/{video_name} [{video_id}].webm");
-
-    let video_moved = rename(&video_path, &video_dest);
+    let video_path = match include_and_require_video {
+        true => format!("{data_directory}/raw/{video_name} [{video_id}].webm"),
+        false => "None".to_string()
+    };
+    let mut video_condition = true;
+    // if video_path is "None", then video_condition is false
+    if video_path == "None" {
+        video_condition = false;
+    }
+    let video_moved = match video_condition {
+        false => Ok(()),
+        true => rename(&video_path, &video_dest)
+    };
     let vtt_moved = rename(&format!("{data_directory}/raw/{file_name}"), vtt_dest);
 
     match video_moved {

@@ -49,41 +49,37 @@ ___
 
 ![Directory Structure](about/directories.png)
 
+(Note: the `videos/` directory is optional; see details below)
+
 <h3>2. Attain WebVTT files</h3>
-<p>By default, the indexing functionality written here is intended to use both a VTT
-and its video to be downloaded from yt-dlp. If you do not want to download the video 
-while generating the dataset, I suggest going for <b>Option 2</b>.</p>
+
 <h4>Option 1: Use `yt-dlp`</h4>
 
 1. `cd` into `data/raw/`
 
 2. Type the following into terminal:
 `yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt 
-    --write-sub --sub-lang {language of subtitles (en/ja/etc.)} "{URL of playlist}"`
+    --skip-download --write-sub --sub-lang {language of subtitles (en/ja/etc.)} "{URL of playlist}"`
 
-<p><b>Note:</b> some videos may be downloaded in formats other than .webm, 
-or may not come with subtitles (which may be in a different language
-than the one specified).</p>
-
-<p>It is up to you to sort out these discrepancies manually.</p>
+<b>Note:</b> running the above will download just VTT files, 
+but (OPTIONALLY) by removing the `--skip-download` tag you can also download their corresponding videos.
+Just make sure to have a `videos/` directory and have the videos are `.webm` format before proceeding.
 
 <h4>Option 2: Use other means</h4>
-1. Attain WebVTT files.
+1. Attain WebVTT files through some other means.
 
-   1. <b>Tip:</b> If you want just the VTT's (and no videos) while using yt-dlp, you can add the `--skip-download` flag 
-   (refer to <b>Option 1</b> for a template `yt-dlp` call).
+2. Place them in `data/raw/` (default option), or in a custom directory.
 
-2. Place them in `data/indexed/` (default option), or in a custom directory.
+<h3>3. Run `src/main.rs ` (to index and parse the files)</h3>
 
-<h3>3. Run `src/main.rs `</h3>
-If you chose the default (<b>Option 1</b>), then run the file as is.
-Otherwise (<b>Option 2</b>)...
+- `index_files(include_and_require_videos=false)`
 
-- Comment out the index_files() line.
+  - If you intend to also download videos, set `include_and_require_videos=true` (false by default).
 
-- (OPTIONAL) Specify a custom input (`data/indexed/` default)
-   and output (`data/parsed/` default) directory
-   for the `parse_files()` function.
+- `parse_files(custom_input_directory=None, custom_output_directory=None)`
+
+  - (OPTIONAL) Specify a custom input (`data/indexed/` default)
+   and output (`data/parsed/` default) directory for the `parse_files()` function.
 
 <h3>4. `cd` to `data_processing/`</h3>
 
@@ -91,9 +87,7 @@ Otherwise (<b>Option 2</b>)...
 
 <h3>5. Run `data_processing/parsed_to_tokens.py`</h3>
 
-- If you chose the default options, run as-is.
-
-- Otherwise, the custom input you specify should match the output of the `parse_files()` function in `src/main.rs`.
+- If a custom output was specified in the parsing step, this function's input directory should be that custom output.
 
 <h3>6. Enjoy the final* generated dataset!</h3>
 *further cleaning is left to the user
