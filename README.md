@@ -38,12 +38,13 @@ ___
 
 <h2>Notes</h2>
 <h3>Tools used</h3>
-  - Rust
-  - Python
-  - [YT-DLP](https://github.com/yt-dlp) (default, but optional: see below)
+- Rust
+- Python
+- [YT-DLP](https://github.com/yt-dlp) (default, but optional: see below)
 
 <h2>Steps</h2>
 <h3>1. Create the below directories at project root:</h3>
+
 ![Directory Structure](about/directories.png)
 <h3>2. Attain WebVTT files</h3>
 <p>By default, the indexing functionality written here is intended to use both a VTT
