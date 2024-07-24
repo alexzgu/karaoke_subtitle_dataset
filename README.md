@@ -63,7 +63,7 @@ ___
 
 <b>Note:</b> running the above will download just VTT files, 
 but (OPTIONALLY) by removing the `--skip-download` tag you can also download their corresponding videos.
-Just make sure to have a `videos/` directory and have the videos are `.webm` format before proceeding.
+Just make sure to have a `videos/` directory and have the videos in `.webm` format before proceeding.
 
 <h4>Option 2: Use other means</h4>
 1. Attain WebVTT files through some other means.
