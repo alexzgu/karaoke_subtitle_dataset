@@ -37,7 +37,8 @@ ___
        - final_dataset/
 ```
 <h3>2. Attain vtt files</h3>
-<h4>Option 1: use `yt-dlp`</h4>
+<p>By default, the indexing functionality written here is intended to use both a VTT and its video to be downloaded from yt-dlp. If you do not want to download the video while generating the dataset, I suggest going for <b>Option 2</b>.</p>
+<h4>Option 1: Use `yt-dlp`</h4>
 
 1. `cd` into `data/raw/`
 
@@ -50,8 +51,11 @@ or may not come with subtitles (which may be in a different language than the on
 
 <p>It is up to you to sort out these discrepancies manually.</p>
 
-<h4>Option 2: other means</h4>
+<h4>Option 2: Use other means</h4>
 1. Attain WebVTT files.
+
+<b>Tip:</b> If you want just the VTT's (and no videos) while using yt-dlp, you can add the `--skip-download` flag.
+
 2. Place them in `data/indexed/` (default option), or in a custom directory.
 
 <h3>4. Run `src/main.rs `</h3>
