@@ -27,15 +27,7 @@ ___
 
 <h2>Steps</h2>
 <h3>1. Create the below directories at project root:</h3>
-```
-   - data/
-       - raw/
-       - indexed/
-         - vtts/
-         - videos/
-       - parsed/
-       - final_dataset/
-```
+![Directory Structure](about/directories.png)
 <h3>2. Attain vtt files</h3>
 <p>By default, the indexing functionality written here is intended to use both a VTT and its video to be downloaded from yt-dlp. If you do not want to download the video while generating the dataset, I suggest going for <b>Option 2</b>.</p>
 <h4>Option 1: Use `yt-dlp`</h4>
