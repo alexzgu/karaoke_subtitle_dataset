@@ -8,12 +8,18 @@ The below figure summarizes what this process does.
 
 ![image of process](input_output.png "Process")
 
+---
+<h1>High-Level Overview</h1>
+
+Below is a high-level overview of the data parsing pipeline (inaccuracies present for presentation purposes).
+
+![Pipeline](pipeline.png "Pipeline")
+
 ___
 
 <h1>Tutorial</h1>
 
 <h2>Notes</h2>
-- Ran this from Arch Linux, so the commands might be different for other OSes.
 - Tools used:
   - rust
   - python
