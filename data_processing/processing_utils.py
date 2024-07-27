@@ -40,6 +40,9 @@ def create_segments(df: pd.DataFrame) -> pd.DataFrame:
         lambda x: [(int(re.search(r'<(\d+)>', i).group(1)), re.sub(r'<\d+>', '', i)) if re.search(r'<\d+>', i)
                    else (i, '') for i in x if i != ''])
 
+    # filter out any segments with empty text
+    df['segments'] = df['segments'].apply(lambda x: [i for i in x if i[1] != ''])
+
     return df
 
 
