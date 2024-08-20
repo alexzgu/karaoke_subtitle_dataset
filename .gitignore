@@ -1,10 +1,9 @@
 /target
 /.idea
-/data/
 /data_processing/personal_notes
 data_processing/generating_tokens.ipynb
 data_processing/processing_parsed_vtts.ipynb
 /archives/
-*.csv
 data_processing/__pycache__/
-*.zip
+data_processing/analysis_csvs/
+data/indexed/videos/

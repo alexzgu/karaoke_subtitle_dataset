@@ -1,0 +1,1204 @@
+start,end,line,unformatted,segments,ref_start,ref_end,common_number
+201.985,202.719,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",True,False,2
+201.919,201.985,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+201.752,201.919,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+201.652,201.752,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+200.984,201.652,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+200.484,200.984,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+197.981,198.682,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+197.915,197.981,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+197.748,197.915,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+197.648,197.748,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+196.98,197.648,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+196.48,196.98,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+193.977,194.711,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+193.911,193.977,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+193.744,193.911,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+193.644,193.744,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+192.976,193.644,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+192.476,192.976,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+94.445,95.179,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+94.378,94.445,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+94.178,94.378,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+94.111,94.178,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+93.477,94.111,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+92.943,93.477,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+90.441,91.108,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+90.374,90.441,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+90.207,90.374,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+90.107,90.207,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+89.44,90.107,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+88.972,89.44,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+86.47,87.171,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+86.37,86.47,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+86.203,86.37,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+86.103,86.203,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+85.436,86.103,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+84.968,85.436,92,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+201.985,202.719,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+201.919,201.985,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+201.752,201.919,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+201.652,201.752,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+200.984,201.652,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+200.484,200.984,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+197.981,198.682,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+197.915,197.981,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+197.748,197.915,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+197.648,197.748,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+196.98,197.648,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+196.48,196.98,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+193.977,194.711,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+193.911,193.977,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+193.744,193.911,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+193.644,193.744,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+192.976,193.644,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+192.476,192.976,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+94.445,95.179,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+94.378,94.445,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+94.178,94.378,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+94.111,94.178,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+93.477,94.111,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+92.943,93.477,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+90.441,91.108,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+90.374,90.441,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+90.207,90.374,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+90.107,90.207,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+89.44,90.107,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+88.972,89.44,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+86.47,87.171,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-boi)')]",False,False,2
+86.37,86.47,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-da-'), (2, 'boi'), (3, ')')]",False,False,2
+86.203,86.37,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-ba-'), (2, 'da-boi'), (3, ')')]",False,False,2
+86.103,86.203,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!da-'), (2, 'ba-da-boi'), (3, ')')]",False,False,2
+85.436,86.103,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-hoy!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,False,2
+84.968,85.436,0,(ah-hoy!!da-ba-da-boi),"[(3, '(ah-'), (2, 'hoy'), (3, '!!'), (2, 'da-ba-da-boi'), (3, ')')]",False,True,2
+118.368,119.236,92,(yeah...),"[(3, '(yeah...)')]",True,False,2
+118.202,118.368,92,(yeah...),"[(3, '(yea'), (2, 'h'), (3, '...)')]",False,False,2
+118.035,118.202,92,(yeah...),"[(3, '(ye'), (2, 'ah'), (3, '...)')]",False,False,2
+117.668,118.035,92,(yeah...),"[(3, '(y'), (2, 'eah'), (3, '...)')]",False,False,2
+118.368,119.236,0,(yeah...),"[(3, '(yeah...)')]",False,False,2
+118.202,118.368,0,(yeah...),"[(3, '(yea'), (2, 'h'), (3, '...)')]",False,False,2
+118.035,118.202,0,(yeah...),"[(3, '(ye'), (2, 'ah'), (3, '...)')]",False,False,2
+117.668,118.035,0,(yeah...),"[(3, '(y'), (2, 'eah'), (3, '...)')]",False,True,2
+108.459,109.226,92,(❤ahoy❤),"[(3, '(❤ahoy❤)')]",True,False,2
+108.192,108.459,92,(❤ahoy❤),"[(3, '(❤a'), (2, 'hoy'), (3, '❤)')]",False,False,2
+104.455,104.955,92,(❤ahoy❤),"[(3, '(❤ahoy❤)')]",False,False,2
+104.221,104.455,92,(❤ahoy❤),"[(3, '(❤a'), (2, 'hoy'), (3, '❤)')]",False,False,2
+108.459,109.226,0,(❤ahoy❤),"[(3, '(❤ahoy❤)')]",False,False,2
+108.192,108.459,0,(❤ahoy❤),"[(3, '(❤a'), (2, 'hoy'), (3, '❤)')]",False,False,2
+104.455,104.955,0,(❤ahoy❤),"[(3, '(❤ahoy❤)')]",False,False,2
+104.221,104.455,0,(❤ahoy❤),"[(3, '(❤a'), (2, 'hoy'), (3, '❤)')]",False,True,2
+12.963,16.4,92,dangerousmarinesmell,"[(3, 'dangerousmarinesmell')]",True,False,2
+12.363,12.963,92,dangerousmarinesmell,"[(3, 'dangerousmarine'), (2, 'smell')]",False,False,2
+11.996,12.363,92,dangerousmarinesmell,"[(3, 'dangerousma'), (2, 'rinesmell')]",False,False,2
+11.462,11.996,92,dangerousmarinesmell,"[(3, 'dangerous'), (2, 'marinesmell')]",False,False,2
+11.295,11.462,92,dangerousmarinesmell,"[(3, 'danger'), (2, 'ousmarinesmell')]",False,False,2
+11.028,11.295,92,dangerousmarinesmell,"[(3, 'dan'), (2, 'gerousmarinesmell')]",False,False,2
+12.963,16.4,0,dangerousmarinesmell,"[(3, 'dangerousmarinesmell')]",False,False,2
+12.363,12.963,0,dangerousmarinesmell,"[(3, 'dangerousmarine'), (2, 'smell')]",False,False,2
+11.996,12.363,0,dangerousmarinesmell,"[(3, 'dangerousma'), (2, 'rinesmell')]",False,False,2
+11.462,11.996,0,dangerousmarinesmell,"[(3, 'dangerous'), (2, 'marinesmell')]",False,False,2
+11.295,11.462,0,dangerousmarinesmell,"[(3, 'danger'), (2, 'ousmarinesmell')]",False,False,2
+11.028,11.295,0,dangerousmarinesmell,"[(3, 'dan'), (2, 'gerousmarinesmell')]",False,True,2
+1.518,6.09,7,i’myourtreasurebox／宝鐘マリン,"[(3, 'i’myourtreasurebox／宝鐘マリン')]",True,True,0
+185.502,186.003,92,maybeloveofme?,"[(3, 'maybeloveofme?')]",True,False,2
+185.235,185.502,92,maybeloveofme?,"[(3, 'maybeloveof'), (2, 'me'), (3, '?')]",False,False,2
+184.968,185.235,92,maybeloveofme?,"[(3, 'maybelove'), (2, 'ofme'), (3, '?')]",False,False,2
+184.735,184.968,92,maybeloveofme?,"[(3, 'maybe'), (2, 'loveofme'), (3, '?')]",False,False,2
+184.268,184.735,92,maybeloveofme?,"[(3, 'may'), (2, 'beloveofme'), (3, '?')]",False,False,2
+185.502,186.003,0,maybeloveofme?,"[(3, 'maybeloveofme?')]",False,False,2
+185.235,185.502,0,maybeloveofme?,"[(3, 'maybeloveof'), (2, 'me'), (3, '?')]",False,False,2
+184.968,185.235,0,maybeloveofme?,"[(3, 'maybelove'), (2, 'ofme'), (3, '?')]",False,False,2
+184.735,184.968,0,maybeloveofme?,"[(3, 'maybe'), (2, 'loveofme'), (3, '?')]",False,False,2
+184.268,184.735,0,maybeloveofme?,"[(3, 'may'), (2, 'beloveofme'), (3, '?')]",False,True,2
+79.963,80.464,92,maybetastingme,"[(3, 'maybetastingme')]",True,False,2
+79.696,79.963,92,maybetastingme,"[(3, 'maybetasting'), (2, 'me')]",False,False,2
+79.43,79.696,92,maybetastingme,"[(3, 'maybetast'), (2, 'ingme')]",False,False,2
+79.229,79.43,92,maybetastingme,"[(3, 'maybe'), (2, 'tastingme')]",False,False,2
+78.695,79.229,92,maybetastingme,"[(3, 'may'), (2, 'betastingme')]",False,False,2
+79.963,80.464,0,maybetastingme,"[(3, 'maybetastingme')]",False,False,2
+79.696,79.963,0,maybetastingme,"[(3, 'maybetasting'), (2, 'me')]",False,False,2
+79.43,79.696,0,maybetastingme,"[(3, 'maybetast'), (2, 'ingme')]",False,False,2
+79.229,79.43,0,maybetastingme,"[(3, 'maybe'), (2, 'tastingme')]",False,False,2
+78.695,79.229,0,maybetastingme,"[(3, 'may'), (2, 'betastingme')]",False,True,2
+151.802,153.637,92,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmydearestdream')]",True,False,2
+151.502,151.802,92,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmydearest'), (2, 'dream')]",False,False,2
+151.201,151.502,92,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmydear'), (2, 'estdream')]",False,False,2
+150.801,151.201,92,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmy'), (2, 'dearestdream')]",False,False,2
+149.833,150.801,92,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrant'), (2, 'mydearestdream')]",False,False,2
+149.399,149.833,92,nowpleasegrantmydearestdream,"[(3, 'nowplease'), (2, 'grantmydearestdream')]",False,False,2
+148.932,149.399,92,nowpleasegrantmydearestdream,"[(3, 'now'), (2, 'pleasegrantmydearestdream')]",False,False,2
+151.802,153.637,0,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmydearestdream')]",False,False,2
+151.502,151.802,0,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmydearest'), (2, 'dream')]",False,False,2
+151.201,151.502,0,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmydear'), (2, 'estdream')]",False,False,2
+150.801,151.201,0,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrantmy'), (2, 'dearestdream')]",False,False,2
+149.833,150.801,0,nowpleasegrantmydearestdream,"[(3, 'nowpleasegrant'), (2, 'mydearestdream')]",False,False,2
+149.399,149.833,0,nowpleasegrantmydearestdream,"[(3, 'nowplease'), (2, 'grantmydearestdream')]",False,False,2
+148.932,149.399,0,nowpleasegrantmydearestdream,"[(3, 'now'), (2, 'pleasegrantmydearestdream')]",False,True,2
+162.779,166.517,92,openitrightnoworiwillscream,"[(3, 'openitrightnoworiwillscream')]",True,False,2
+161.845,162.779,92,openitrightnoworiwillscream,"[(3, 'openitrightnoworiwill'), (2, 'scream')]",False,False,2
+160.911,161.845,92,openitrightnoworiwillscream,"[(3, 'openitrightnowori'), (2, 'willscream')]",False,False,2
+159.977,160.911,92,openitrightnoworiwillscream,"[(3, 'openitrightnowor'), (2, 'iwillscream')]",False,False,2
+159.076,159.977,92,openitrightnoworiwillscream,"[(3, 'openitrightnow'), (2, 'oriwillscream')]",False,False,2
+158.675,159.076,92,openitrightnoworiwillscream,"[(3, 'openitright'), (2, 'noworiwillscream')]",False,False,2
+158.408,158.675,92,openitrightnoworiwillscream,"[(3, 'openit'), (2, 'rightnoworiwillscream')]",False,False,2
+157.708,158.408,92,openitrightnoworiwillscream,"[(3, 'open'), (2, 'itrightnoworiwillscream')]",False,False,2
+157.241,157.708,92,openitrightnoworiwillscream,"[(3, 'o'), (2, 'penitrightnoworiwillscream')]",False,False,2
+162.779,166.517,0,openitrightnoworiwillscream,"[(3, 'openitrightnoworiwillscream')]",False,False,2
+161.845,162.779,0,openitrightnoworiwillscream,"[(3, 'openitrightnoworiwill'), (2, 'scream')]",False,False,2
+160.911,161.845,0,openitrightnoworiwillscream,"[(3, 'openitrightnowori'), (2, 'willscream')]",False,False,2
+159.977,160.911,0,openitrightnoworiwillscream,"[(3, 'openitrightnowor'), (2, 'iwillscream')]",False,False,2
+159.076,159.977,0,openitrightnoworiwillscream,"[(3, 'openitrightnow'), (2, 'oriwillscream')]",False,False,2
+158.675,159.076,0,openitrightnoworiwillscream,"[(3, 'openitright'), (2, 'noworiwillscream')]",False,False,2
+158.408,158.675,0,openitrightnoworiwillscream,"[(3, 'openit'), (2, 'rightnoworiwillscream')]",False,False,2
+157.708,158.408,0,openitrightnoworiwillscream,"[(3, 'open'), (2, 'itrightnoworiwillscream')]",False,False,2
+157.241,157.708,0,openitrightnoworiwillscream,"[(3, 'o'), (2, 'penitrightnoworiwillscream')]",False,True,2
+155.405,156.206,92,openupthisbox,"[(3, 'openupthisbox')]",True,False,2
+155.072,155.405,92,openupthisbox,"[(3, 'openupthis'), (2, 'box')]",False,False,2
+154.738,155.072,92,openupthisbox,"[(3, 'openup'), (2, 'thisbox')]",False,False,2
+154.071,154.738,92,openupthisbox,"[(3, 'open'), (2, 'upthisbox')]",False,False,2
+153.637,154.071,92,openupthisbox,"[(3, 'o'), (2, 'penupthisbox')]",False,False,2
+155.405,156.206,0,openupthisbox,"[(3, 'openupthisbox')]",False,False,2
+155.072,155.405,0,openupthisbox,"[(3, 'openupthis'), (2, 'box')]",False,False,2
+154.738,155.072,0,openupthisbox,"[(3, 'openup'), (2, 'thisbox')]",False,False,2
+154.071,154.738,0,openupthisbox,"[(3, 'open'), (2, 'upthisbox')]",False,False,2
+153.637,154.071,0,openupthisbox,"[(3, 'o'), (2, 'penupthisbox')]",False,True,2
+72.389,72.723,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいいちsuperぴちぴち')]",True,False,2
+71.989,72.389,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいいちsuperぴちぴ'), (2, 'ち')]",False,False,2
+71.722,71.989,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいいちsuperぴち'), (2, 'ぴち')]",False,False,2
+71.455,71.722,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいいちsuperぴ'), (2, 'ちぴち')]",False,False,2
+71.221,71.455,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいいちsuper'), (2, 'ぴちぴち')]",False,False,2
+70.754,71.221,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいいちsu'), (2, 'perぴちぴち')]",False,False,2
+70.387,70.754,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいいち'), (2, 'superぴちぴち')]",False,False,2
+69.987,70.387,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかいい'), (2, 'ちsuperぴちぴち')]",False,False,2
+69.853,69.987,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせかい'), (2, 'いちsuperぴちぴち')]",False,False,2
+69.72,69.853,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせか'), (2, 'いいちsuperぴちぴち')]",False,False,2
+69.453,69.72,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexyせ'), (2, 'かいいちsuperぴちぴち')]",False,False,2
+69.253,69.453,0,sexyせかいいちsuperぴちぴち,"[(3, 'sexy'), (2, 'せかいいちsuperぴちぴち')]",False,False,2
+68.986,69.253,0,sexyせかいいちsuperぴちぴち,"[(3, 'sex'), (2, 'yせかいいちsuperぴちぴち')]",False,True,2
+72.389,72.723,92,sexy世界一superピチピチ,"[(3, 'sexy世界一superピチピチ')]",True,False,2
+71.989,72.389,92,sexy世界一superピチピチ,"[(3, 'sexy世界一superピチピ'), (2, 'チ')]",False,False,2
+71.722,71.989,92,sexy世界一superピチピチ,"[(3, 'sexy世界一superピチ'), (2, 'ピチ')]",False,False,2
+71.455,71.722,92,sexy世界一superピチピチ,"[(3, 'sexy世界一superピ'), (2, 'チピチ')]",False,False,2
+71.221,71.455,92,sexy世界一superピチピチ,"[(3, 'sexy世界一super'), (2, 'ピチピチ')]",False,False,2
+70.754,71.221,92,sexy世界一superピチピチ,"[(3, 'sexy世界一su'), (2, 'perピチピチ')]",False,False,2
+70.387,70.754,92,sexy世界一superピチピチ,"[(3, 'sexy世界一'), (2, 'superピチピチ')]",False,False,2
+69.987,70.387,92,sexy世界一superピチピチ,"[(3, 'sexy世界一'), (2, 'superピチピチ')]",False,False,2
+69.853,69.987,92,sexy世界一superピチピチ,"[(3, 'sexy世界'), (2, '一superピチピチ')]",False,False,2
+69.72,69.853,92,sexy世界一superピチピチ,"[(3, 'sexy世界'), (2, '一superピチピチ')]",False,False,2
+69.453,69.72,92,sexy世界一superピチピチ,"[(3, 'sexy世'), (2, '界一superピチピチ')]",False,False,2
+69.253,69.453,92,sexy世界一superピチピチ,"[(3, 'sexy'), (2, '世界一superピチピチ')]",False,False,2
+68.986,69.253,92,sexy世界一superピチピチ,"[(3, 'sex'), (2, 'y世界一superピチピチ')]",False,True,2
+144.428,145.262,92,shiningoceanofmarine,"[(3, 'shiningoceanofmarine')]",True,False,2
+144.128,144.428,92,shiningoceanofmarine,"[(3, 'shiningoceanofma'), (2, 'rine')]",False,False,2
+143.827,144.128,92,shiningoceanofmarine,"[(3, 'shiningoceanof'), (2, 'marine')]",False,False,2
+143.494,143.827,92,shiningoceanofmarine,"[(3, 'shiningocean'), (2, 'ofmarine')]",False,False,2
+142.493,143.494,92,shiningoceanofmarine,"[(3, 'shiningo'), (2, 'ceanofmarine')]",False,False,2
+142.092,142.493,92,shiningoceanofmarine,"[(3, 'shining'), (2, 'oceanofmarine')]",False,False,2
+141.625,142.092,92,shiningoceanofmarine,"[(3, 'shin'), (2, 'ingoceanofmarine')]",False,False,2
+144.428,145.262,0,shiningoceanofmarine,"[(3, 'shiningoceanofmarine')]",False,False,2
+144.128,144.428,0,shiningoceanofmarine,"[(3, 'shiningoceanofma'), (2, 'rine')]",False,False,2
+143.827,144.128,0,shiningoceanofmarine,"[(3, 'shiningoceanof'), (2, 'marine')]",False,False,2
+143.494,143.827,0,shiningoceanofmarine,"[(3, 'shiningocean'), (2, 'ofmarine')]",False,False,2
+142.493,143.494,0,shiningoceanofmarine,"[(3, 'shiningo'), (2, 'ceanofmarine')]",False,False,2
+142.092,142.493,0,shiningoceanofmarine,"[(3, 'shining'), (2, 'oceanofmarine')]",False,False,2
+141.625,142.092,0,shiningoceanofmarine,"[(3, 'shin'), (2, 'ingoceanofmarine')]",False,True,2
+136.954,137.855,92,summersunsmilingwithglee,"[(3, 'summersunsmilingwithglee')]",True,False,2
+136.687,136.954,92,summersunsmilingwithglee,"[(3, 'summersunsmilingwith'), (2, 'glee')]",False,False,2
+136.386,136.687,92,summersunsmilingwithglee,"[(3, 'summersunsmiling'), (2, 'withglee')]",False,False,2
+136.019,136.386,92,summersunsmilingwithglee,"[(3, 'summersunsmil'), (2, 'ingwithglee')]",False,False,2
+135.119,136.019,92,summersunsmilingwithglee,"[(3, 'summersun'), (2, 'smilingwithglee')]",False,False,2
+134.651,135.119,92,summersunsmilingwithglee,"[(3, 'summer'), (2, 'sunsmilingwithglee')]",False,False,2
+134.184,134.651,92,summersunsmilingwithglee,"[(3, 'sum'), (2, 'mersunsmilingwithglee')]",False,False,2
+136.954,137.855,0,summersunsmilingwithglee,"[(3, 'summersunsmilingwithglee')]",False,False,2
+136.687,136.954,0,summersunsmilingwithglee,"[(3, 'summersunsmilingwith'), (2, 'glee')]",False,False,2
+136.386,136.687,0,summersunsmilingwithglee,"[(3, 'summersunsmiling'), (2, 'withglee')]",False,False,2
+136.019,136.386,0,summersunsmilingwithglee,"[(3, 'summersunsmil'), (2, 'ingwithglee')]",False,False,2
+135.119,136.019,0,summersunsmilingwithglee,"[(3, 'summersun'), (2, 'smilingwithglee')]",False,False,2
+134.651,135.119,0,summersunsmilingwithglee,"[(3, 'summer'), (2, 'sunsmilingwithglee')]",False,False,2
+134.184,134.651,0,summersunsmilingwithglee,"[(3, 'sum'), (2, 'mersunsmilingwithglee')]",False,True,2
+129.68,130.447,92,wewillsailthesevenseas,"[(3, 'wewillsailthesevenseas')]",True,False,2
+129.513,129.68,92,wewillsailthesevenseas,"[(3, 'wewillsailtheseven'), (2, 'seas')]",False,False,2
+129.379,129.513,92,wewillsailthesevenseas,"[(3, 'wewillsailthesev'), (2, 'enseas')]",False,False,2
+128.712,129.379,92,wewillsailthesevenseas,"[(3, 'wewillsailthe'), (2, 'sevenseas')]",False,False,2
+127.744,128.712,92,wewillsailthesevenseas,"[(3, 'wewillsail'), (2, 'thesevenseas')]",False,False,2
+127.277,127.744,92,wewillsailthesevenseas,"[(3, 'wewill'), (2, 'sailthesevenseas')]",False,False,2
+126.81,127.277,92,wewillsailthesevenseas,"[(3, 'we'), (2, 'willsailthesevenseas')]",False,False,2
+129.68,130.447,0,wewillsailthesevenseas,"[(3, 'wewillsailthesevenseas')]",False,False,2
+129.513,129.68,0,wewillsailthesevenseas,"[(3, 'wewillsailtheseven'), (2, 'seas')]",False,False,2
+129.379,129.513,0,wewillsailthesevenseas,"[(3, 'wewillsailthesev'), (2, 'enseas')]",False,False,2
+128.712,129.379,0,wewillsailthesevenseas,"[(3, 'wewillsailthe'), (2, 'sevenseas')]",False,False,2
+127.744,128.712,0,wewillsailthesevenseas,"[(3, 'wewillsail'), (2, 'thesevenseas')]",False,False,2
+127.277,127.744,0,wewillsailthesevenseas,"[(3, 'wewill'), (2, 'sailthesevenseas')]",False,False,2
+126.81,127.277,0,wewillsailthesevenseas,"[(3, 'we'), (2, 'willsailthesevenseas')]",False,True,2
+78.362,78.695,92,you\'regonnagetthetreasure,"[(3, ""you\\'regonnagetthetreasure"")]",True,False,2
+77.928,78.362,92,you\'regonnagetthetreasure,"[(3, ""you\\'regonnagetthetreas""), (2, 'ure')]",False,False,2
+77.694,77.928,92,you\'regonnagetthetreasure,"[(3, ""you\\'regonnagetthe""), (2, 'treasure')]",False,False,2
+77.461,77.694,92,you\'regonnagetthetreasure,"[(3, ""you\\'regonnaget""), (2, 'thetreasure')]",False,False,2
+77.294,77.461,92,you\'regonnagetthetreasure,"[(3, ""you\\'regonna""), (2, 'getthetreasure')]",False,False,2
+77.194,77.294,92,you\'regonnagetthetreasure,"[(3, ""you\\'regon""), (2, 'nagetthetreasure')]",False,False,2
+76.96,77.194,92,you\'regonnagetthetreasure,"[(3, ""you\\'re""), (2, 'gonnagetthetreasure')]",False,False,2
+78.362,78.695,0,you\'regonnagetthetreasure,"[(3, ""you\\'regonnagetthetreasure"")]",False,False,2
+77.928,78.362,0,you\'regonnagetthetreasure,"[(3, ""you\\'regonnagetthetreas""), (2, 'ure')]",False,False,2
+77.694,77.928,0,you\'regonnagetthetreasure,"[(3, ""you\\'regonnagetthe""), (2, 'treasure')]",False,False,2
+77.461,77.694,0,you\'regonnagetthetreasure,"[(3, ""you\\'regonnaget""), (2, 'thetreasure')]",False,False,2
+77.294,77.461,0,you\'regonnagetthetreasure,"[(3, ""you\\'regonna""), (2, 'getthetreasure')]",False,False,2
+77.194,77.294,0,you\'regonnagetthetreasure,"[(3, ""you\\'regon""), (2, 'nagetthetreasure')]",False,False,2
+76.96,77.194,0,you\'regonnagetthetreasure,"[(3, ""you\\'re""), (2, 'gonnagetthetreasure')]",False,True,2
+183.901,184.268,92,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaownthepleasure"")]",True,False,2
+183.467,183.901,92,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaownthepleas""), (2, 'ure')]",False,False,2
+183.233,183.467,92,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaownthe""), (2, 'pleasure')]",False,False,2
+182.966,183.233,92,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaown""), (2, 'thepleasure')]",False,False,2
+182.833,182.966,92,you\'regonnaownthepleasure,"[(3, ""you\\'regonna""), (2, 'ownthepleasure')]",False,False,2
+182.733,182.833,92,you\'regonnaownthepleasure,"[(3, ""you\\'regon""), (2, 'naownthepleasure')]",False,False,2
+182.466,182.733,92,you\'regonnaownthepleasure,"[(3, ""you\\'re""), (2, 'gonnaownthepleasure')]",False,False,2
+183.901,184.268,0,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaownthepleasure"")]",False,False,2
+183.467,183.901,0,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaownthepleas""), (2, 'ure')]",False,False,2
+183.233,183.467,0,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaownthe""), (2, 'pleasure')]",False,False,2
+182.966,183.233,0,you\'regonnaownthepleasure,"[(3, ""you\\'regonnaown""), (2, 'thepleasure')]",False,False,2
+182.833,182.966,0,you\'regonnaownthepleasure,"[(3, ""you\\'regonna""), (2, 'ownthepleasure')]",False,False,2
+182.733,182.833,0,you\'regonnaownthepleasure,"[(3, ""you\\'regon""), (2, 'naownthepleasure')]",False,False,2
+182.466,182.733,0,you\'regonnaownthepleasure,"[(3, ""you\\'re""), (2, 'gonnaownthepleasure')]",False,True,2
+20.404,21.238,92,❤ahoy❤,"[(3, '❤ahoy❤')]",True,False,2
+20.17,20.404,92,❤ahoy❤,"[(3, '❤a'), (2, 'hoy'), (3, '❤')]",False,False,2
+20.404,21.238,0,❤ahoy❤,"[(3, '❤ahoy❤')]",False,False,2
+20.17,20.404,0,❤ahoy❤,"[(3, '❤a'), (2, 'hoy'), (3, '❤')]",False,True,2
+192.776,193.51,85,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤ahhh❤❤❤')]",True,False,2
+192.509,192.776,85,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤ahh'), (2, 'h'), (3, '❤❤❤')]",False,False,2
+192.309,192.509,85,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤ah'), (2, 'hh'), (3, '❤❤❤')]",False,False,2
+192.042,192.309,85,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤a'), (2, 'hhh'), (3, '❤❤❤')]",False,False,2
+192.776,193.51,7,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤ahhh❤❤❤')]",False,False,2
+192.509,192.776,7,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤ahh'), (2, 'h'), (3, '❤❤❤')]",False,False,2
+192.309,192.509,7,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤ah'), (2, 'hh'), (3, '❤❤❤')]",False,False,2
+192.042,192.309,7,❤❤❤ahhh❤❤❤,"[(3, '❤❤❤a'), (2, 'hhh'), (3, '❤❤❤')]",False,True,2
+30.914,31.682,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃだめだぞ❤」かな？')]",True,False,2
+30.714,30.914,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃだめだぞ❤」か'), (2, 'な'), (3, '？')]",False,False,2
+30.214,30.714,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃだめだぞ❤」'), (2, 'かな'), (3, '？')]",False,False,2
+30.014,30.214,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃだめだ'), (2, 'ぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.88,30.014,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃだめ'), (2, 'だぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.713,29.88,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃだ'), (2, 'めだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.546,29.713,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃ'), (2, 'だめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.446,29.546,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっつい'), (2, 'ちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.346,29.446,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっつ'), (2, 'いちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.179,29.346,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなにがっ'), (2, 'ついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.046,29.179,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんなに'), (2, 'がっついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.979,29.046,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そんな'), (2, 'にがっついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.912,28.979,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そん'), (2, 'なにがっついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.812,28.912,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤そ'), (2, 'んなにがっついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.612,28.812,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁん❤'), (2, 'そんなにがっついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.512,28.612,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あぁ'), (2, 'ん'), (3, '❤'), (2, 'そんなにがっついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.345,28.512,0,「あぁん❤そんなにがっついちゃだめだぞ❤」かな？,"[(3, '「あ'), (2, 'ぁん'), (3, '❤'), (2, 'そんなにがっついちゃだめだぞ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,True,2
+30.914,31.682,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃダメだゾ❤」かな？')]",True,False,2
+30.714,30.914,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃダメだゾ❤」か'), (2, 'な'), (3, '？')]",False,False,2
+30.214,30.714,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃダメだゾ❤」'), (2, 'かな'), (3, '？')]",False,False,2
+30.014,30.214,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃダメだ'), (2, 'ゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.88,30.014,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃダメ'), (2, 'だゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.713,29.88,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃダ'), (2, 'メだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.546,29.713,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっついちゃ'), (2, 'ダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.446,29.546,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっつい'), (2, 'ちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.346,29.446,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっつ'), (2, 'いちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.179,29.346,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなにがっ'), (2, 'ついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+29.046,29.179,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんなに'), (2, 'がっついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.979,29.046,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そんな'), (2, 'にがっついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.912,28.979,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そん'), (2, 'なにがっついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.812,28.912,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤そ'), (2, 'んなにがっついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.612,28.812,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁん❤'), (2, 'そんなにがっついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.512,28.612,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あぁ'), (2, 'ん'), (3, '❤'), (2, 'そんなにがっついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,False,2
+28.345,28.512,92,「あぁん❤そんなにがっついちゃダメだゾ❤」かな？,"[(3, '「あ'), (2, 'ぁん'), (3, '❤'), (2, 'そんなにがっついちゃダメだゾ'), (3, '❤」'), (2, 'かな'), (3, '？')]",False,True,2
+35.552,35.953,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつけちゃった…？」'), (3, 'いいじゃない❤）')]",True,False,2
+35.152,35.552,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつけちゃった…？」'), (3, 'いいじゃな'), (2, 'い'), (3, '❤）')]",False,False,2
+35.019,35.152,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつけちゃった…？」'), (3, 'いいじゃ'), (2, 'ない'), (3, '❤）')]",False,False,2
+34.718,35.019,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつけちゃった…？」'), (3, 'いい'), (2, 'じゃない'), (3, '❤）')]",False,False,2
+34.051,34.718,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつけちゃった…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.817,34.051,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつけちゃっ'), (2, 'た'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.684,33.817,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつけ'), (2, 'ちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.55,33.684,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”みつ'), (2, 'けちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.35,33.55,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”み'), (2, 'つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.15,33.35,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”もの”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.017,33.15,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”も'), (2, 'の'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.883,33.017,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてきな”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.816,32.883,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくてき'), (2, 'な'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.75,32.816,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょくて'), (2, 'きな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.649,32.75,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょく'), (2, 'てきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.549,32.649,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみりょ'), (2, 'くてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.449,32.549,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよりみ'), (2, 'りょくてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.249,32.449,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからより'), (2, 'みりょくてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.116,32.249,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたからよ'), (2, 'りみりょくてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.049,32.116,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたから'), (2, 'よりみりょくてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+31.949,32.049,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おたか'), (2, 'らよりみりょくてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+31.815,31.949,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「おた'), (2, 'からよりみりょくてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+31.682,31.815,0,「おたからよりみりょくてきな”もの”みつけちゃった…？」いいじゃない❤）,"[(3, '「お'), (2, 'たからよりみりょくてきな'), (3, '”'), (2, 'もの'), (3, '”'), (2, 'みつけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,True,2
+35.552,35.953,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つけちゃった…？」'), (3, 'いいじゃない❤）')]",True,False,2
+35.152,35.552,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つけちゃった…？」'), (3, 'いいじゃな'), (2, 'い'), (3, '❤）')]",False,False,2
+35.019,35.152,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つけちゃった…？」'), (3, 'いいじゃ'), (2, 'ない'), (3, '❤）')]",False,False,2
+34.718,35.019,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つけちゃった…？」'), (3, 'いい'), (2, 'じゃない'), (3, '❤）')]",False,False,2
+34.051,34.718,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つけちゃった…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.817,34.051,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つけちゃっ'), (2, 'た'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.684,33.817,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つけ'), (2, 'ちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.55,33.684,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見つ'), (2, 'けちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.35,33.55,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”見'), (2, 'つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.15,33.35,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モノ”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+33.017,33.15,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”モ'), (2, 'ノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.883,33.017,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的な”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.816,32.883,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的'), (2, 'な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.75,32.816,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力的'), (2, 'な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.649,32.75,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力'), (2, '的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.549,32.649,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅力'), (2, '的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.449,32.549,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より魅'), (2, '力的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.249,32.449,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝より'), (2, '魅力的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.116,32.249,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝よ'), (2, 'り魅力的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+32.049,32.116,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝'), (2, 'より魅力的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+31.949,32.049,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝'), (2, 'より魅力的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+31.815,31.949,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お宝'), (2, 'より魅力的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,False,2
+31.682,31.815,91,「お宝より魅力的な”モノ”見つけちゃった…？」いいじゃない❤）,"[(3, '「お'), (2, '宝より魅力的な'), (3, '”'), (2, 'モノ'), (3, '”'), (2, '見つけちゃった'), (3, '…？」'), (2, 'いいじゃない'), (3, '❤）')]",False,True,2
+27.711,28.345,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのはせ・ん・ちょ・お？」うーん…')]",True,False,2
+27.544,27.711,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのはせ・ん・ちょ・お？」うー'), (2, 'ん'), (3, '…')]",False,False,2
+27.378,27.544,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのはせ・ん・ちょ・お？」う'), (2, 'ーん'), (3, '…')]",False,False,2
+26.677,27.378,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのはせ・ん・ちょ・お？」'), (2, 'うーん'), (3, '…')]",False,False,2
+26.343,26.677,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのはせ・ん・ちょ・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.976,26.343,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのはせ・ん・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.609,25.976,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのはせ・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.175,25.609,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたのは'), (2, 'せ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.042,25.175,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてたの'), (2, 'はせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.908,25.042,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがしてた'), (2, 'のはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.808,24.908,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがして'), (2, 'たのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.708,24.808,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さがし'), (2, 'てたのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.608,24.708,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さが'), (2, 'してたのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.441,24.608,0,「さがしてたのはせ・ん・ちょ・お？」うーん…,"[(3, '「さ'), (2, 'がしてたのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,True,2
+27.711,28.345,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのはせ・ん・ちょ・お？」うーん…')]",True,False,2
+27.544,27.711,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのはせ・ん・ちょ・お？」うー'), (2, 'ん'), (3, '…')]",False,False,2
+27.378,27.544,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのはせ・ん・ちょ・お？」う'), (2, 'ーん'), (3, '…')]",False,False,2
+26.677,27.378,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのはせ・ん・ちょ・お？」'), (2, 'うーん'), (3, '…')]",False,False,2
+26.343,26.677,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのはせ・ん・ちょ・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.976,26.343,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのはせ・ん・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.609,25.976,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのはせ・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.175,25.609,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたのは'), (2, 'せ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+25.042,25.175,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してたの'), (2, 'はせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.908,25.042,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探してた'), (2, 'のはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.808,24.908,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探して'), (2, 'たのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.708,24.808,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探し'), (2, 'てたのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.608,24.708,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探'), (2, 'してたのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,False,2
+24.441,24.608,92,「探してたのはせ・ん・ちょ・お？」うーん…,"[(3, '「探'), (2, 'してたのはせ'), (3, '・'), (2, 'ん'), (3, '・'), (2, 'ちょ'), (3, '・'), (2, 'お？'), (3, '」'), (2, 'うーん'), (3, '…')]",False,True,2
+65.149,66.15,0,あけてみて,"[(3, 'あけてみて')]",True,False,2
+64.415,65.149,0,あけてみて,"[(3, 'あけてみ'), (2, 'て')]",False,False,2
+63.947,64.415,0,あけてみて,"[(3, 'あけて'), (2, 'みて')]",False,False,2
+63.714,63.947,0,あけてみて,"[(3, 'あけ'), (2, 'てみて')]",False,False,2
+62.946,63.714,0,あけてみて,"[(3, 'あ'), (2, 'けてみて')]",False,True,2
+61.278,62.946,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうかこわがらないで')]",True,False,2
+61.145,61.278,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうかこわがらない'), (2, 'で')]",False,False,2
+60.744,61.145,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうかこわがらな'), (2, 'いで')]",False,False,2
+60.344,60.744,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうかこわがら'), (2, 'ないで')]",False,False,2
+59.943,60.344,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうかこわが'), (2, 'らないで')]",False,False,2
+59.71,59.943,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうかこわ'), (2, 'がらないで')]",False,False,2
+59.376,59.71,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうかこ'), (2, 'わがらないで')]",False,False,2
+58.976,59.376,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどうか'), (2, 'こわがらないで')]",False,False,2
+58.842,58.976,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをどう'), (2, 'かこわがらないで')]",False,False,2
+58.709,58.842,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりをど'), (2, 'うかこわがらないで')]",False,False,2
+58.375,58.709,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおりを'), (2, 'どうかこわがらないで')]",False,False,2
+57.975,58.375,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかおり'), (2, 'をどうかこわがらないで')]",False,False,2
+57.708,57.975,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようかお'), (2, 'りをどうかこわがらないで')]",False,False,2
+57.474,57.708,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただようか'), (2, 'おりをどうかこわがらないで')]",False,False,2
+56.373,57.474,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただよう'), (2, 'かおりをどうかこわがらないで')]",False,False,2
+55.973,56.373,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただよ'), (2, 'うかおりをどうかこわがらないで')]",False,False,2
+55.706,55.973,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれただ'), (2, 'ようかおりをどうかこわがらないで')]",False,False,2
+55.372,55.706,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれた'), (2, 'だようかおりをどうかこわがらないで')]",False,False,2
+54.972,55.372,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふれ'), (2, 'ただようかおりをどうかこわがらないで')]",False,False,2
+54.471,54.972,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあふ'), (2, 'れただようかおりをどうかこわがらないで')]",False,False,2
+54.204,54.471,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでがあ'), (2, 'ふれただようかおりをどうかこわがらないで')]",False,False,2
+53.971,54.204,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あでが'), (2, 'あふれただようかおりをどうかこわがらないで')]",False,False,2
+53.737,53.971,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あで'), (2, 'があふれただようかおりをどうかこわがらないで')]",False,False,2
+53.437,53.737,0,あでがあふれただようかおりをどうかこわがらないで,"[(3, 'あ'), (2, 'でがあふれただようかおりをどうかこわがらないで')]",False,True,2
+6.09,11.028,8,あなたはマリンせんちょうをたからばこからみつけた。／宝鐘マリン,"[(3, 'あなたはマリンせんちょうをたからばこからみつけた。'), (3, '／宝鐘マリン')]",True,True,0
+240.424,243.86,0,あなたをまつがーねっと…,"[(3, 'あなたをまつがーねっと…')]",True,False,2
+239.923,240.424,0,あなたをまつがーねっと…,"[(3, 'あなたをまつがーねっ'), (2, 'と'), (3, '…')]",False,False,2
+238.889,239.923,0,あなたをまつがーねっと…,"[(3, 'あなたをまつがーね'), (2, 'っと'), (3, '…')]",False,False,2
+238.522,238.889,0,あなたをまつがーねっと…,"[(3, 'あなたをまつがー'), (2, 'ねっと'), (3, '…')]",False,False,2
+238.155,238.522,0,あなたをまつがーねっと…,"[(3, 'あなたをまつが'), (2, 'ーねっと'), (3, '…')]",False,False,2
+237.688,238.155,0,あなたをまつがーねっと…,"[(3, 'あなたをまつ'), (2, 'がーねっと'), (3, '…')]",False,False,2
+237.421,237.688,0,あなたをまつがーねっと…,"[(3, 'あなたをま'), (2, 'つがーねっと'), (3, '…')]",False,False,2
+237.087,237.421,0,あなたをまつがーねっと…,"[(3, 'あなたを'), (2, 'まつがーねっと'), (3, '…')]",False,False,2
+236.553,237.087,0,あなたをまつがーねっと…,"[(3, 'あなた'), (2, 'をまつがーねっと'), (3, '…')]",False,False,2
+236.32,236.553,0,あなたをまつがーねっと…,"[(3, 'あな'), (2, 'たをまつがーねっと'), (3, '…')]",False,False,2
+235.986,236.32,0,あなたをまつがーねっと…,"[(3, 'あ'), (2, 'なたをまつがーねっと'), (3, '…')]",False,True,2
+182.032,182.466,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがまんできなくない？')]",True,False,2
+181.498,182.032,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがまんできなくな'), (2, 'い'), (3, '？')]",False,False,2
+181.265,181.498,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがまんできなく'), (2, 'ない'), (3, '？')]",False,False,2
+181.031,181.265,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがまんできな'), (2, 'くない'), (3, '？')]",False,False,2
+180.764,181.031,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがまんでき'), (2, 'なくない'), (3, '？')]",False,False,2
+180.264,180.764,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがまんで'), (2, 'きなくない'), (3, '？')]",False,False,2
+180.063,180.264,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがまん'), (2, 'できなくない'), (3, '？')]",False,False,2
+179.897,180.063,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうがま'), (2, 'んできなくない'), (3, '？')]",False,False,2
+179.463,179.897,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももうが'), (2, 'まんできなくない'), (3, '？')]",False,False,2
+179.363,179.463,0,きみたちももうがまんできなくない？,"[(3, 'きみたちももう'), (2, 'がまんできなくない'), (3, '？')]",False,False,2
+179.229,179.363,0,きみたちももうがまんできなくない？,"[(3, 'きみたちもも'), (2, 'うがまんできなくない'), (3, '？')]",False,False,2
+178.996,179.229,0,きみたちももうがまんできなくない？,"[(3, 'きみたちも'), (2, 'もうがまんできなくない'), (3, '？')]",False,False,2
+178.862,178.996,0,きみたちももうがまんできなくない？,"[(3, 'きみたち'), (2, 'ももうがまんできなくない'), (3, '？')]",False,False,2
+178.762,178.862,0,きみたちももうがまんできなくない？,"[(3, 'きみた'), (2, 'ちももうがまんできなくない'), (3, '？')]",False,False,2
+178.662,178.762,0,きみたちももうがまんできなくない？,"[(3, 'きみ'), (2, 'たちももうがまんできなくない'), (3, '？')]",False,False,2
+178.295,178.662,0,きみたちももうがまんできなくない？,"[(3, 'き'), (2, 'みたちももうがまんできなくない'), (3, '？')]",False,True,2
+196.146,196.48,0,きんぎんざいほう,"[(3, 'きんぎんざいほう')]",True,False,2
+195.879,196.146,0,きんぎんざいほう,"[(3, 'きんぎんざいほ'), (2, 'う')]",False,False,2
+195.746,195.879,0,きんぎんざいほう,"[(3, 'きんぎんざい'), (2, 'ほう')]",False,False,2
+195.479,195.746,0,きんぎんざいほう,"[(3, 'きんぎんざ'), (2, 'いほう')]",False,False,2
+195.245,195.479,0,きんぎんざいほう,"[(3, 'きんぎん'), (2, 'ざいほう')]",False,False,2
+195.012,195.245,0,きんぎんざいほう,"[(3, 'きんぎ'), (2, 'んざいほう')]",False,False,2
+194.878,195.012,0,きんぎんざいほう,"[(3, 'きん'), (2, 'ぎんざいほう')]",False,False,2
+194.711,194.878,0,きんぎんざいほう,"[(3, 'き'), (2, 'んぎんざいほう')]",False,True,2
+45.162,46.93,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのかいぞくのひほう')]",True,False,2
+44.661,45.162,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのかいぞくのひほ'), (2, 'う')]",False,False,2
+44.428,44.661,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのかいぞくのひ'), (2, 'ほう')]",False,False,2
+43.927,44.428,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのかいぞくの'), (2, 'ひほう')]",False,False,2
+43.794,43.927,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのかいぞく'), (2, 'のひほう')]",False,False,2
+43.627,43.794,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのかいぞ'), (2, 'くのひほう')]",False,False,2
+43.427,43.627,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのかい'), (2, 'ぞくのひほう')]",False,False,2
+43.16,43.427,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうのか'), (2, 'いぞくのひほう')]",False,False,2
+42.693,43.16,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょうの'), (2, 'かいぞくのひほう')]",False,False,2
+42.393,42.693,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょう'), (2, 'のかいぞくのひほう')]",False,False,2
+41.959,42.393,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごくじょ'), (2, 'うのかいぞくのひほう')]",False,False,2
+41.692,41.959,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかごく'), (2, 'じょうのかいぞくのひほう')]",False,False,2
+41.458,41.692,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあかご'), (2, 'くじょうのかいぞくのひほう')]",False,False,2
+40.29,41.458,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあか'), (2, 'ごくじょうのかいぞくのひほう')]",False,False,2
+39.957,40.29,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとのあ'), (2, 'かごくじょうのかいぞくのひほう')]",False,False,2
+39.69,39.957,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっとの'), (2, 'あかごくじょうのかいぞくのひほう')]",False,False,2
+39.423,39.69,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっと'), (2, 'のあかごくじょうのかいぞくのひほう')]",False,False,2
+38.922,39.423,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがーねっ'), (2, 'とのあかごくじょうのかいぞくのひほう')]",False,False,2
+38.455,38.922,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそうがー'), (2, 'ねっとのあかごくじょうのかいぞくのひほう')]",False,False,2
+37.955,38.455,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそう'), (2, 'がーねっとのあかごくじょうのかいぞくのひほう')]",False,False,2
+37.721,37.955,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さそ'), (2, 'うがーねっとのあかごくじょうのかいぞくのひほう')]",False,False,2
+37.421,37.721,0,さそうがーねっとのあかごくじょうのかいぞくのひほう,"[(3, 'さ'), (2, 'そうがーねっとのあかごくじょうのかいぞくのひほう')]",False,True,2
+204.154,205.222,92,しわしわになっちゃう,"[(3, 'しわしわになっちゃう')]",True,False,2
+203.921,204.154,92,しわしわになっちゃう,"[(3, 'しわしわになっちゃ'), (2, 'う')]",False,False,2
+203.754,203.921,92,しわしわになっちゃう,"[(3, 'しわしわになっ'), (2, 'ちゃう')]",False,False,2
+203.487,203.754,92,しわしわになっちゃう,"[(3, 'しわしわにな'), (2, 'っちゃう')]",False,False,2
+203.253,203.487,92,しわしわになっちゃう,"[(3, 'しわしわに'), (2, 'なっちゃう')]",False,False,2
+202.986,203.253,92,しわしわになっちゃう,"[(3, 'しわしわ'), (2, 'になっちゃう')]",False,False,2
+202.92,202.986,92,しわしわになっちゃう,"[(3, 'しわし'), (2, 'わになっちゃう')]",False,False,2
+202.786,202.92,92,しわしわになっちゃう,"[(3, 'しわ'), (2, 'しわになっちゃう')]",False,False,2
+202.719,202.786,92,しわしわになっちゃう,"[(3, 'し'), (2, 'わしわになっちゃう')]",False,False,2
+204.154,205.222,0,しわしわになっちゃう,"[(3, 'しわしわになっちゃう')]",False,False,2
+203.921,204.154,0,しわしわになっちゃう,"[(3, 'しわしわになっちゃ'), (2, 'う')]",False,False,2
+203.754,203.921,0,しわしわになっちゃう,"[(3, 'しわしわになっ'), (2, 'ちゃう')]",False,False,2
+203.487,203.754,0,しわしわになっちゃう,"[(3, 'しわしわにな'), (2, 'っちゃう')]",False,False,2
+203.253,203.487,0,しわしわになっちゃう,"[(3, 'しわしわに'), (2, 'なっちゃう')]",False,False,2
+202.986,203.253,0,しわしわになっちゃう,"[(3, 'しわしわ'), (2, 'になっちゃう')]",False,False,2
+202.92,202.986,0,しわしわになっちゃう,"[(3, 'しわし'), (2, 'わになっちゃう')]",False,False,2
+202.786,202.92,0,しわしわになっちゃう,"[(3, 'しわ'), (2, 'しわになっちゃう')]",False,False,2
+202.719,202.786,0,しわしわになっちゃう,"[(3, 'し'), (2, 'わしわになっちゃう')]",False,True,2
+124.775,126.81,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらがしおれるまえに')]",True,False,2
+124.641,124.775,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらがしおれるまえ'), (2, 'に')]",False,False,2
+124.074,124.641,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらがしおれるま'), (2, 'えに')]",False,False,2
+123.941,124.074,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらがしおれる'), (2, 'まえに')]",False,False,2
+123.507,123.941,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらがしおれ'), (2, 'るまえに')]",False,False,2
+123.073,123.507,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらがしお'), (2, 'れるまえに')]",False,False,2
+122.973,123.073,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらがし'), (2, 'おれるまえに')]",False,False,2
+121.472,122.973,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばらが'), (2, 'しおれるまえに')]",False,False,2
+120.971,121.472,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのばら'), (2, 'がしおれるまえに')]",False,False,2
+120.704,120.971,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくのば'), (2, 'らがしおれるまえに')]",False,False,2
+120.37,120.704,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんくの'), (2, 'ばらがしおれるまえに')]",False,False,2
+120.204,120.37,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんく'), (2, 'のばらがしおれるまえに')]",False,False,2
+119.97,120.204,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅんく'), (2, 'のばらがしおれるまえに')]",False,False,2
+119.636,119.97,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅん'), (2, 'くのばらがしおれるまえに')]",False,False,2
+119.236,119.636,0,じゅんくのばらがしおれるまえに,"[(3, 'じゅ'), (2, 'んくのばらがしおれるまえに')]",False,True,2
+116.867,117.668,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあまいためいきのtease')]",True,False,2
+116.567,116.867,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあまいためいきの'), (2, 'tease')]",False,False,2
+116.433,116.567,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあまいためいき'), (2, 'のtease')]",False,False,2
+116.2,116.433,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあまいためい'), (2, 'きのtease')]",False,False,2
+115.933,116.2,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあまいため'), (2, 'いきのtease')]",False,False,2
+115.699,115.933,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあまいた'), (2, 'めいきのtease')]",False,False,2
+115.566,115.699,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあまい'), (2, 'ためいきのtease')]",False,False,2
+115.432,115.566,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあま'), (2, 'いためいきのtease')]",False,False,2
+115.265,115.432,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼすあ'), (2, 'まいためいきのtease')]",False,False,2
+115.132,115.265,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼす'), (2, 'あまいためいきのtease')]",False,False,2
+114.932,115.132,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこぼ'), (2, 'すあまいためいきのtease')]",False,False,2
+114.665,114.932,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずにこ'), (2, 'ぼすあまいためいきのtease')]",False,False,2
+114.364,114.665,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいずに'), (2, 'こぼすあまいためいきのtease')]",False,False,2
+113.997,114.364,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かいず'), (2, 'にこぼすあまいためいきのtease')]",False,False,2
+113.697,113.997,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'かい'), (2, 'ずにこぼすあまいためいきのtease')]",False,False,2
+113.43,113.697,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (3, 'か'), (2, 'いずにこぼすあまいためいきのtease')]",False,False,2
+112.229,113.43,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+111.695,112.229,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなたの'), (2, 'て'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+111.462,111.695,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあなた'), (2, 'のて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+111.195,111.462,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあな'), (2, 'たのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+110.727,111.195,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったいあ'), (2, 'なたのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+110.527,110.727,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれったい'), (2, 'あなたのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+110.194,110.527,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれった'), (2, 'いあなたのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+109.693,110.194,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれっ'), (2, 'たいあなたのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+109.46,109.693,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じれ'), (2, 'ったいあなたのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,False,2
+109.226,109.46,0,じれったいあなたのてかいずにこぼすあまいためいきのtease,"[(3, 'じ'), (2, 'れったいあなたのて'), (2, 'かいずにこぼすあまいためいきのtease')]",False,True,2
+116.867,117.668,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘いため息のtease')]",True,False,2
+116.567,116.867,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘いため息の'), (2, 'tease')]",False,False,2
+116.433,116.567,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘いため息'), (2, 'のtease')]",False,False,2
+116.2,116.433,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘いため息'), (2, 'のtease')]",False,False,2
+115.933,116.2,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘いため'), (2, '息のtease')]",False,False,2
+115.699,115.933,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘いた'), (2, 'め息のtease')]",False,False,2
+115.566,115.699,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘い'), (2, 'ため息のtease')]",False,False,2
+115.432,115.566,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘'), (2, 'いため息のtease')]",False,False,2
+115.265,115.432,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす甘'), (2, 'いため息のtease')]",False,False,2
+115.132,115.265,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼす'), (2, '甘いため息のtease')]",False,False,2
+114.932,115.132,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこぼ'), (2, 'す甘いため息のtease')]",False,False,2
+114.665,114.932,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図にこ'), (2, 'ぼす甘いため息のtease')]",False,False,2
+114.364,114.665,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図に'), (2, 'こぼす甘いため息のtease')]",False,False,2
+113.997,114.364,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海図'), (2, 'にこぼす甘いため息のtease')]",False,False,2
+113.697,113.997,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海'), (2, '図にこぼす甘いため息のtease')]",False,False,2
+113.43,113.697,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (3, '海'), (2, '図にこぼす甘いため息のtease')]",False,False,2
+112.229,113.43,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+111.695,112.229,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方の'), (2, '手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+111.462,111.695,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方'), (2, 'の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+111.195,111.462,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方'), (2, 'の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+110.727,111.195,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい貴方'), (2, 'の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+110.527,110.727,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれったい'), (2, '貴方の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+110.194,110.527,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれった'), (2, 'い貴方の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+109.693,110.194,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれっ'), (2, 'たい貴方の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+109.46,109.693,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じれ'), (2, 'ったい貴方の手'), (2, '海図にこぼす甘いため息のtease')]",False,False,2
+109.226,109.46,91,じれったい貴方の手海図にこぼす甘いため息のtease,"[(3, 'じ'), (2, 'れったい貴方の手'), (2, '海図にこぼす甘いため息のtease')]",False,True,2
+49.299,50.968,0,それはわたし,"[(3, 'それはわたし')]",True,False,2
+48.732,49.299,0,それはわたし,"[(3, 'それはわた'), (2, 'し')]",False,False,2
+48.365,48.732,0,それはわたし,"[(3, 'それはわ'), (2, 'たし')]",False,False,2
+47.965,48.365,0,それはわたし,"[(3, 'それは'), (2, 'わたし')]",False,False,2
+47.698,47.965,0,それはわたし,"[(3, 'それ'), (2, 'はわたし')]",False,False,2
+46.93,47.698,0,それはわたし,"[(3, 'そ'), (2, 'れはわたし')]",False,True,2
+48.732,50.968,92,それは私,"[(3, 'それは私')]",True,False,2
+48.365,48.732,92,それは私,"[(3, 'それは私')]",False,False,2
+47.965,48.365,92,それは私,"[(3, 'それは'), (2, '私')]",False,False,2
+47.698,47.965,92,それは私,"[(3, 'それ'), (2, 'は私')]",False,False,2
+46.93,47.698,92,それは私,"[(3, 'そ'), (2, 'れは私')]",False,True,2
+231.848,235.018,0,たからばこ,"[(3, 'たからばこ')]",True,False,2
+230.714,231.848,0,たからばこ,"[(3, 'たからば'), (2, 'こ')]",False,False,2
+230.08,230.714,0,たからばこ,"[(3, 'たから'), (2, 'ばこ')]",False,False,2
+229.68,230.08,0,たからばこ,"[(3, 'たか'), (2, 'らばこ')]",False,False,2
+228.645,229.68,0,たからばこ,"[(3, 'た'), (2, 'からばこ')]",False,True,2
+208.058,208.992,0,だれかたすけて,"[(3, 'だれかたすけて')]",True,False,2
+207.824,208.058,0,だれかたすけて,"[(3, 'だれかたすけ'), (2, 'て')]",False,False,2
+207.724,207.824,0,だれかたすけて,"[(3, 'だれかたす'), (2, 'けて')]",False,False,2
+207.491,207.724,0,だれかたすけて,"[(3, 'だれかた'), (2, 'すけて')]",False,False,2
+207.224,207.491,0,だれかたすけて,"[(3, 'だれか'), (2, 'たすけて')]",False,False,2
+207.024,207.224,0,だれかたすけて,"[(3, 'だれ'), (2, 'かたすけて')]",False,False,2
+206.757,207.024,0,だれかたすけて,"[(3, 'だ'), (2, 'れかたすけて')]",False,True,2
+178.095,178.295,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughtyのうさつびーむ')]",True,False,2
+177.895,178.095,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughtyのうさつびー'), (2, 'む')]",False,False,2
+177.494,177.895,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughtyのうさつび'), (2, 'ーむ')]",False,False,2
+177.361,177.494,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughtyのうさつ'), (2, 'びーむ')]",False,False,2
+177.227,177.361,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughtyのうさ'), (2, 'つびーむ')]",False,False,2
+177.127,177.227,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughtyのう'), (2, 'さつびーむ')]",False,False,2
+176.994,177.127,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughtyの'), (2, 'うさつびーむ')]",False,False,2
+176.727,176.994,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaughty'), (2, 'のうさつびーむ')]",False,False,2
+176.26,176.727,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまるnaugh'), (2, 'tyのうさつびーむ')]",False,False,2
+175.926,176.26,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだまる'), (2, 'naughtyのうさつびーむ')]",False,False,2
+175.492,175.926,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだま'), (2, 'るnaughtyのうさつびーむ')]",False,False,2
+175.259,175.492,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこもだ'), (2, 'まるnaughtyのうさつびーむ')]",False,False,2
+174.992,175.259,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこも'), (2, 'だまるnaughtyのうさつびーむ')]",False,False,2
+174.725,174.992,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なくこ'), (2, 'もだまるnaughtyのうさつびーむ')]",False,False,2
+174.625,174.725,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'なく'), (2, 'こもだまるnaughtyのうさつびーむ')]",False,False,2
+174.491,174.625,0,なくこもだまるnaughtyのうさつびーむ,"[(3, 'な'), (2, 'くこもだまるnaughtyのうさつびーむ')]",False,True,2
+200.117,200.484,0,はしたがねでしょ,"[(3, 'はしたがねでしょ')]",True,False,2
+199.883,200.117,0,はしたがねでしょ,"[(3, 'はしたがねで'), (2, 'しょ')]",False,False,2
+199.716,199.883,0,はしたがねでしょ,"[(3, 'はしたがね'), (2, 'でしょ')]",False,False,2
+199.483,199.716,0,はしたがねでしょ,"[(3, 'はしたが'), (2, 'ねでしょ')]",False,False,2
+199.249,199.483,0,はしたがねでしょ,"[(3, 'はした'), (2, 'がねでしょ')]",False,False,2
+198.982,199.249,0,はしたがねでしょ,"[(3, 'はし'), (2, 'たがねでしょ')]",False,False,2
+198.682,198.982,0,はしたがねでしょ,"[(3, 'は'), (2, 'したがねでしょ')]",False,True,2
+200.117,200.484,92,はした金でしょ,"[(3, 'はした金でしょ')]",True,False,2
+199.883,200.117,92,はした金でしょ,"[(3, 'はした金で'), (2, 'しょ')]",False,False,2
+199.716,199.883,92,はした金でしょ,"[(3, 'はした金'), (2, 'でしょ')]",False,False,2
+199.483,199.716,92,はした金でしょ,"[(3, 'はした金'), (2, 'でしょ')]",False,False,2
+199.249,199.483,92,はした金でしょ,"[(3, 'はした'), (2, '金でしょ')]",False,False,2
+198.982,199.249,92,はした金でしょ,"[(3, 'はし'), (2, 'た金でしょ')]",False,False,2
+198.682,198.982,92,はした金でしょ,"[(3, 'は'), (2, 'した金でしょ')]",False,True,2
+88.639,88.972,0,ひほうのかぎを,"[(3, 'ひほうのかぎを')]",True,False,2
+88.372,88.639,0,ひほうのかぎを,"[(3, 'ひほうのかぎ'), (2, 'を')]",False,False,2
+88.205,88.372,0,ひほうのかぎを,"[(3, 'ひほうのか'), (2, 'ぎを')]",False,False,2
+87.971,88.205,0,ひほうのかぎを,"[(3, 'ひほうの'), (2, 'かぎを')]",False,False,2
+87.738,87.971,0,ひほうのかぎを,"[(3, 'ひほう'), (2, 'のかぎを')]",False,False,2
+87.471,87.738,0,ひほうのかぎを,"[(3, 'ひほ'), (2, 'うのかぎを')]",False,False,2
+87.171,87.471,0,ひほうのかぎを,"[(3, 'ひ'), (2, 'ほうのかぎを')]",False,True,2
+76.326,76.96,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつかまえたくない？')]",True,False,2
+75.926,76.326,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつかまえたくな'), (2, 'い'), (3, '？')]",False,False,2
+75.692,75.926,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつかまえたく'), (2, 'ない'), (3, '？')]",False,False,2
+75.459,75.692,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつかまえた'), (2, 'くない'), (3, '？')]",False,False,2
+75.192,75.459,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつかまえ'), (2, 'たくない'), (3, '？')]",False,False,2
+74.691,75.192,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつかま'), (2, 'えたくない'), (3, '？')]",False,False,2
+74.358,74.691,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつか'), (2, 'まえたくない'), (3, '？')]",False,False,2
+73.991,74.358,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょうつ'), (2, 'かまえたくない'), (3, '？')]",False,False,2
+73.857,73.991,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょう'), (2, 'つかまえたくない'), (3, '？')]",False,False,2
+73.724,73.857,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせんちょ'), (2, 'うつかまえたくない'), (3, '？')]",False,False,2
+73.59,73.724,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせん'), (2, 'ちょうつかまえたくない'), (3, '？')]",False,False,2
+73.457,73.59,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけせ'), (2, 'んちょうつかまえたくない'), (3, '？')]",False,False,2
+73.323,73.457,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃけ'), (2, 'せんちょうつかまえたくない'), (3, '？')]",False,False,2
+73.157,73.323,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっちゃ'), (2, 'けせんちょうつかまえたくない'), (3, '？')]",False,False,2
+72.723,73.157,0,ぶっちゃけせんちょうつかまえたくない？,"[(3, 'ぶっ'), (2, 'ちゃけせんちょうつかまえたくない'), (3, '？')]",False,True,2
+76.326,76.96,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕まえたくない？')]",True,False,2
+75.926,76.326,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕まえたくな'), (2, 'い'), (3, '？')]",False,False,2
+75.692,75.926,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕まえたく'), (2, 'ない'), (3, '？')]",False,False,2
+75.459,75.692,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕まえた'), (2, 'くない'), (3, '？')]",False,False,2
+75.192,75.459,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕まえ'), (2, 'たくない'), (3, '？')]",False,False,2
+74.691,75.192,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕ま'), (2, 'えたくない'), (3, '？')]",False,False,2
+74.358,74.691,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕'), (2, 'まえたくない'), (3, '？')]",False,False,2
+73.991,74.358,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長捕'), (2, 'まえたくない'), (3, '？')]",False,False,2
+73.857,73.991,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長'), (2, '捕まえたくない'), (3, '？')]",False,False,2
+73.724,73.857,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船長'), (2, '捕まえたくない'), (3, '？')]",False,False,2
+73.59,73.724,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船'), (2, '長捕まえたくない'), (3, '？')]",False,False,2
+73.457,73.59,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ船'), (2, '長捕まえたくない'), (3, '？')]",False,False,2
+73.323,73.457,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃけ'), (2, '船長捕まえたくない'), (3, '？')]",False,False,2
+73.157,73.323,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっちゃ'), (2, 'け船長捕まえたくない'), (3, '？')]",False,False,2
+72.723,73.157,92,ぶっちゃけ船長捕まえたくない？,"[(3, 'ぶっ'), (2, 'ちゃけ船長捕まえたくない'), (3, '？')]",False,True,2
+96.613,96.947,0,ほうこのとびら,"[(3, 'ほうこのとびら')]",True,False,2
+96.346,96.613,0,ほうこのとびら,"[(3, 'ほうこのとび'), (2, 'ら')]",False,False,2
+96.213,96.346,0,ほうこのとびら,"[(3, 'ほうこのと'), (2, 'びら')]",False,False,2
+95.946,96.213,0,ほうこのとびら,"[(3, 'ほうこの'), (2, 'とびら')]",False,False,2
+95.679,95.946,0,ほうこのとびら,"[(3, 'ほうこ'), (2, 'のとびら')]",False,False,2
+95.446,95.679,0,ほうこのとびら,"[(3, 'ほう'), (2, 'このとびら')]",False,False,2
+95.179,95.446,0,ほうこのとびら,"[(3, 'ほ'), (2, 'うこのとびら')]",False,True,2
+215.832,216.967,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなにかんがえてんの')]",True,False,2
+215.699,215.832,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなにかんがえてん'), (2, 'の')]",False,False,2
+215.499,215.699,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなにかんがえて'), (2, 'んの')]",False,False,2
+215.299,215.499,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなにかんがえ'), (2, 'てんの')]",False,False,2
+215.132,215.299,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなにかんが'), (2, 'えてんの')]",False,False,2
+214.998,215.132,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなにかん'), (2, 'がえてんの')]",False,False,2
+214.865,214.998,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなにか'), (2, 'んがえてんの')]",False,False,2
+214.731,214.865,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちなに'), (2, 'かんがえてんの')]",False,False,2
+214.498,214.731,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたちな'), (2, 'にかんがえてんの')]",False,False,2
+213.997,214.498,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみたち'), (2, 'なにかんがえてんの')]",False,False,2
+213.497,213.997,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみた'), (2, 'ちなにかんがえてんの')]",False,False,2
+213.23,213.497,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎきみ'), (2, 'たちなにかんがえてんの')]",False,False,2
+212.996,213.23,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎき'), (2, 'みたちなにかんがえてんの')]",False,False,2
+211.962,212.996,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしすぎ'), (2, 'きみたちなにかんがえてんの')]",False,False,2
+211.728,211.962,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょしす'), (2, 'ぎきみたちなにかんがえてんの')]",False,False,2
+211.495,211.728,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょし'), (2, 'すぎきみたちなにかんがえてんの')]",False,False,2
+210.894,211.495,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえんりょ'), (2, 'しすぎきみたちなにかんがえてんの')]",False,False,2
+210.694,210.894,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえん'), (2, 'りょしすぎきみたちなにかんがえてんの')]",False,False,2
+210.494,210.694,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじでえ'), (2, 'んりょしすぎきみたちなにかんがえてんの')]",False,False,2
+209.993,210.494,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじで'), (2, 'えんりょしすぎきみたちなにかんがえてんの')]",False,False,2
+209.493,209.993,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'まじ'), (2, 'でえんりょしすぎきみたちなにかんがえてんの')]",False,False,2
+208.992,209.493,0,まじでえんりょしすぎきみたちなにかんがえてんの,"[(3, 'ま'), (2, 'じでえんりょしすぎきみたちなにかんがえてんの')]",False,True,2
+100.918,101.385,0,まじではやくあけて,"[(3, 'まじではやくあけて')]",True,False,2
+100.584,100.918,0,まじではやくあけて,"[(3, 'まじではやくあけ'), (2, 'て')]",False,False,2
+100.35,100.584,0,まじではやくあけて,"[(3, 'まじではやくあ'), (2, 'けて')]",False,False,2
+100.184,100.35,0,まじではやくあけて,"[(3, 'まじではやく'), (2, 'あけて')]",False,False,2
+100.05,100.184,0,まじではやくあけて,"[(3, 'まじではや'), (2, 'くあけて')]",False,False,2
+99.95,100.05,0,まじではやくあけて,"[(3, 'まじでは'), (2, 'やくあけて')]",False,False,2
+99.683,99.95,0,まじではやくあけて,"[(3, 'まじで'), (2, 'はやくあけて')]",False,False,2
+99.45,99.683,0,まじではやくあけて,"[(3, 'まじ'), (2, 'ではやくあけて')]",False,False,2
+99.183,99.45,0,まじではやくあけて,"[(3, 'ま'), (2, 'じではやくあけて')]",False,True,2
+9.159,11.028,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにかおるあぶなげな')]",True,False,2
+8.726,9.159,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにかおるあぶなげ'), (2, 'な')]",False,False,2
+8.392,8.726,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにかおるあぶな'), (2, 'げな')]",False,False,2
+8.025,8.392,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにかおるあぶ'), (2, 'なげな')]",False,False,2
+7.758,8.025,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにかおるあ'), (2, 'ぶなげな')]",False,False,2
+7.458,7.758,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにかおる'), (2, 'あぶなげな')]",False,False,2
+7.157,7.458,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにかお'), (2, 'るあぶなげな')]",False,False,2
+6.824,7.157,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうにか'), (2, 'おるあぶなげな')]",False,False,2
+6.523,6.824,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほうに'), (2, 'かおるあぶなげな')]",False,False,2
+6.09,6.523,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほう'), (2, 'にかおるあぶなげな')]",False,False,2
+5.756,6.09,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひほ'), (2, 'うにかおるあぶなげな')]",False,False,2
+5.489,5.756,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこひ'), (2, 'ほうにかおるあぶなげな')]",False,False,2
+4.355,5.489,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすはこ'), (2, 'ひほうにかおるあぶなげな')]",False,False,2
+4.054,4.355,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくすは'), (2, 'こひほうにかおるあぶなげな')]",False,False,2
+3.821,4.054,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかくす'), (2, 'はこひほうにかおるあぶなげな')]",False,False,2
+3.52,3.821,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをかく'), (2, 'すはこひほうにかおるあぶなげな')]",False,False,2
+3.02,3.52,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくをか'), (2, 'くすはこひほうにかおるあぶなげな')]",False,False,2
+2.553,3.02,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわくを'), (2, 'かくすはこひほうにかおるあぶなげな')]",False,False,2
+2.152,2.553,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわく'), (2, 'をかくすはこひほうにかおるあぶなげな')]",False,False,2
+1.852,2.152,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'みわ'), (2, 'くをかくすはこひほうにかおるあぶなげな')]",False,False,2
+1.518,1.852,0,みわくをかくすはこひほうにかおるあぶなげな,"[(3, 'み'), (2, 'わくをかくすはこひほうにかおるあぶなげな')]",False,True,2
+92.576,92.943,0,やさしくさして,"[(3, 'やさしくさして')]",True,False,2
+92.376,92.576,0,やさしくさして,"[(3, 'やさしくさし'), (2, 'て')]",False,False,2
+92.209,92.376,0,やさしくさして,"[(3, 'やさしくさ'), (2, 'して')]",False,False,2
+91.942,92.209,0,やさしくさして,"[(3, 'やさしく'), (2, 'さして')]",False,False,2
+91.708,91.942,0,やさしくさして,"[(3, 'やさし'), (2, 'くさして')]",False,False,2
+91.442,91.708,0,やさしくさして,"[(3, 'やさ'), (2, 'しくさして')]",False,False,2
+91.108,91.442,0,やさしくさして,"[(3, 'や'), (2, 'さしくさして')]",False,True,2
+226.109,226.543,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからいますぐあけてよ')]",True,False,2
+225.576,226.109,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからいますぐあけて'), (2, 'よ')]",False,False,2
+225.042,225.576,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからいますぐあけ'), (2, 'てよ')]",False,False,2
+224.508,225.042,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからいますぐあ'), (2, 'けてよ')]",False,False,2
+224.007,224.508,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからいますぐ'), (2, 'あけてよ')]",False,False,2
+223.507,224.007,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからいます'), (2, 'ぐあけてよ')]",False,False,2
+223.006,223.507,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからいま'), (2, 'すぐあけてよ')]",False,False,2
+222.506,223.006,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだからい'), (2, 'ますぐあけてよ')]",False,False,2
+222.039,222.506,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだから'), (2, 'いますぐあけてよ')]",False,False,2
+221.505,222.039,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだか'), (2, 'らいますぐあけてよ')]",False,False,2
+220.938,221.505,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼうだ'), (2, 'からいますぐあけてよ')]",False,False,2
+220.204,220.938,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼう'), (2, 'だからいますぐあけてよ')]",False,False,2
+219.97,220.204,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつぼ'), (2, 'うだからいますぐあけてよ')]",False,False,2
+219.736,219.97,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわかつ'), (2, 'ぼうだからいますぐあけてよ')]",False,False,2
+219.503,219.736,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわか'), (2, 'つぼうだからいますぐあけてよ')]",False,False,2
+218.902,219.503,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだわ'), (2, 'かつぼうだからいますぐあけてよ')]",False,False,2
+218.669,218.902,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるんだ'), (2, 'わかつぼうだからいますぐあけてよ')]",False,False,2
+218.569,218.669,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってるん'), (2, 'だわかつぼうだからいますぐあけてよ')]",False,False,2
+218.468,218.569,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかってる'), (2, 'んだわかつぼうだからいますぐあけてよ')]",False,False,2
+218.001,218.468,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかって'), (2, 'るんだわかつぼうだからいますぐあけてよ')]",False,False,2
+217.734,218.001,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わかっ'), (2, 'てるんだわかつぼうだからいますぐあけてよ')]",False,False,2
+217.501,217.734,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わか'), (2, 'ってるんだわかつぼうだからいますぐあけてよ')]",False,False,2
+216.967,217.501,0,わかってるんだわかつぼうだからいますぐあけてよ,"[(3, 'わ'), (2, 'かってるんだわかつぼうだからいますぐあけてよ')]",False,True,2
+84.468,84.968,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあまさがほしいでしょ')]",True,False,2
+83.967,84.468,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあまさがほしいで'), (2, 'しょ')]",False,False,2
+83.634,83.967,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあまさがほしい'), (2, 'でしょ')]",False,False,2
+83.434,83.634,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあまさがほし'), (2, 'いでしょ')]",False,False,2
+83.233,83.434,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあまさがほ'), (2, 'しいでしょ')]",False,False,2
+82.699,83.233,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあまさが'), (2, 'ほしいでしょ')]",False,False,2
+82.366,82.699,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあまさ'), (2, 'がほしいでしょ')]",False,False,2
+81.965,82.366,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあま'), (2, 'さがほしいでしょ')]",False,False,2
+81.732,81.965,0,わたしのあまさがほしいでしょ,"[(3, 'わたしのあ'), (2, 'まさがほしいでしょ')]",False,False,2
+81.465,81.732,0,わたしのあまさがほしいでしょ,"[(3, 'わたしの'), (2, 'あまさがほしいでしょ')]",False,False,2
+81.231,81.465,0,わたしのあまさがほしいでしょ,"[(3, 'わたし'), (2, 'のあまさがほしいでしょ')]",False,False,2
+80.731,81.231,0,わたしのあまさがほしいでしょ,"[(3, 'わた'), (2, 'しのあまさがほしいでしょ')]",False,False,2
+80.464,80.731,0,わたしのあまさがほしいでしょ,"[(3, 'わ'), (2, 'たしのあまさがほしいでしょ')]",False,True,2
+189.973,191.675,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべてをてにいれて')]",True,False,2
+189.473,189.973,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべてをてにいれ'), (2, 'て')]",False,False,2
+189.173,189.473,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべてをてにい'), (2, 'れて')]",False,False,2
+189.006,189.173,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべてをてに'), (2, 'いれて')]",False,False,2
+188.772,189.006,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべてをて'), (2, 'にいれて')]",False,False,2
+188.272,188.772,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべてを'), (2, 'てにいれて')]",False,False,2
+187.905,188.272,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべて'), (2, 'をてにいれて')]",False,False,2
+187.504,187.905,0,わたしのすべてをてにいれて,"[(3, 'わたしのすべ'), (2, 'てをてにいれて')]",False,False,2
+187.271,187.504,0,わたしのすべてをてにいれて,"[(3, 'わたしのす'), (2, 'べてをてにいれて')]",False,False,2
+187.004,187.271,0,わたしのすべてをてにいれて,"[(3, 'わたしの'), (2, 'すべてをてにいれて')]",False,False,2
+186.77,187.004,0,わたしのすべてをてにいれて,"[(3, 'わたし'), (2, 'のすべてをてにいれて')]",False,False,2
+186.27,186.77,0,わたしのすべてをてにいれて,"[(3, 'わた'), (2, 'しのすべてをてにいれて')]",False,False,2
+186.003,186.27,0,わたしのすべてをてにいれて,"[(3, 'わ'), (2, 'たしのすべてをてにいれて')]",False,True,2
+182.032,182.466,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢できなくない？')]",True,False,2
+181.498,182.032,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢できなくな'), (2, 'い'), (3, '？')]",False,False,2
+181.265,181.498,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢できなく'), (2, 'ない'), (3, '？')]",False,False,2
+181.031,181.265,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢できな'), (2, 'くない'), (3, '？')]",False,False,2
+180.764,181.031,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢でき'), (2, 'なくない'), (3, '？')]",False,False,2
+180.264,180.764,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢で'), (2, 'きなくない'), (3, '？')]",False,False,2
+180.063,180.264,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢'), (2, 'できなくない'), (3, '？')]",False,False,2
+179.897,180.063,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我慢'), (2, 'できなくない'), (3, '？')]",False,False,2
+179.463,179.897,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう我'), (2, '慢できなくない'), (3, '？')]",False,False,2
+179.363,179.463,92,キミたちももう我慢できなくない？,"[(3, 'キミたちももう'), (2, '我慢できなくない'), (3, '？')]",False,False,2
+179.229,179.363,92,キミたちももう我慢できなくない？,"[(3, 'キミたちもも'), (2, 'う我慢できなくない'), (3, '？')]",False,False,2
+178.996,179.229,92,キミたちももう我慢できなくない？,"[(3, 'キミたちも'), (2, 'もう我慢できなくない'), (3, '？')]",False,False,2
+178.862,178.996,92,キミたちももう我慢できなくない？,"[(3, 'キミたち'), (2, 'ももう我慢できなくない'), (3, '？')]",False,False,2
+178.762,178.862,92,キミたちももう我慢できなくない？,"[(3, 'キミた'), (2, 'ちももう我慢できなくない'), (3, '？')]",False,False,2
+178.662,178.762,92,キミたちももう我慢できなくない？,"[(3, 'キミ'), (2, 'たちももう我慢できなくない'), (3, '？')]",False,False,2
+178.295,178.662,92,キミたちももう我慢できなくない？,"[(3, 'キ'), (2, 'ミたちももう我慢できなくない'), (3, '？')]",False,True,2
+100.918,101.385,92,マジで早く開けて,"[(3, 'マジで早く開けて')]",True,False,2
+100.584,100.918,92,マジで早く開けて,"[(3, 'マジで早く開け'), (2, 'て')]",False,False,2
+100.35,100.584,92,マジで早く開けて,"[(3, 'マジで早く開'), (2, 'けて')]",False,False,2
+100.184,100.35,92,マジで早く開けて,"[(3, 'マジで早く'), (2, '開けて')]",False,False,2
+100.05,100.184,92,マジで早く開けて,"[(3, 'マジで早'), (2, 'く開けて')]",False,False,2
+99.95,100.05,92,マジで早く開けて,"[(3, 'マジで早'), (2, 'く開けて')]",False,False,2
+99.683,99.95,92,マジで早く開けて,"[(3, 'マジで'), (2, '早く開けて')]",False,False,2
+99.45,99.683,92,マジで早く開けて,"[(3, 'マジ'), (2, 'で早く開けて')]",False,False,2
+99.183,99.45,92,マジで早く開けて,"[(3, 'マ'), (2, 'ジで早く開けて')]",False,True,2
+215.832,216.967,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何考えてんの')]",True,False,2
+215.699,215.832,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何考えてん'), (2, 'の')]",False,False,2
+215.499,215.699,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何考えて'), (2, 'んの')]",False,False,2
+215.299,215.499,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何考え'), (2, 'てんの')]",False,False,2
+215.132,215.299,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何考'), (2, 'えてんの')]",False,False,2
+214.998,215.132,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何考'), (2, 'えてんの')]",False,False,2
+214.865,214.998,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何考'), (2, 'えてんの')]",False,False,2
+214.731,214.865,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何'), (2, '考えてんの')]",False,False,2
+214.498,214.731,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち何'), (2, '考えてんの')]",False,False,2
+213.997,214.498,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミたち'), (2, '何考えてんの')]",False,False,2
+213.497,213.997,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミた'), (2, 'ち何考えてんの')]",False,False,2
+213.23,213.497,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキミ'), (2, 'たち何考えてんの')]",False,False,2
+212.996,213.23,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎキ'), (2, 'ミたち何考えてんの')]",False,False,2
+211.962,212.996,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しすぎ'), (2, 'キミたち何考えてんの')]",False,False,2
+211.728,211.962,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮しす'), (2, 'ぎキミたち何考えてんの')]",False,False,2
+211.495,211.728,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮し'), (2, 'すぎキミたち何考えてんの')]",False,False,2
+210.894,211.495,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠慮'), (2, 'しすぎキミたち何考えてんの')]",False,False,2
+210.694,210.894,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠'), (2, '慮しすぎキミたち何考えてんの')]",False,False,2
+210.494,210.694,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで遠'), (2, '慮しすぎキミたち何考えてんの')]",False,False,2
+209.993,210.494,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジで'), (2, '遠慮しすぎキミたち何考えてんの')]",False,False,2
+209.493,209.993,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マジ'), (2, 'で遠慮しすぎキミたち何考えてんの')]",False,False,2
+208.992,209.493,92,マジで遠慮しすぎキミたち何考えてんの,"[(3, 'マ'), (2, 'ジで遠慮しすぎキミたち何考えてんの')]",False,True,2
+3.787,6.09,85,作曲：u.z.inu,"[(3, '作曲：u.z.inu')]",True,True,0
+8.559,11.028,85,作詞：u.z.inuかめりあ(camellia),"[(3, '作詞：u.z.inuかめりあ(camellia)')]",True,True,0
+92.576,92.943,92,優しく刺して,"[(3, '優しく刺して')]",True,False,2
+92.376,92.576,92,優しく刺して,"[(3, '優しく刺し'), (2, 'て')]",False,False,2
+92.209,92.376,92,優しく刺して,"[(3, '優しく刺'), (2, 'して')]",False,False,2
+91.942,92.209,92,優しく刺して,"[(3, '優しく'), (2, '刺して')]",False,False,2
+91.708,91.942,92,優しく刺して,"[(3, '優し'), (2, 'く刺して')]",False,False,2
+91.442,91.708,92,優しく刺して,"[(3, '優'), (2, 'しく刺して')]",False,False,2
+91.108,91.442,92,優しく刺して,"[(3, '優'), (2, 'しく刺して')]",False,True,2
+226.109,226.543,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今すぐ開けてよ')]",True,False,2
+225.576,226.109,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今すぐ開けて'), (2, 'よ')]",False,False,2
+225.042,225.576,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今すぐ開け'), (2, 'てよ')]",False,False,2
+224.508,225.042,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今すぐ開'), (2, 'けてよ')]",False,False,2
+224.007,224.508,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今すぐ'), (2, '開けてよ')]",False,False,2
+223.507,224.007,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今す'), (2, 'ぐ開けてよ')]",False,False,2
+223.006,223.507,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今'), (2, 'すぐ開けてよ')]",False,False,2
+222.506,223.006,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから今'), (2, 'すぐ開けてよ')]",False,False,2
+222.039,222.506,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だから'), (2, '今すぐ開けてよ')]",False,False,2
+221.505,222.039,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だか'), (2, 'ら今すぐ開けてよ')]",False,False,2
+220.938,221.505,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望だ'), (2, 'から今すぐ開けてよ')]",False,False,2
+220.204,220.938,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望'), (2, 'だから今すぐ開けてよ')]",False,False,2
+219.97,220.204,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇望'), (2, 'だから今すぐ開けてよ')]",False,False,2
+219.736,219.97,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇'), (2, '望だから今すぐ開けてよ')]",False,False,2
+219.503,219.736,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ渇'), (2, '望だから今すぐ開けてよ')]",False,False,2
+218.902,219.503,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだワ'), (2, '渇望だから今すぐ開けてよ')]",False,False,2
+218.669,218.902,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるんだ'), (2, 'ワ渇望だから今すぐ開けてよ')]",False,False,2
+218.569,218.669,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってるん'), (2, 'だワ渇望だから今すぐ開けてよ')]",False,False,2
+218.468,218.569,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かってる'), (2, 'んだワ渇望だから今すぐ開けてよ')]",False,False,2
+218.001,218.468,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かって'), (2, 'るんだワ渇望だから今すぐ開けてよ')]",False,False,2
+217.734,218.001,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分かっ'), (2, 'てるんだワ渇望だから今すぐ開けてよ')]",False,False,2
+217.501,217.734,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分か'), (2, 'ってるんだワ渇望だから今すぐ開けてよ')]",False,False,2
+216.967,217.501,92,分かってるんだワ渇望だから今すぐ開けてよ,"[(3, '分'), (2, 'かってるんだワ渇望だから今すぐ開けてよ')]",False,True,2
+96.346,96.947,92,宝庫の扉,"[(3, '宝庫の扉')]",True,False,2
+96.213,96.346,92,宝庫の扉,"[(3, '宝庫の扉')]",False,False,2
+95.946,96.213,92,宝庫の扉,"[(3, '宝庫の'), (2, '扉')]",False,False,2
+95.679,95.946,92,宝庫の扉,"[(3, '宝庫'), (2, 'の扉')]",False,False,2
+95.446,95.679,92,宝庫の扉,"[(3, '宝'), (2, '庫の扉')]",False,False,2
+95.179,95.446,92,宝庫の扉,"[(3, '宝'), (2, '庫の扉')]",False,True,2
+230.714,235.018,92,宝箱,"[(3, '宝箱')]",True,False,2
+230.08,230.714,92,宝箱,"[(3, '宝'), (2, '箱')]",False,False,2
+229.68,230.08,92,宝箱,"[(3, '宝'), (2, '箱')]",False,False,2
+228.645,229.68,92,宝箱,"[(3, '宝'), (2, '箱')]",False,True,2
+1.518,3.787,85,歌唱：宝鐘マリン,"[(3, '歌唱：宝鐘マリン')]",True,True,0
+178.095,178.295,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty悩殺ビーム')]",True,False,2
+177.895,178.095,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty悩殺ビー'), (2, 'ム')]",False,False,2
+177.494,177.895,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty悩殺ビ'), (2, 'ーム')]",False,False,2
+177.361,177.494,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty悩殺'), (2, 'ビーム')]",False,False,2
+177.227,177.361,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty悩殺'), (2, 'ビーム')]",False,False,2
+177.127,177.227,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty悩'), (2, '殺ビーム')]",False,False,2
+176.994,177.127,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty悩'), (2, '殺ビーム')]",False,False,2
+176.727,176.994,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaughty'), (2, '悩殺ビーム')]",False,False,2
+176.26,176.727,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙るnaugh'), (2, 'ty悩殺ビーム')]",False,False,2
+175.926,176.26,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙る'), (2, 'naughty悩殺ビーム')]",False,False,2
+175.492,175.926,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙'), (2, 'るnaughty悩殺ビーム')]",False,False,2
+175.259,175.492,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も黙'), (2, 'るnaughty悩殺ビーム')]",False,False,2
+174.992,175.259,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子も'), (2, '黙るnaughty悩殺ビーム')]",False,False,2
+174.725,174.992,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く子'), (2, 'も黙るnaughty悩殺ビーム')]",False,False,2
+174.625,174.725,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣く'), (2, '子も黙るnaughty悩殺ビーム')]",False,False,2
+174.491,174.625,92,泣く子も黙るnaughty悩殺ビーム,"[(3, '泣'), (2, 'く子も黙るnaughty悩殺ビーム')]",False,True,2
+189.973,191.675,92,私の全てを手に入れて,"[(3, '私の全てを手に入れて')]",True,False,2
+189.473,189.973,92,私の全てを手に入れて,"[(3, '私の全てを手に入れ'), (2, 'て')]",False,False,2
+189.173,189.473,92,私の全てを手に入れて,"[(3, '私の全てを手に入'), (2, 'れて')]",False,False,2
+189.006,189.173,92,私の全てを手に入れて,"[(3, '私の全てを手に'), (2, '入れて')]",False,False,2
+188.772,189.006,92,私の全てを手に入れて,"[(3, '私の全てを手'), (2, 'に入れて')]",False,False,2
+188.272,188.772,92,私の全てを手に入れて,"[(3, '私の全てを'), (2, '手に入れて')]",False,False,2
+187.905,188.272,92,私の全てを手に入れて,"[(3, '私の全て'), (2, 'を手に入れて')]",False,False,2
+187.504,187.905,92,私の全てを手に入れて,"[(3, '私の全'), (2, 'てを手に入れて')]",False,False,2
+187.271,187.504,92,私の全てを手に入れて,"[(3, '私の全'), (2, 'てを手に入れて')]",False,False,2
+187.004,187.271,92,私の全てを手に入れて,"[(3, '私の'), (2, '全てを手に入れて')]",False,False,2
+186.77,187.004,92,私の全てを手に入れて,"[(3, '私'), (2, 'の全てを手に入れて')]",False,False,2
+186.27,186.77,92,私の全てを手に入れて,"[(3, '私'), (2, 'の全てを手に入れて')]",False,False,2
+186.003,186.27,92,私の全てを手に入れて,"[(3, '私'), (2, 'の全てを手に入れて')]",False,True,2
+84.468,84.968,92,私の甘さが欲しいでしょ,"[(3, '私の甘さが欲しいでしょ')]",True,False,2
+83.967,84.468,92,私の甘さが欲しいでしょ,"[(3, '私の甘さが欲しいで'), (2, 'しょ')]",False,False,2
+83.634,83.967,92,私の甘さが欲しいでしょ,"[(3, '私の甘さが欲しい'), (2, 'でしょ')]",False,False,2
+83.434,83.634,92,私の甘さが欲しいでしょ,"[(3, '私の甘さが欲し'), (2, 'いでしょ')]",False,False,2
+83.233,83.434,92,私の甘さが欲しいでしょ,"[(3, '私の甘さが欲'), (2, 'しいでしょ')]",False,False,2
+82.699,83.233,92,私の甘さが欲しいでしょ,"[(3, '私の甘さが'), (2, '欲しいでしょ')]",False,False,2
+82.366,82.699,92,私の甘さが欲しいでしょ,"[(3, '私の甘さ'), (2, 'が欲しいでしょ')]",False,False,2
+81.965,82.366,92,私の甘さが欲しいでしょ,"[(3, '私の甘'), (2, 'さが欲しいでしょ')]",False,False,2
+81.732,81.965,92,私の甘さが欲しいでしょ,"[(3, '私の甘'), (2, 'さが欲しいでしょ')]",False,False,2
+81.465,81.732,92,私の甘さが欲しいでしょ,"[(3, '私の'), (2, '甘さが欲しいでしょ')]",False,False,2
+81.231,81.465,92,私の甘さが欲しいでしょ,"[(3, '私'), (2, 'の甘さが欲しいでしょ')]",False,False,2
+80.731,81.231,92,私の甘さが欲しいでしょ,"[(3, '私'), (2, 'の甘さが欲しいでしょ')]",False,False,2
+80.464,80.731,92,私の甘さが欲しいでしょ,"[(3, '私'), (2, 'の甘さが欲しいでしょ')]",False,True,2
+88.639,88.972,92,秘宝の鍵を,"[(3, '秘宝の鍵を')]",True,False,2
+88.372,88.639,92,秘宝の鍵を,"[(3, '秘宝の鍵'), (2, 'を')]",False,False,2
+88.205,88.372,92,秘宝の鍵を,"[(3, '秘宝の鍵'), (2, 'を')]",False,False,2
+87.971,88.205,92,秘宝の鍵を,"[(3, '秘宝の'), (2, '鍵を')]",False,False,2
+87.738,87.971,92,秘宝の鍵を,"[(3, '秘宝'), (2, 'の鍵を')]",False,False,2
+87.471,87.738,92,秘宝の鍵を,"[(3, '秘宝'), (2, 'の鍵を')]",False,False,2
+87.171,87.471,92,秘宝の鍵を,"[(3, '秘'), (2, '宝の鍵を')]",False,True,2
+124.775,126.81,92,純紅のバラがしおれる前に,"[(3, '純紅のバラがしおれる前に')]",True,False,2
+124.641,124.775,92,純紅のバラがしおれる前に,"[(3, '純紅のバラがしおれる前'), (2, 'に')]",False,False,2
+124.074,124.641,92,純紅のバラがしおれる前に,"[(3, '純紅のバラがしおれる前'), (2, 'に')]",False,False,2
+123.941,124.074,92,純紅のバラがしおれる前に,"[(3, '純紅のバラがしおれる'), (2, '前に')]",False,False,2
+123.507,123.941,92,純紅のバラがしおれる前に,"[(3, '純紅のバラがしおれ'), (2, 'る前に')]",False,False,2
+123.073,123.507,92,純紅のバラがしおれる前に,"[(3, '純紅のバラがしお'), (2, 'れる前に')]",False,False,2
+122.973,123.073,92,純紅のバラがしおれる前に,"[(3, '純紅のバラがし'), (2, 'おれる前に')]",False,False,2
+121.472,122.973,92,純紅のバラがしおれる前に,"[(3, '純紅のバラが'), (2, 'しおれる前に')]",False,False,2
+120.971,121.472,92,純紅のバラがしおれる前に,"[(3, '純紅のバラ'), (2, 'がしおれる前に')]",False,False,2
+120.704,120.971,92,純紅のバラがしおれる前に,"[(3, '純紅のバ'), (2, 'ラがしおれる前に')]",False,False,2
+120.37,120.704,92,純紅のバラがしおれる前に,"[(3, '純紅の'), (2, 'バラがしおれる前に')]",False,False,2
+120.204,120.37,92,純紅のバラがしおれる前に,"[(3, '純紅'), (2, 'のバラがしおれる前に')]",False,False,2
+119.97,120.204,92,純紅のバラがしおれる前に,"[(3, '純紅'), (2, 'のバラがしおれる前に')]",False,False,2
+119.636,119.97,92,純紅のバラがしおれる前に,"[(3, '純'), (2, '紅のバラがしおれる前に')]",False,False,2
+119.236,119.636,92,純紅のバラがしおれる前に,"[(3, '純'), (2, '紅のバラがしおれる前に')]",False,True,2
+6.09,8.559,85,編曲：かめりあ(camellia),"[(3, '編曲：かめりあ(camellia)')]",True,True,0
+61.278,62.946,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか怖がらないで')]",True,False,2
+61.145,61.278,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか怖がらない'), (2, 'で')]",False,False,2
+60.744,61.145,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか怖がらな'), (2, 'いで')]",False,False,2
+60.344,60.744,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか怖がら'), (2, 'ないで')]",False,False,2
+59.943,60.344,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか怖が'), (2, 'らないで')]",False,False,2
+59.71,59.943,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか怖'), (2, 'がらないで')]",False,False,2
+59.376,59.71,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか怖'), (2, 'がらないで')]",False,False,2
+58.976,59.376,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどうか'), (2, '怖がらないで')]",False,False,2
+58.842,58.976,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをどう'), (2, 'か怖がらないで')]",False,False,2
+58.709,58.842,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りをど'), (2, 'うか怖がらないで')]",False,False,2
+58.375,58.709,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香りを'), (2, 'どうか怖がらないで')]",False,False,2
+57.975,58.375,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香り'), (2, 'をどうか怖がらないで')]",False,False,2
+57.708,57.975,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香'), (2, 'りをどうか怖がらないで')]",False,False,2
+57.474,57.708,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う香'), (2, 'りをどうか怖がらないで')]",False,False,2
+56.373,57.474,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂う'), (2, '香りをどうか怖がらないで')]",False,False,2
+55.973,56.373,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂'), (2, 'う香りをどうか怖がらないで')]",False,False,2
+55.706,55.973,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂'), (2, 'う香りをどうか怖がらないで')]",False,False,2
+55.372,55.706,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ漂'), (2, 'う香りをどうか怖がらないで')]",False,False,2
+54.972,55.372,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢れ'), (2, '漂う香りをどうか怖がらないで')]",False,False,2
+54.471,54.972,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢'), (2, 'れ漂う香りをどうか怖がらないで')]",False,False,2
+54.204,54.471,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が溢'), (2, 'れ漂う香りをどうか怖がらないで')]",False,False,2
+53.971,54.204,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷が'), (2, '溢れ漂う香りをどうか怖がらないで')]",False,False,2
+53.737,53.971,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷'), (2, 'が溢れ漂う香りをどうか怖がらないで')]",False,False,2
+53.437,53.737,92,艷が溢れ漂う香りをどうか怖がらないで,"[(3, '艷'), (2, 'が溢れ漂う香りをどうか怖がらないで')]",False,True,2
+44.661,46.93,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の海賊の秘宝')]",True,False,2
+44.428,44.661,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の海賊の秘'), (2, '宝')]",False,False,2
+43.927,44.428,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の海賊の'), (2, '秘宝')]",False,False,2
+43.794,43.927,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の海賊'), (2, 'の秘宝')]",False,False,2
+43.627,43.794,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の海賊'), (2, 'の秘宝')]",False,False,2
+43.427,43.627,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の海'), (2, '賊の秘宝')]",False,False,2
+43.16,43.427,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の海'), (2, '賊の秘宝')]",False,False,2
+42.693,43.16,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上の'), (2, '海賊の秘宝')]",False,False,2
+42.393,42.693,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上'), (2, 'の海賊の秘宝')]",False,False,2
+41.959,42.393,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極上'), (2, 'の海賊の秘宝')]",False,False,2
+41.692,41.959,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極'), (2, '上の海賊の秘宝')]",False,False,2
+41.458,41.692,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤極'), (2, '上の海賊の秘宝')]",False,False,2
+40.29,41.458,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤'), (2, '極上の海賊の秘宝')]",False,False,2
+39.957,40.29,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの赤'), (2, '極上の海賊の秘宝')]",False,False,2
+39.69,39.957,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネットの'), (2, '赤極上の海賊の秘宝')]",False,False,2
+39.423,39.69,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネット'), (2, 'の赤極上の海賊の秘宝')]",False,False,2
+38.922,39.423,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガーネッ'), (2, 'トの赤極上の海賊の秘宝')]",False,False,2
+38.455,38.922,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘うガー'), (2, 'ネットの赤極上の海賊の秘宝')]",False,False,2
+37.955,38.455,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘う'), (2, 'ガーネットの赤極上の海賊の秘宝')]",False,False,2
+37.721,37.955,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘'), (2, 'うガーネットの赤極上の海賊の秘宝')]",False,False,2
+37.421,37.721,92,誘うガーネットの赤極上の海賊の秘宝,"[(3, '誘'), (2, 'うガーネットの赤極上の海賊の秘宝')]",False,True,2
+208.058,208.992,92,誰か助けて,"[(3, '誰か助けて')]",True,False,2
+207.824,208.058,92,誰か助けて,"[(3, '誰か助け'), (2, 'て')]",False,False,2
+207.724,207.824,92,誰か助けて,"[(3, '誰か助'), (2, 'けて')]",False,False,2
+207.491,207.724,92,誰か助けて,"[(3, '誰か助'), (2, 'けて')]",False,False,2
+207.224,207.491,92,誰か助けて,"[(3, '誰か'), (2, '助けて')]",False,False,2
+207.024,207.224,92,誰か助けて,"[(3, '誰'), (2, 'か助けて')]",False,False,2
+206.757,207.024,92,誰か助けて,"[(3, '誰'), (2, 'か助けて')]",False,True,2
+240.424,243.86,92,貴方を待つガーネット…,"[(3, '貴方を待つガーネット…')]",True,False,2
+239.923,240.424,92,貴方を待つガーネット…,"[(3, '貴方を待つガーネッ'), (2, 'ト'), (3, '…')]",False,False,2
+238.889,239.923,92,貴方を待つガーネット…,"[(3, '貴方を待つガーネ'), (2, 'ット'), (3, '…')]",False,False,2
+238.522,238.889,92,貴方を待つガーネット…,"[(3, '貴方を待つガー'), (2, 'ネット'), (3, '…')]",False,False,2
+238.155,238.522,92,貴方を待つガーネット…,"[(3, '貴方を待つガ'), (2, 'ーネット'), (3, '…')]",False,False,2
+237.688,238.155,92,貴方を待つガーネット…,"[(3, '貴方を待つ'), (2, 'ガーネット'), (3, '…')]",False,False,2
+237.421,237.688,92,貴方を待つガーネット…,"[(3, '貴方を待'), (2, 'つガーネット'), (3, '…')]",False,False,2
+237.087,237.421,92,貴方を待つガーネット…,"[(3, '貴方を'), (2, '待つガーネット'), (3, '…')]",False,False,2
+236.553,237.087,92,貴方を待つガーネット…,"[(3, '貴方'), (2, 'を待つガーネット'), (3, '…')]",False,False,2
+236.32,236.553,92,貴方を待つガーネット…,"[(3, '貴方'), (2, 'を待つガーネット'), (3, '…')]",False,False,2
+235.986,236.32,92,貴方を待つガーネット…,"[(3, '貴方'), (2, 'を待つガーネット'), (3, '…')]",False,True,2
+195.879,196.48,92,金銀財宝,"[(3, '金銀財宝')]",True,False,2
+195.746,195.879,92,金銀財宝,"[(3, '金銀財'), (2, '宝')]",False,False,2
+195.479,195.746,92,金銀財宝,"[(3, '金銀財'), (2, '宝')]",False,False,2
+195.245,195.479,92,金銀財宝,"[(3, '金銀'), (2, '財宝')]",False,False,2
+195.012,195.245,92,金銀財宝,"[(3, '金銀'), (2, '財宝')]",False,False,2
+194.878,195.012,92,金銀財宝,"[(3, '金'), (2, '銀財宝')]",False,False,2
+194.711,194.878,92,金銀財宝,"[(3, '金'), (2, '銀財宝')]",False,True,2
+65.149,66.15,92,開けてみて,"[(3, '開けてみて')]",True,False,2
+64.415,65.149,92,開けてみて,"[(3, '開けてみ'), (2, 'て')]",False,False,2
+63.947,64.415,92,開けてみて,"[(3, '開けて'), (2, 'みて')]",False,False,2
+63.714,63.947,92,開けてみて,"[(3, '開け'), (2, 'てみて')]",False,False,2
+62.946,63.714,92,開けてみて,"[(3, '開'), (2, 'けてみて')]",False,True,2
+9.159,11.028,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香る危なげな')]",True,False,2
+8.726,9.159,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香る危なげ'), (2, 'な')]",False,False,2
+8.392,8.726,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香る危な'), (2, 'げな')]",False,False,2
+8.025,8.392,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香る危'), (2, 'なげな')]",False,False,2
+7.758,8.025,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香る危'), (2, 'なげな')]",False,False,2
+7.458,7.758,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香る'), (2, '危なげな')]",False,False,2
+7.157,7.458,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香'), (2, 'る危なげな')]",False,False,2
+6.824,7.157,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に香'), (2, 'る危なげな')]",False,False,2
+6.523,6.824,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝に'), (2, '香る危なげな')]",False,False,2
+6.09,6.523,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝'), (2, 'に香る危なげな')]",False,False,2
+5.756,6.09,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘宝'), (2, 'に香る危なげな')]",False,False,2
+5.489,5.756,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱秘'), (2, '宝に香る危なげな')]",False,False,2
+4.355,5.489,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱'), (2, '秘宝に香る危なげな')]",False,False,2
+4.054,4.355,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す箱'), (2, '秘宝に香る危なげな')]",False,False,2
+3.821,4.054,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠す'), (2, '箱秘宝に香る危なげな')]",False,False,2
+3.52,3.821,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠'), (2, 'す箱秘宝に香る危なげな')]",False,False,2
+3.02,3.52,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を隠'), (2, 'す箱秘宝に香る危なげな')]",False,False,2
+2.553,3.02,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑を'), (2, '隠す箱秘宝に香る危なげな')]",False,False,2
+2.152,2.553,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑'), (2, 'を隠す箱秘宝に香る危なげな')]",False,False,2
+1.852,2.152,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅惑'), (2, 'を隠す箱秘宝に香る危なげな')]",False,False,2
+1.518,1.852,92,魅惑を隠す箱秘宝に香る危なげな,"[(3, '魅'), (2, '惑を隠す箱秘宝に香る危なげな')]",False,True,2
+181.999,182.466,85,（kaboom...）,"[(3, '（kaboom...）')]",True,False,2
+181.732,181.999,85,（kaboom...）,"[(3, '（ka'), (2, 'boom'), (3, '...）')]",False,False,2
+181.999,182.466,7,（kaboom...）,"[(3, '（kaboom...）')]",False,False,2
+181.732,181.999,7,（kaboom...）,"[(3, '（ka'), (2, 'boom'), (3, '...）')]",False,True,2
+170.12,170.42,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああああああああ！！！！！！！！！）')]",True,False,2
+169.82,170.12,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああああああああ'), (2, 'あ'), (3, '！！！！！！！！！）')]",False,False,2
+169.52,169.82,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああああああ'), (2, 'ああ'), (3, '！！！！！！！！！）')]",False,False,2
+169.219,169.52,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああああああ'), (2, 'あああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.919,169.219,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああああ'), (2, 'ああああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.619,168.919,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああああ'), (2, 'あああああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.318,168.619,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああ'), (2, 'ああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.018,168.318,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああ'), (2, 'あああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+167.718,168.018,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああ'), (2, 'ああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+167.417,167.718,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああ'), (2, 'あああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+167.117,167.417,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああ'), (2, 'ああああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+166.817,167.117,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああ'), (2, 'あああああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+166.517,166.817,92,（あああああああああああああ！！！！！！！！！）,"[(3, '（あ'), (2, 'ああああああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+170.12,170.42,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああああああああ！！！！！！！！！）')]",False,False,2
+169.82,170.12,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああああああああ'), (2, 'あ'), (3, '！！！！！！！！！）')]",False,False,2
+169.52,169.82,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああああああ'), (2, 'ああ'), (3, '！！！！！！！！！）')]",False,False,2
+169.219,169.52,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああああああ'), (2, 'あああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.919,169.219,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああああ'), (2, 'ああああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.619,168.919,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああああ'), (2, 'あああああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.318,168.619,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああああ'), (2, 'ああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+168.018,168.318,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああああ'), (2, 'あああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+167.718,168.018,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああああ'), (2, 'ああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+167.417,167.718,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああああ'), (2, 'あああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+167.117,167.417,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（あああ'), (2, 'ああああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+166.817,167.117,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（ああ'), (2, 'あああああああああああ'), (3, '！！！！！！！！！）')]",False,False,2
+166.517,166.817,0,（あああああああああああああ！！！！！！！！！）,"[(3, '（あ'), (2, 'ああああああああああああ'), (3, '！！！！！！！！！）')]",False,True,2
+67.117,68.986,0,（あっはっはっは…❤）,"[(3, '（あっはっはっは…❤）')]",True,False,2
+66.917,67.117,0,（あっはっはっは…❤）,"[(3, '（あっはっはっ'), (2, 'は'), (3, '…❤）')]",False,False,2
+66.683,66.917,0,（あっはっはっは…❤）,"[(3, '（あっはっ'), (2, 'はっは'), (3, '…❤）')]",False,False,2
+66.15,66.683,0,（あっはっはっは…❤）,"[(3, '（あっ'), (2, 'はっはっは'), (3, '…❤）')]",False,True,2
+172.723,172.99,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）')]",True,False,2
+172.456,172.723,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (2, 'おﾞ'), (3, '）')]",False,False,2
+172.189,172.456,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞ'), (2, 'おﾞおﾞ'), (3, '）')]",False,False,2
+171.955,172.189,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞ'), (2, 'おﾞおﾞおﾞ'), (3, '）')]",False,False,2
+171.688,171.955,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞ'), (2, 'おﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+171.421,171.688,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞ'), (2, 'おﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+171.155,171.421,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞ'), (2, 'おﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+170.888,171.155,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞ'), (2, 'おﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+170.721,170.888,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞ'), (2, 'ろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+170.42,170.721,92,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞ'), (2, 'けﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+172.723,172.99,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）')]",False,False,2
+172.456,172.723,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (2, 'おﾞ'), (3, '）')]",False,False,2
+172.189,172.456,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞ'), (2, 'おﾞおﾞ'), (3, '）')]",False,False,2
+171.955,172.189,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞおﾞ'), (2, 'おﾞおﾞおﾞ'), (3, '）')]",False,False,2
+171.688,171.955,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞおﾞ'), (2, 'おﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+171.421,171.688,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞおﾞ'), (2, 'おﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+171.155,171.421,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞおﾞ'), (2, 'おﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+170.888,171.155,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞろﾞ'), (2, 'おﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+170.721,170.888,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞけﾞ'), (2, 'ろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,False,2
+170.42,170.721,0,（あﾞけﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ）,"[(3, '（あﾞ'), (2, 'けﾞろﾞおﾞおﾞおﾞおﾞおﾞおﾞおﾞ'), (3, '）')]",False,True,2
+244.394,246.93,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…きみたち…あけて～！！）')]",True,False,2
+244.161,244.394,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…きみたち…あけ'), (2, 'て～'), (3, '！！）')]",False,False,2
+243.86,244.161,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…きみたち…あ'), (2, 'けて～'), (3, '！！）')]",False,False,2
+243.06,243.86,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…きみたち…'), (2, 'あけて～'), (3, '！！）')]",False,False,2
+242.893,243.06,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…きみた'), (2, 'ち'), (3, '…'), (2, 'あけて～'), (3, '！！）')]",False,False,2
+242.726,242.893,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…きみ'), (2, 'たち'), (3, '…'), (2, 'あけて～'), (3, '！！）')]",False,False,2
+242.593,242.726,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…き'), (2, 'みたち'), (3, '…'), (2, 'あけて～'), (3, '！！）')]",False,False,2
+241.825,242.593,7,（きみ…きみたち…あけて～！！）,"[(3, '（きみ…'), (2, 'きみたち'), (3, '…'), (2, 'あけて～'), (3, '！！）')]",False,False,2
+241.625,241.825,7,（きみ…きみたち…あけて～！！）,"[(3, '（き'), (2, 'み'), (3, '…'), (2, 'きみたち'), (3, '…'), (2, 'あけて～'), (3, '！！）')]",False,True,2
+23.574,24.441,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いってあげるべきかなぁ…？）')]",True,False,2
+23.44,23.574,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いってあげるべきか'), (2, 'なぁ'), (3, '…？）')]",False,False,2
+23.34,23.44,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いってあげるべき'), (2, 'かなぁ'), (3, '…？）')]",False,False,2
+23.24,23.34,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いってあげるべ'), (2, 'きかなぁ'), (3, '…？）')]",False,False,2
+23.14,23.24,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いってあげる'), (2, 'べきかなぁ'), (3, '…？）')]",False,False,2
+23.073,23.14,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いってあげ'), (2, 'るべきかなぁ'), (3, '…？）')]",False,False,2
+22.94,23.073,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いってあ'), (2, 'げるべきかなぁ'), (3, '…？）')]",False,False,2
+22.873,22.94,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いって'), (2, 'あげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.806,22.873,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (3, 'いっ'), (2, 'てあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.706,22.806,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.473,22.706,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちになん'), (2, 'て'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.373,22.473,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたちに'), (2, 'なんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.272,22.373,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみたち'), (2, 'になんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.139,22.272,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみた'), (2, 'ちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.039,22.139,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらきみ'), (2, 'たちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.972,22.039,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたらき'), (2, 'みたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.805,21.972,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけたら'), (2, 'きみたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.739,21.805,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけた'), (2, 'らきみたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.605,21.739,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあけ'), (2, 'たらきみたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.538,21.605,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これあ'), (2, 'けたらきみたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.438,21.538,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（これ'), (2, 'あけたらきみたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.238,21.438,0,（これあけたらきみたちになんていってあげるべきかなぁ…？）,"[(3, '（こ'), (2, 'れあけたらきみたちになんて'), (2, 'いってあげるべきかなぁ'), (3, '…？）')]",False,True,2
+23.574,24.441,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言ってあげるべきかなぁ…？）')]",True,False,2
+23.44,23.574,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言ってあげるべきか'), (2, 'なぁ'), (3, '…？）')]",False,False,2
+23.34,23.44,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言ってあげるべき'), (2, 'かなぁ'), (3, '…？）')]",False,False,2
+23.24,23.34,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言ってあげるべ'), (2, 'きかなぁ'), (3, '…？）')]",False,False,2
+23.14,23.24,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言ってあげる'), (2, 'べきかなぁ'), (3, '…？）')]",False,False,2
+23.073,23.14,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言ってあげ'), (2, 'るべきかなぁ'), (3, '…？）')]",False,False,2
+22.94,23.073,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言ってあ'), (2, 'げるべきかなぁ'), (3, '…？）')]",False,False,2
+22.873,22.94,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言って'), (2, 'あげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.806,22.873,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて言っ'), (2, 'てあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.706,22.806,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになんて'), (2, '言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.473,22.706,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちになん'), (2, 'て言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.373,22.473,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たちに'), (2, 'なんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.272,22.373,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君たち'), (2, 'になんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.139,22.272,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君た'), (2, 'ちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+22.039,22.139,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君'), (2, 'たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.972,22.039,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら君'), (2, 'たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.805,21.972,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けたら'), (2, '君たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.739,21.805,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開けた'), (2, 'ら君たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.605,21.739,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開け'), (2, 'たら君たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.538,21.605,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ開'), (2, 'けたら君たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.438,21.538,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（これ'), (2, '開けたら君たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,False,2
+21.238,21.438,92,（これ開けたら君たちになんて言ってあげるべきかなぁ…？）,"[(3, '（こ'), (2, 'れ開けたら君たちになんて言ってあげるべきかなぁ'), (3, '…？）')]",False,True,2
+165.582,166.517,85,（さもなきゃ）,"[(3, '（さもなきゃ）')]",True,False,2
+164.681,165.582,85,（さもなきゃ）,"[(3, '（さもな'), (2, 'きゃ'), (3, '）')]",False,False,2
+164.214,164.681,85,（さもなきゃ）,"[(3, '（さも'), (2, 'なきゃ'), (3, '）')]",False,False,2
+163.747,164.214,85,（さもなきゃ）,"[(3, '（さ'), (2, 'もなきゃ'), (3, '）')]",False,False,2
+165.582,166.517,7,（さもなきゃ）,"[(3, '（さもなきゃ）')]",False,False,2
+164.681,165.582,7,（さもなきゃ）,"[(3, '（さもな'), (2, 'きゃ'), (3, '）')]",False,False,2
+164.214,164.681,7,（さもなきゃ）,"[(3, '（さも'), (2, 'なきゃ'), (3, '）')]",False,False,2
+163.747,164.214,7,（さもなきゃ）,"[(3, '（さ'), (2, 'もなきゃ'), (3, '）')]",False,True,2
+133.25,134.184,0,（ななつのたいかいを）,"[(3, '（ななつのたいかいを）')]",True,False,2
+133.083,133.25,0,（ななつのたいかいを）,"[(3, '（ななつのたいかい'), (2, 'を'), (3, '）')]",False,False,2
+132.95,133.083,0,（ななつのたいかいを）,"[(3, '（ななつのたいか'), (2, 'いを'), (3, '）')]",False,False,2
+132.816,132.95,0,（ななつのたいかいを）,"[(3, '（ななつのたい'), (2, 'かいを'), (3, '）')]",False,False,2
+132.683,132.816,0,（ななつのたいかいを）,"[(3, '（ななつのた'), (2, 'いかいを'), (3, '）')]",False,False,2
+132.349,132.683,0,（ななつのたいかいを）,"[(3, '（ななつの'), (2, 'たいかいを'), (3, '）')]",False,False,2
+131.415,132.349,0,（ななつのたいかいを）,"[(3, '（ななつ'), (2, 'のたいかいを'), (3, '）')]",False,False,2
+130.948,131.415,0,（ななつのたいかいを）,"[(3, '（なな'), (2, 'つのたいかいを'), (3, '）')]",False,False,2
+130.447,130.948,0,（ななつのたいかいを）,"[(3, '（な'), (2, 'なつのたいかいを'), (3, '）')]",False,True,2
+148.065,148.932,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそうぞうしてんの）')]",True,False,2
+147.965,148.065,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそうぞうしてん'), (2, 'の'), (3, '）')]",False,False,2
+147.764,147.965,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそうぞうして'), (2, 'んの'), (3, '）')]",False,False,2
+147.631,147.764,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそうぞうし'), (2, 'てんの'), (3, '）')]",False,False,2
+147.564,147.631,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそうぞう'), (2, 'してんの'), (3, '）')]",False,False,2
+147.431,147.564,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそうぞ'), (2, 'うしてんの'), (3, '）')]",False,False,2
+147.297,147.431,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそう'), (2, 'ぞうしてんの'), (3, '）')]",False,False,2
+147.097,147.297,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなにそ'), (2, 'うぞうしてんの'), (3, '）')]",False,False,2
+146.63,147.097,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからなに'), (2, 'そうぞうしてんの'), (3, '）')]",False,False,2
+146.163,146.63,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどからな'), (2, 'にそうぞうしてんの'), (3, '）')]",False,False,2
+146.029,146.163,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどから'), (2, 'なにそうぞうしてんの'), (3, '）')]",False,False,2
+145.929,146.029,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーどか'), (2, 'らなにそうぞうしてんの'), (3, '）')]",False,False,2
+145.829,145.929,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわーど'), (2, 'からなにそうぞうしてんの'), (3, '）')]",False,False,2
+145.696,145.829,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またってわー'), (2, 'どからなにそうぞうしてんの'), (3, '）')]",False,False,2
+145.562,145.696,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（またって'), (2, 'わーどからなにそうぞうしてんの'), (3, '）')]",False,False,2
+145.395,145.562,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（また'), (2, 'ってわーどからなにそうぞうしてんの'), (3, '）')]",False,False,2
+145.262,145.395,0,（またってわーどからなにそうぞうしてんの）,"[(3, '（ま'), (2, 'たってわーどからなにそうぞうしてんの'), (3, '）')]",False,True,2
+140.691,141.625,0,（またにかけすすめ）,"[(3, '（またにかけすすめ）')]",True,False,2
+140.524,140.691,0,（またにかけすすめ）,"[(3, '（またにかけすす'), (2, 'め'), (3, '）')]",False,False,2
+140.39,140.524,0,（またにかけすすめ）,"[(3, '（またにかけす'), (2, 'すめ'), (3, '）')]",False,False,2
+140.09,140.39,0,（またにかけすすめ）,"[(3, '（またにかけ'), (2, 'すすめ'), (3, '）')]",False,False,2
+139.69,140.09,0,（またにかけすすめ）,"[(3, '（またにか'), (2, 'けすすめ'), (3, '）')]",False,False,2
+138.822,139.69,0,（またにかけすすめ）,"[(3, '（またに'), (2, 'かけすすめ'), (3, '）')]",False,False,2
+138.322,138.822,0,（またにかけすすめ）,"[(3, '（また'), (2, 'にかけすすめ'), (3, '）')]",False,False,2
+137.855,138.322,0,（またにかけすすめ）,"[(3, '（ま'), (2, 'たにかけすすめ'), (3, '）')]",False,True,2
+67.117,68.986,92,（アッハッハッハ…❤）,"[(3, '（アッハッハッハ…❤）')]",True,False,2
+66.917,67.117,92,（アッハッハッハ…❤）,"[(3, '（アッハッハッ'), (2, 'ハ'), (3, '…❤）')]",False,False,2
+66.683,66.917,92,（アッハッハッハ…❤）,"[(3, '（アッハッ'), (2, 'ハッハ'), (3, '…❤）')]",False,False,2
+66.15,66.683,92,（アッハッハッハ…❤）,"[(3, '（アッ'), (2, 'ハッハッハ'), (3, '…❤）')]",False,True,2
+244.394,246.93,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…キミたち…開けて～！！）')]",True,False,2
+244.161,244.394,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…キミたち…開け'), (2, 'て～'), (3, '！！）')]",False,False,2
+243.86,244.161,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…キミたち…開'), (2, 'けて～'), (3, '！！）')]",False,False,2
+243.06,243.86,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…キミたち…'), (2, '開けて～'), (3, '！！）')]",False,False,2
+242.893,243.06,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…キミた'), (2, 'ち'), (3, '…'), (2, '開けて～'), (3, '！！）')]",False,False,2
+242.726,242.893,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…キミ'), (2, 'たち'), (3, '…'), (2, '開けて～'), (3, '！！）')]",False,False,2
+242.593,242.726,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…キ'), (2, 'ミたち'), (3, '…'), (2, '開けて～'), (3, '！！）')]",False,False,2
+241.825,242.593,85,（キミ…キミたち…開けて～！！）,"[(3, '（キミ…'), (2, 'キミたち'), (3, '…'), (2, '開けて～'), (3, '！！）')]",False,False,2
+241.625,241.825,85,（キミ…キミたち…開けて～！！）,"[(3, '（キ'), (2, 'ミ'), (3, '…'), (2, 'キミたち'), (3, '…'), (2, '開けて～'), (3, '！！）')]",False,True,2
+133.25,134.184,92,（七つの大海を）,"[(3, '（七つの大海を）')]",True,False,2
+133.083,133.25,92,（七つの大海を）,"[(3, '（七つの大海'), (2, 'を'), (3, '）')]",False,False,2
+132.95,133.083,92,（七つの大海を）,"[(3, '（七つの大海'), (2, 'を'), (3, '）')]",False,False,2
+132.816,132.95,92,（七つの大海を）,"[(3, '（七つの大'), (2, '海を'), (3, '）')]",False,False,2
+132.683,132.816,92,（七つの大海を）,"[(3, '（七つの大'), (2, '海を'), (3, '）')]",False,False,2
+132.349,132.683,92,（七つの大海を）,"[(3, '（七つの'), (2, '大海を'), (3, '）')]",False,False,2
+131.415,132.349,92,（七つの大海を）,"[(3, '（七つ'), (2, 'の大海を'), (3, '）')]",False,False,2
+130.948,131.415,92,（七つの大海を）,"[(3, '（七'), (2, 'つの大海を'), (3, '）')]",False,False,2
+130.447,130.948,92,（七つの大海を）,"[(3, '（七'), (2, 'つの大海を'), (3, '）')]",False,True,2
+148.065,148.932,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想像してんの）')]",True,False,2
+147.965,148.065,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想像してん'), (2, 'の'), (3, '）')]",False,False,2
+147.764,147.965,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想像して'), (2, 'んの'), (3, '）')]",False,False,2
+147.631,147.764,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想像し'), (2, 'てんの'), (3, '）')]",False,False,2
+147.564,147.631,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想像'), (2, 'してんの'), (3, '）')]",False,False,2
+147.431,147.564,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想像'), (2, 'してんの'), (3, '）')]",False,False,2
+147.297,147.431,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想'), (2, '像してんの'), (3, '）')]",False,False,2
+147.097,147.297,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに想'), (2, '像してんの'), (3, '）')]",False,False,2
+146.63,147.097,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからなに'), (2, '想像してんの'), (3, '）')]",False,False,2
+146.163,146.63,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードからな'), (2, 'に想像してんの'), (3, '）')]",False,False,2
+146.029,146.163,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードから'), (2, 'なに想像してんの'), (3, '）')]",False,False,2
+145.929,146.029,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワードか'), (2, 'らなに想像してんの'), (3, '）')]",False,False,2
+145.829,145.929,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワード'), (2, 'からなに想像してんの'), (3, '）')]",False,False,2
+145.696,145.829,92,（股ってワードからなに想像してんの）,"[(3, '（股ってワー'), (2, 'ドからなに想像してんの'), (3, '）')]",False,False,2
+145.562,145.696,92,（股ってワードからなに想像してんの）,"[(3, '（股って'), (2, 'ワードからなに想像してんの'), (3, '）')]",False,False,2
+145.395,145.562,92,（股ってワードからなに想像してんの）,"[(3, '（股'), (2, 'ってワードからなに想像してんの'), (3, '）')]",False,False,2
+145.262,145.395,92,（股ってワードからなに想像してんの）,"[(3, '（股'), (2, 'ってワードからなに想像してんの'), (3, '）')]",False,True,2
+140.691,141.625,92,（股にかけ進め）,"[(3, '（股にかけ進め）')]",True,False,2
+140.524,140.691,92,（股にかけ進め）,"[(3, '（股にかけ進'), (2, 'め'), (3, '）')]",False,False,2
+140.39,140.524,92,（股にかけ進め）,"[(3, '（股にかけ進'), (2, 'め'), (3, '）')]",False,False,2
+140.09,140.39,92,（股にかけ進め）,"[(3, '（股にかけ'), (2, '進め'), (3, '）')]",False,False,2
+139.69,140.09,92,（股にかけ進め）,"[(3, '（股にか'), (2, 'け進め'), (3, '）')]",False,False,2
+138.822,139.69,92,（股にかけ進め）,"[(3, '（股に'), (2, 'かけ進め'), (3, '）')]",False,False,2
+138.322,138.822,92,（股にかけ進め）,"[(3, '（股'), (2, 'にかけ進め'), (3, '）')]",False,False,2
+137.855,138.322,92,（股にかけ進め）,"[(3, '（股'), (2, 'にかけ進め'), (3, '）')]",False,True,2
