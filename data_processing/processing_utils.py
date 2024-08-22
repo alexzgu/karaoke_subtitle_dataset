@@ -68,12 +68,16 @@ def compute_ref_start_end(df: pd.DataFrame) -> pd.DataFrame:
     :param df: with 'unformatted' column
     :return: modified df with 'ref_start' and 'ref_end' columns
     """
-    df['ref_start'] = (df['unformatted'] != df['unformatted'].shift(1)) | (df['line'] != df['line'].shift(1)) | (abs(df['start'] - df['start'].shift(1)) > 0.5)
-    df['time_diff'] = abs(df['start'] - df['start'].shift(1)) > 0.5
-    df.loc[0, 'ref_start'] = True  # first row
-
+    df['time_diff'] = df['end'].sub(df['start'].shift(1)).abs().gt(0.5)
+    df['unf_diff'] = df['unformatted'] != df['unformatted'].shift(1).fillna(True)
+    df['line_diff'] = df['line'] != df['line'].shift(1).fillna(True)
+    df['ref_start'] = (
+            (df['unformatted'].ne(df['unformatted'].shift(1))) |
+            (df['line'].ne(df['line'].shift(1))) |
+            (df['end'].sub(df['start'].shift(1)).abs().gt(0.5)) |
+            (df.index == 0)
+    )
     df['ref_end'] = df['ref_start'].shift(-1)
-    df.loc[df.index[-1], 'ref_end'] = True  # last row
 
     return df
 
@@ -142,15 +146,9 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
     :return:
     """
     # prev_segments column
-    df['prev_segments'] = pd.Series(dtype=df['segments'].dtype)
-    df['prev_segments'] = df['segments'].shift(1)
-    # for the first row, prev_segments is the same as segments
-    df.loc[df.index[0:], 'prev_segments'] = df.loc[df.index[0:], 'segments']
+    df['prev_segments'] = df['segments'].shift(1).fillna(df['segments'])
     # next_segments column
-    df['next_segments'] = pd.Series(dtype=df['segments'].dtype)
-    df['next_segments'] = df['segments'].shift(-1)
-    # for the last row, next_segments is the same as segments
-    df.loc[df.index[-1:], 'next_segments'] = df.loc[df.index[-1:], 'segments']
+    df['next_segments'] = df['segments'].shift(-1).fillna(df['segments'])
 
     def helper_token(row):
         if row['ref_end']:
@@ -158,11 +156,11 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
                 # string with all characters from segments
                 return ''.join([char for _, char in row['segments']])
             ref_idx = compare_character_segments(row['segments'], row['prev_segments'])[1]
-            if ref_idx == len(row['segments'])-1:
-                return "<dupe>"
+            # if ref_idx == len(row['segments'])-1:
+            #    return "<dupe>"
 
             # return a string containing everything in segments before the ref_idx
-            return str(ref_idx)  # ''.join([char for _, char in row['segments'][ref_idx-1:]])
+            return ''.join([char for _, char in row['segments'][:ref_idx-1]])
         else:
             return compare_character_segments(row['next_segments'], row['segments'])[0]
 
