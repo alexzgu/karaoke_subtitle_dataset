@@ -11,12 +11,13 @@ def process_file(f) -> pd.DataFrame or None:
         return None
 
     df = create_segments(df)
+    df = clean_segments(df)
     df = df.drop(columns=['position', 'text'])  # !!! DEBUGGING PURPOSES ONLY
-    df = compute_counts(df)
+    df = create_character_segments(df)
 
-    df = compute_common_number(df)
-
-    df = df.drop(columns=['counts_ref', 'counts'])
+    df = df.sort_values(by=['unformatted', 'line', 'start'], ascending=[True, False, False]).reset_index(drop=True)
+    df = compute_ref_start_end(df)
+    df = generate_tokens(df)
 
     return df
 
