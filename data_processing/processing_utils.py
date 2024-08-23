@@ -112,7 +112,7 @@ def create_character_segments(df):
     return df
 
 
-def compare_character_segments(list_a, list_b, uwu=False):
+def compare_character_segments(list_a, list_b):
     """
     Takes two lists of (char, int) tuples and returns a string containing the characters
     where the integer values differ between the two lists.
@@ -126,16 +126,13 @@ def compare_character_segments(list_a, list_b, uwu=False):
     for (int_a, char_a), (int_b, char_b) in zip(list_a, list_b):
         i += 1
         if char_a != char_b:
-            raise ValueError(f"Character mismatch bwn lists\n{list_a}\nand\n{list_b}\nat index {i} and uwu={uwu}")
+            raise ValueError(f"Character mismatch bwn lists\n{list_a}\nand\n{list_b}\nat index {i}")
         if int_a != int_b:
             if first_idx is None:
                 first_idx = i
             diff_chars.append(char_a)
     if first_idx is None:
-        first_idx = i
-    if uwu:
-        if first_idx == i:
-            print(f"hmmm...\n{list_a}\nand\n{list_b}")
+        first_idx = -1
     return ''.join(diff_chars), first_idx
 
 
@@ -156,13 +153,16 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
                 # string with all characters from segments
                 return ''.join([char for _, char in row['segments']])
             ref_idx = compare_character_segments(row['segments'], row['prev_segments'])[1]
-            # if ref_idx == len(row['segments'])-1:
-            #    return "<dupe>"
+            if ref_idx == -1:
+                return "<dupe_ref_end>"
 
             # return a string containing everything in segments before the ref_idx
             return ''.join([char for _, char in row['segments'][:ref_idx-1]])
         else:
-            return compare_character_segments(row['next_segments'], row['segments'])[0]
+            text, ref_idx = compare_character_segments(row['next_segments'], row['segments'])
+            if ref_idx == -1:
+                return "<dupe>"
+            return text
 
     df['token'] = df.apply(helper_token, axis=1)
 
