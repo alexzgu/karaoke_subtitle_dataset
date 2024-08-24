@@ -11,10 +11,7 @@ def process_file(f) -> pd.DataFrame or None:
         return None
 
     df = convert_segments_to_tuples(df)
-    df = clean_segments(df)
-
-    df = create_remainders(df)
-    df = collapse_similar_columns(df)
+    df = process_duplicates(df)
 
     return df
 

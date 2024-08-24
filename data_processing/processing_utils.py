@@ -78,6 +78,8 @@ def compute_ref_start_end(df: pd.DataFrame) -> pd.DataFrame:
             (df.index == 0)
     )
     df['ref_end'] = df['ref_start'].shift(-1)
+    # set last row ref_end to True
+    df.loc[df.index[-1], 'ref_end'] = True
 
     return df
 
@@ -157,7 +159,10 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
                 return "<dupe_ref_end>"
 
             # return a string containing everything in segments before the ref_idx
-            return ''.join([char for _, char in row['segments'][:ref_idx-1]])
+            output = ''.join([char for _, char in row['segments'][:ref_idx-1]])
+            if output == "":
+                return "<dupe_ref_end>"
+            return output
         else:
             text, ref_idx = compare_character_segments(row['next_segments'], row['segments'])
             if ref_idx == -1:
@@ -166,4 +171,30 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
 
     df['token'] = df.apply(helper_token, axis=1)
 
+    # drop columns
+    df = df.drop(columns=['prev_segments', 'next_segments', 'time_diff', 'unf_diff', 'line_diff'])
+
+    return df
+
+
+def process_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+    # dupe boolean column
+    def dupe_helper(input_row) -> bool:
+        if input_row['token'] == '<dupe>':
+            return True
+        if input_row['token'] == '<dupe_ref_end>':
+            return True
+        return False
+    df['dupe'] = df.apply(dupe_helper, axis=1)
+    # iterate through the df and replace any row with token = "<dupe>" with
+    # the token of the last row with dupe = False, which is not necessarily the previous row
+    last_non_dupe_token = None
+    for index, row in df[::-1].iterrows():
+        if row['token'] != '<dupe>':
+            last_non_dupe_token = row['token']
+        elif last_non_dupe_token is not None:
+            df.at[index, 'token'] = last_non_dupe_token
+
+    # process <dupe_ref_end> tokens
+    # [insert code here!!!]
     return df
