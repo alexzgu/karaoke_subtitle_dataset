@@ -21,6 +21,7 @@ def process_file(f) -> pd.DataFrame or None:
         return None
 
     df = df.drop(columns=['ref_start', 'ref_end', 'dupe', 'segments', 'unformatted'])
+    df = df.sort_values(by=['start'], ascending=[True]).reset_index(drop=True)
     return df
 
 
