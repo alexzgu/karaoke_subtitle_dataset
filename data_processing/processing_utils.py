@@ -196,5 +196,31 @@ def process_duplicates(df: pd.DataFrame) -> pd.DataFrame:
             df.at[index, 'token'] = last_non_dupe_token
 
     # process <dupe_ref_end> tokens
-    # [insert code here!!!]
+    # iterate through dataframe, keep track of the token of the last row seen
+    # with 'token' != "<dupe_ref_end>" (denoted token_last_seen),
+    # if a row with "<dupe_ref_end>" is found, then...
+    # if the row has ref_start == True, then set its token equal to the value in its 'unformatted' column
+    # else, set its token to token_last_seen
+
+    token_last_seen = None
+    for index, row in df.iterrows():
+        if row['token'] != '<dupe_ref_end>':
+            token_last_seen = row['token']
+        elif token_last_seen is not None:
+            if row['ref_start']:
+                df.at[index, 'token'] = row['unformatted']
+            else:
+                df.at[index, 'token'] = token_last_seen
+        else:
+            # print(df.loc[index])
+            # raise ValueError("No token_last_seen found for <dupe_ref_end> token.")
+            df.at[index, 'token'] = row['unformatted']
+
+    return df
+
+
+def pair_lines(df: pd.DataFrame) -> pd.DataFrame:
+
+    #
+
     return df

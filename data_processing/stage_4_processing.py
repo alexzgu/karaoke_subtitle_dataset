@@ -20,9 +20,16 @@ def process_file(f) -> pd.DataFrame or None:
         print(f"Skipping {f.name.split('/')[-1]} because it has less than 3 rows.")
         return None
 
-    df = df.drop(columns=['ref_start', 'ref_end', 'dupe', 'segments', 'unformatted'])
-    df = df.sort_values(by=['start'], ascending=[True]).reset_index(drop=True)
-    df = df[df['line']!=-1].copy()
+    # df = df.drop(columns=['ref_start', 'ref_end', 'dupe', 'segments', 'unformatted'])
+    # df = df.sort_values(by=['start', 'line'], ascending=[True, False]).reset_index(drop=True)
+
+    # df = df[df['line']!=-1].copy()
+
+    # pair lines
+    df = pair_lines(df)
+    # remove punctuation
+
+
     return df
 
 

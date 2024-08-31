@@ -13,6 +13,9 @@ def process_file(f) -> pd.DataFrame or None:
     df = convert_segments_to_tuples(df)
     df = process_duplicates(df)
 
+    df = df.drop(columns=['ref_start', 'ref_end', 'dupe', 'segments'])
+    df = df.sort_values(by=['start', 'unformatted', 'line'], ascending=[True, True, False]).reset_index(drop=True)
+
     return df
 
 
