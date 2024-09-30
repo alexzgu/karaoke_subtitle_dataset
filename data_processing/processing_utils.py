@@ -219,8 +219,8 @@ def process_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def pair_lines(df: pd.DataFrame) -> pd.DataFrame:
+def filter_tokens(df: pd.DataFrame) -> pd.DataFrame:
 
-    #
+    # remove all characters that
 
     return df

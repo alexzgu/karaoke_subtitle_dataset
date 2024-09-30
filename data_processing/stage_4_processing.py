@@ -26,7 +26,7 @@ def process_file(f) -> pd.DataFrame or None:
     # df = df[df['line']!=-1].copy()
 
     # pair lines
-    df = pair_lines(df)
+    # df = pair_lines(df)
     # remove punctuation
 
 

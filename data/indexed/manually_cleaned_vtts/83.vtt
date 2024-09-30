@@ -1,0 +1,1488 @@
+WEBVTT
+Kind: captions
+Language: ja
+Style:
+::cue(c.color96CDFF) { color: rgb(150,205,255);
+ }
+::cue(c.color98C9FD) { color: rgb(152,201,253);
+ }
+::cue(c.color9AC5FB) { color: rgb(154,197,251);
+ }
+::cue(c.color9CC1F9) { color: rgb(156,193,249);
+ }
+::cue(c.color9CC6F2) { color: rgb(156,198,242);
+ }
+::cue(c.color9FBDF6) { color: rgb(159,189,246);
+ }
+::cue(c.colorA0C3EB) { color: rgb(160,195,235);
+ }
+::cue(c.colorA1B9F4) { color: rgb(161,185,244);
+ }
+::cue(c.colorA1C1E8) { color: rgb(161,193,232);
+ }
+::cue(c.colorA2C1E7) { color: rgb(162,193,231);
+ }
+::cue(c.colorA3B5F2) { color: rgb(163,181,242);
+ }
+::cue(c.colorA3BFE5) { color: rgb(163,191,229);
+ }
+::cue(c.colorA4BEE2) { color: rgb(164,190,226);
+ }
+::cue(c.colorA5B2F0) { color: rgb(165,178,240);
+ }
+::cue(c.colorA5BDDF) { color: rgb(165,189,223);
+ }
+::cue(c.colorA7AEEE) { color: rgb(167,174,238);
+ }
+::cue(c.colorA9AAEC) { color: rgb(169,170,236);
+ }
+::cue(c.colorA9B9D7) { color: rgb(169,185,215);
+ }
+::cue(c.colorA9B9D8) { color: rgb(169,185,216);
+ }
+::cue(c.colorAAB8D6) { color: rgb(170,184,214);
+ }
+::cue(c.colorABA6EA) { color: rgb(171,166,234);
+ }
+::cue(c.colorACB6D1) { color: rgb(172,182,209);
+ }
+::cue(c.colorAEA2E7) { color: rgb(174,162,231);
+ }
+::cue(c.colorAEB4CF) { color: rgb(174,180,207);
+ }
+::cue(c.colorAFB3CC) { color: rgb(175,179,204);
+ }
+::cue(c.colorB09EE5) { color: rgb(176,158,229);
+ }
+::cue(c.colorB0B2CA) { color: rgb(176,178,202);
+ }
+::cue(c.colorB29AE3) { color: rgb(178,154,227);
+ }
+::cue(c.colorB3AFC4) { color: rgb(179,175,196);
+ }
+::cue(c.colorB496E1) { color: rgb(180,150,225);
+ }
+::cue(c.colorB5ADC0) { color: rgb(181,173,192);
+ }
+::cue(c.colorB6ABBD) { color: rgb(182,171,189);
+ }
+::cue(c.colorB7AABB) { color: rgb(183,170,187);
+ }
+::cue(c.colorB993D6) { color: rgb(185,147,214);
+ }
+::cue(c.colorB9A8B7) { color: rgb(185,168,183);
+ }
+::cue(c.colorBB91D0) { color: rgb(187,145,208);
+ }
+::cue(c.colorBC90CC) { color: rgb(188,144,204);
+ }
+::cue(c.colorBC90CE) { color: rgb(188,144,206);
+ }
+::cue(c.colorBCA5B1) { color: rgb(188,165,177);
+ }
+::cue(c.colorBD90CA) { color: rgb(189,144,202);
+ }
+::cue(c.colorBDA4B0) { color: rgb(189,164,176);
+ }
+::cue(c.colorBE8FC8) { color: rgb(190,143,200);
+ }
+::cue(c.colorBEA3AD) { color: rgb(190,163,173);
+ }
+::cue(c.colorBF8EC6) { color: rgb(191,142,198);
+ }
+::cue(c.colorC18CC0) { color: rgb(193,140,192);
+ }
+::cue(c.colorC1A0A7) { color: rgb(193,160,167);
+ }
+::cue(c.colorC28CBE) { color: rgb(194,140,190);
+ }
+::cue(c.colorC28CBF) { color: rgb(194,140,191);
+ }
+::cue(c.colorC29EA4) { color: rgb(194,158,164);
+ }
+::cue(c.colorC39EA2) { color: rgb(195,158,162);
+ }
+::cue(c.colorC48AB8) { color: rgb(196,138,184);
+ }
+::cue(c.colorC48BBA) { color: rgb(196,139,186);
+ }
+::cue(c.colorC49DA0) { color: rgb(196,157,160);
+ }
+::cue(c.colorC59C9F) { color: rgb(197,156,159);
+ }
+::cue(c.colorC689B4) { color: rgb(198,137,180);
+ }
+::cue(c.colorC68AB5) { color: rgb(198,138,181);
+ }
+::cue(c.colorC69B9D) { color: rgb(198,155,157);
+ }
+::cue(c.colorC888AF) { color: rgb(200,136,175);
+ }
+::cue(c.colorC89898) { color: rgb(200,152,152);
+ }
+::cue(c.colorCA87AB) { color: rgb(202,135,171);
+ }
+::cue(c.colorCA9795) { color: rgb(202,151,149);
+ }
+::cue(c.colorCB85A7) { color: rgb(203,133,167);
+ }
+::cue(c.colorCB86A9) { color: rgb(203,134,169);
+ }
+::cue(c.colorCD84A3) { color: rgb(205,132,163);
+ }
+::cue(c.colorCE938D) { color: rgb(206,147,141);
+ }
+::cue(c.colorCF839D) { color: rgb(207,131,157);
+ }
+::cue(c.colorCF839E) { color: rgb(207,131,158);
+ }
+::cue(c.colorCF918A) { color: rgb(207,145,138);
+ }
+::cue(c.colorD0829B) { color: rgb(208,130,155);
+ }
+::cue(c.colorD09088) { color: rgb(208,144,136);
+ }
+::cue(c.colorD18F86) { color: rgb(209,143,134);
+ }
+::cue(c.colorD28196) { color: rgb(210,129,150);
+ }
+::cue(c.colorD28E84) { color: rgb(210,142,132);
+ }
+::cue(c.colorD38093) { color: rgb(211,128,147);
+ }
+::cue(c.colorD47F90) { color: rgb(212,127,144);
+ }
+::cue(c.colorD47F92) { color: rgb(212,127,146);
+ }
+::cue(c.colorD48C81) { color: rgb(212,140,129);
+ }
+::cue(c.colorD57E8E) { color: rgb(213,126,142);
+ }
+::cue(c.colorD57E8F) { color: rgb(213,126,143);
+ }
+::cue(c.colorD77D8A) { color: rgb(215,125,138);
+ }
+::cue(c.colorD7897B) { color: rgb(215,137,123);
+ }
+::cue(c.colorD87C87) { color: rgb(216,124,135);
+ }
+::cue(c.colorD98776) { color: rgb(217,135,118);
+ }
+::cue(c.colorD9D9D9) { color: rgb(217,217,217);
+ }
+::cue(c.colorDB7A80) { color: rgb(219,122,128);
+ }
+::cue(c.colorDC797D) { color: rgb(220,121,125);
+ }
+::cue(c.colorDD797A) { color: rgb(221,121,122);
+ }
+::cue(c.colorDD797B) { color: rgb(221,121,123);
+ }
+::cue(c.colorDD826D) { color: rgb(221,130,109);
+ }
+::cue(c.colorDD826E) { color: rgb(221,130,110);
+ }
+::cue(c.colorDD836E) { color: rgb(221,131,110);
+ }
+::cue(c.colorDE7878) { color: rgb(222,120,120);
+ }
+::cue(c.colorDF7775) { color: rgb(223,119,117);
+ }
+::cue(c.colorE17670) { color: rgb(225,118,112);
+ }
+::cue(c.colorE17E65) { color: rgb(225,126,101);
+ }
+::cue(c.colorE27D63) { color: rgb(226,125,99);
+ }
+::cue(c.colorE3756C) { color: rgb(227,117,108);
+ }
+::cue(c.colorE37C60) { color: rgb(227,124,96);
+ }
+::cue(c.colorE37C61) { color: rgb(227,124,97);
+ }
+::cue(c.colorE47B60) { color: rgb(228,123,96);
+ }
+::cue(c.colorE57365) { color: rgb(229,115,101);
+ }
+::cue(c.colorE67264) { color: rgb(230,114,100);
+ }
+::cue(c.colorE67365) { color: rgb(230,115,101);
+ }
+::cue(c.colorE6795B) { color: rgb(230,121,91);
+ }
+::cue(c.colorE8705E) { color: rgb(232,112,94);
+ }
+::cue(c.colorE87756) { color: rgb(232,119,86);
+ }
+::cue(c.colorE9705C) { color: rgb(233,112,92);
+ }
+::cue(c.colorEA6F59) { color: rgb(234,111,89);
+ }
+::cue(c.colorEA6F5A) { color: rgb(234,111,90);
+ }
+::cue(c.colorEA705A) { color: rgb(234,112,90);
+ }
+::cue(c.colorEA7553) { color: rgb(234,117,83);
+ }
+::cue(c.colorEC6E55) { color: rgb(236,110,85);
+ }
+::cue(c.colorEC734F) { color: rgb(236,115,79);
+ }
+::cue(c.colorEE6D51) { color: rgb(238,109,81);
+ }
+::cue(c.colorEF6C4E) { color: rgb(239,108,78);
+ }
+::cue(c.colorEF7049) { color: rgb(239,112,73);
+ }
+::cue(c.colorF06B4B) { color: rgb(240,107,75);
+ }
+::cue(c.colorF06E46) { color: rgb(240,110,70);
+ }
+::cue(c.colorF26A45) { color: rgb(242,106,69);
+ }
+::cue(c.colorF26C42) { color: rgb(242,108,66);
+ }
+::cue(c.colorF36943) { color: rgb(243,105,67);
+ }
+::cue(c.colorF46A3E) { color: rgb(244,106,62);
+ }
+::cue(c.colorF5683F) { color: rgb(245,104,63);
+ }
+::cue(c.colorF5693C) { color: rgb(245,105,60);
+ }
+::cue(c.colorF6673C) { color: rgb(246,103,60);
+ }
+::cue(c.colorF7663A) { color: rgb(247,102,58);
+ }
+::cue(c.colorF76739) { color: rgb(247,103,57);
+ }
+::cue(c.colorF86638) { color: rgb(248,102,56);
+ }
+::cue(c.colorFA6432) { color: rgb(250,100,50);
+ }
+##
+
+00:00:03.387 --> 00:00:09.727 position:97% line:0%
+<c.color96CDFF>​h​</c><c.color9CC6F2>​o</c><c.colorA3BFE5>​l</c><c.colorA9B9D7>​o</c><c.colorB0B2CA>​l</c><c.colorB6ABBD>​i</c><c.colorBDA4B0>​v</c><c.colorC39EA2>​e </c><c.colorCA9795>​I</c><c.colorD09088>​D</c><c.colorD7897B>​O</c><c.colorDD826E>​L </c><c.colorE37C60>​P</c><c.colorEA7553>​R</c><c.colorF06E46>​O</c><c.colorF76739>​J</c><c.colorF86638>​E</c><c.colorF36943>​C</c><c.colorEF6C4E>​T </c><c.colorEA6F5A>​- </c><c.colorE67365>​S</c><c.colorE17670>​T</c><c.colorDD797B>​A</c><c.colorD87C87>​R</c><c.colorD47F92>​D</c><c.colorCF839D>​U</c><c.colorCB86A9>​S</c><c.colorC689B4>​T </c><c.colorC28CBF>​S</c><c.colorBD90CA>​O</c><c.colorB993D6>​N</c><c.colorB496E1>​G</c>
+
+00:00:03.387 --> 00:00:09.727 align:end size:50% position:50% line:14%
+<c.color96CDFF>​（​</c><c.colorAAB8D6>​ス</c><c.colorBEA3AD>​タ</c><c.colorD28E84>​ー</c><c.colorE6795B>​ダ</c><c.colorFA6432>​ス</c><c.colorEC6E55>​ト</c>
+
+00:00:03.387 --> 00:00:09.727 align:start size:31% position:69% line:14%
+<c.colorDE7878>​ソ​</c><c.colorD0829B>​ン</c><c.colorC28CBE>​グ</c><c.colorB496E1>​）</c>
+
+00:00:03.387 --> 00:00:06.457 line:78%
+<c.color96CDFF>​作​</c><c.colorAFB3CC>​詞</c><c.colorC89898>​: </c><c.colorE17E65>​r</c><c.colorFA6432>​i</c><c.colorE8705E>​c</c><c.colorD77D8A>​o</c><c.colorC68AB5>​n</c><c.colorB496E1>​o</c>
+
+00:00:03.387 --> 00:00:06.457 position:73%
+<c.color96CDFF>​作​</c><c.colorA0C3EB>​曲</c><c.colorA9B9D8>​・</c><c.colorB3AFC4>​編</c><c.colorBCA5B1>​曲</c><c.colorC69B9D>​: </c><c.colorCF918A>​酒</c><c.colorD98776>​井</c><c.colorE27D63>​拓</c><c.colorEC734F>​也</c><c.colorF5693C>​（</c><c.colorF7663A>​A</c><c.colorF06B4B>​r</c><c.colorE9705C>​t</c><c.colorE3756C>​e </c><c.colorDC797D>​R</c><c.colorD57E8E>​e</c><c.colorCF839E>​f</c><c.colorC888AF>​a</c><c.colorC18CC0>​c</c><c.colorBB91D0>​t</c><c.colorB496E1>​）</c>
+
+00:00:06.457 --> 00:00:09.727 position:66% line:78%
+<c.color96CDFF>​歌​</c><c.colorA1C1E8>​: </c><c.colorACB6D1>​不</c><c.colorB7AABB>​知</c><c.colorC29EA4>​火</c><c.colorCE938D>​フ</c><c.colorD98776>​レ</c><c.colorE47B60>​ア</c><c.colorEF7049>​, </c><c.colorFA6432>​天</c><c.colorF26A45>​音</c><c.colorEA6F59>​か</c><c.colorE3756C>​な</c><c.colorDB7A80>​た</c><c.colorD38093>​, </c><c.colorCB85A7>​常</c><c.colorC48BBA>​闇</c><c.colorBC90CE>​ト</c><c.colorB496E1>​ワ</c>
+
+00:00:15.399 --> 00:00:15.799 line:78%
+<c.colorFA6432>​画​</c><c.colorD9D9D9>​面越し今日も見えている</c>
+
+00:00:15.399 --> 00:00:15.799 line:0%
+<c.colorFA6432>​が​</c><c.colorD9D9D9>​めんごし きょう も みえている</c>
+
+00:00:15.799 --> 00:00:15.933 line:78%
+<c.colorFA6432>​画面​</c><c.colorD9D9D9>​越し今日も見えている</c>
+
+00:00:15.799 --> 00:00:15.933 line:0%
+<c.colorFA6432>​がめ​</c><c.colorD9D9D9>​んごし きょう も みえている</c>
+
+00:00:15.933 --> 00:00:16.000 line:78%
+<c.colorFA6432>​画面​</c><c.colorD9D9D9>​越し今日も見えている</c>
+
+00:00:15.933 --> 00:00:16.000 line:0%
+<c.colorFA6432>​がめん​</c><c.colorD9D9D9>​ごし きょう も みえている</c>
+
+00:00:16.000 --> 00:00:16.133 line:78%
+<c.colorFA6432>​画面越​</c><c.colorD9D9D9>​し今日も見えている</c>
+
+00:00:16.000 --> 00:00:16.133 line:0%
+<c.colorFA6432>​がめんご​</c><c.colorD9D9D9>​し きょう も みえている</c>
+
+00:00:16.133 --> 00:00:16.400 line:78%
+<c.colorFA6432>​画面越し​</c><c.colorD9D9D9>​今日も見えている</c>
+
+00:00:16.133 --> 00:00:16.400 line:0%
+<c.colorFA6432>​がめんごし ​</c><c.colorD9D9D9>​きょう も みえている</c>
+
+00:00:16.400 --> 00:00:16.567 line:78%
+<c.colorFA6432>​画面越し今日​</c><c.colorD9D9D9>​も見えている</c>
+
+00:00:16.400 --> 00:00:16.567 line:0%
+<c.colorFA6432>​がめんごし きょ​</c><c.colorD9D9D9>​う も みえている</c>
+
+00:00:16.567 --> 00:00:16.767 line:78%
+<c.colorFA6432>​画面越し今日​</c><c.colorD9D9D9>​も見えている</c>
+
+00:00:16.567 --> 00:00:16.767 line:0%
+<c.colorFA6432>​がめんごし きょう ​</c><c.colorD9D9D9>​も みえている</c>
+
+00:00:16.767 --> 00:00:16.934 line:78%
+<c.colorFA6432>​画面越し今日も​</c><c.colorD9D9D9>​見えている</c>
+
+00:00:16.767 --> 00:00:16.934 line:0%
+<c.colorFA6432>​がめんごし きょう も ​</c><c.colorD9D9D9>​みえている</c>
+
+00:00:16.934 --> 00:00:17.167 line:78%
+<c.colorFA6432>​画面越し今日も見​</c><c.colorD9D9D9>​えている</c>
+
+00:00:16.934 --> 00:00:17.167 line:0%
+<c.colorFA6432>​がめんごし きょう も み​</c><c.colorD9D9D9>​えている</c>
+
+00:00:17.167 --> 00:00:17.334 line:78%
+<c.colorFA6432>​画面越し今日も見え​</c><c.colorD9D9D9>​ている</c>
+
+00:00:17.167 --> 00:00:17.334 line:0%
+<c.colorFA6432>​がめんごし きょう も みえ​</c><c.colorD9D9D9>​ている</c>
+
+00:00:17.334 --> 00:00:17.768 line:78%
+<c.colorFA6432>​画面越し今日も見えて​</c><c.colorD9D9D9>​いる</c>
+
+00:00:17.334 --> 00:00:17.768 line:0%
+<c.colorFA6432>​がめんごし きょう も みえて​</c><c.colorD9D9D9>​いる</c>
+
+00:00:17.768 --> 00:00:17.935 line:78%
+<c.colorFA6432>​画面越し今日も見えてい​</c><c.colorD9D9D9>​る</c>
+
+00:00:17.768 --> 00:00:17.935 line:0%
+<c.colorFA6432>​がめんごし きょう も みえてい​</c><c.colorD9D9D9>​る</c>
+
+00:00:17.935 --> 00:00:18.669 line:78%
+<c.colorFA6432>​画面越し今日も見えている</c>
+
+00:00:17.935 --> 00:00:18.669 line:0%
+<c.colorFA6432>​がめんごし きょう も みえている</c>
+
+00:00:18.669 --> 00:00:18.836 line:78%
+<c.colorFA6432>​い​</c><c.colorD9D9D9>​つもと変わりない笑顔</c>
+
+00:00:18.669 --> 00:00:18.836 line:0%
+<c.colorFA6432>​い​</c><c.colorD9D9D9>​つも と かわりない えがお</c>
+
+00:00:18.836 --> 00:00:19.036 line:78%
+<c.colorFA6432>​いつ​</c><c.colorD9D9D9>​もと変わりない笑顔</c>
+
+00:00:18.836 --> 00:00:19.036 line:0%
+<c.colorFA6432>​いつ​</c><c.colorD9D9D9>​も と かわりない えがお</c>
+
+00:00:19.036 --> 00:00:19.169 line:78%
+<c.colorFA6432>​いつも​</c><c.colorD9D9D9>​と変わりない笑顔</c>
+
+00:00:19.036 --> 00:00:19.169 line:0%
+<c.colorFA6432>​いつも ​</c><c.colorD9D9D9>​と かわりない えがお</c>
+
+00:00:19.169 --> 00:00:19.436 line:78%
+<c.colorFA6432>​いつもと​</c><c.colorD9D9D9>​変わりない笑顔</c>
+
+00:00:19.169 --> 00:00:19.436 line:0%
+<c.colorFA6432>​いつも と ​</c><c.colorD9D9D9>​かわりない えがお</c>
+
+00:00:19.436 --> 00:00:19.636 line:78%
+<c.colorFA6432>​いつもと変​</c><c.colorD9D9D9>​わりない笑顔</c>
+
+00:00:19.436 --> 00:00:19.636 line:0%
+<c.colorFA6432>​いつも と か​</c><c.colorD9D9D9>​わりない えがお</c>
+
+00:00:19.636 --> 00:00:19.837 line:78%
+<c.colorFA6432>​いつもと変わ​</c><c.colorD9D9D9>​りない笑顔</c>
+
+00:00:19.636 --> 00:00:19.837 line:0%
+<c.colorFA6432>​いつも と かわ​</c><c.colorD9D9D9>​りない えがお</c>
+
+00:00:19.837 --> 00:00:20.037 line:78%
+<c.colorFA6432>​いつもと変わり​</c><c.colorD9D9D9>​ない笑顔</c>
+
+00:00:19.837 --> 00:00:20.037 line:0%
+<c.colorFA6432>​いつも と かわり​</c><c.colorD9D9D9>​ない えがお</c>
+
+00:00:20.037 --> 00:00:20.204 line:78%
+<c.colorFA6432>​いつもと変わりな​</c><c.colorD9D9D9>​い笑顔</c>
+
+00:00:20.037 --> 00:00:20.204 line:0%
+<c.colorFA6432>​いつも と かわりな​</c><c.colorD9D9D9>​い えがお</c>
+
+00:00:20.204 --> 00:00:20.404 line:78%
+<c.colorFA6432>​いつもと変わりない​</c><c.colorD9D9D9>​笑顔</c>
+
+00:00:20.204 --> 00:00:20.404 line:0%
+<c.colorFA6432>​いつも と かわりない ​</c><c.colorD9D9D9>​えがお</c>
+
+00:00:20.404 --> 00:00:20.771 line:78%
+<c.colorFA6432>​いつもと変わりない笑​</c><c.colorD9D9D9>​顔</c>
+
+00:00:20.404 --> 00:00:20.771 line:0%
+<c.colorFA6432>​いつも と かわりない え​</c><c.colorD9D9D9>​がお</c>
+
+00:00:20.771 --> 00:00:21.939 line:78%
+<c.colorFA6432>​いつもと変わりない笑顔</c>
+
+00:00:20.771 --> 00:00:20.971 line:0%
+<c.colorFA6432>​いつも と かわりない えが​</c><c.colorD9D9D9>​お</c>
+
+00:00:20.971 --> 00:00:21.939 line:0%
+<c.colorFA6432>​いつも と かわりない えがお</c>
+
+00:00:22.473 --> 00:00:22.706 line:78%
+<c.colorFA6432>​纏​</c><c.colorD9D9D9>​うそれは仮面か？</c>
+
+00:00:22.473 --> 00:00:22.706 line:0%
+<c.colorFA6432>​ま​</c><c.colorD9D9D9>​とう それ は かめん か？</c>
+
+00:00:22.706 --> 00:00:22.906 line:78%
+<c.colorFA6432>​纏​</c><c.colorD9D9D9>​うそれは仮面か？</c>
+
+00:00:22.706 --> 00:00:22.906 line:0%
+<c.colorFA6432>​まと​</c><c.colorD9D9D9>​う それ は かめん か？</c>
+
+00:00:22.906 --> 00:00:24.074 line:78%
+<c.colorFA6432>​纏う​</c><c.colorD9D9D9>​それは仮面か？</c>
+
+00:00:22.906 --> 00:00:24.074 line:0%
+<c.colorFA6432>​まとう ​</c><c.colorD9D9D9>​それ は かめん か？</c>
+
+00:00:24.074 --> 00:00:24.241 line:78%
+<c.colorFA6432>​纏うそ​</c><c.colorD9D9D9>​れは仮面か？</c>
+
+00:00:24.074 --> 00:00:24.241 line:0%
+<c.colorFA6432>​まとう そ​</c><c.colorD9D9D9>​れ は かめん か？</c>
+
+00:00:24.241 --> 00:00:24.441 line:78%
+<c.colorFA6432>​纏うそれ​</c><c.colorD9D9D9>​は仮面か？</c>
+
+00:00:24.241 --> 00:00:24.441 line:0%
+<c.colorFA6432>​まとう それ ​</c><c.colorD9D9D9>​は かめん か？</c>
+
+00:00:24.441 --> 00:00:24.775 line:78%
+<c.colorFA6432>​纏うそれは​</c><c.colorD9D9D9>​仮面か？</c>
+
+00:00:24.441 --> 00:00:24.775 line:0%
+<c.colorFA6432>​まとう それ は ​</c><c.colorD9D9D9>​かめん か？</c>
+
+00:00:24.775 --> 00:00:25.009 line:78%
+<c.colorFA6432>​纏うそれは仮​</c><c.colorD9D9D9>​面か？</c>
+
+00:00:24.775 --> 00:00:25.009 line:0%
+<c.colorFA6432>​まとう それ は か​</c><c.colorD9D9D9>​めん か？</c>
+
+00:00:25.009 --> 00:00:25.309 line:78%
+<c.colorFA6432>​纏うそれは仮面​</c><c.colorD9D9D9>​か？</c>
+
+00:00:25.009 --> 00:00:25.309 line:0%
+<c.colorFA6432>​まとう それ は かめ​</c><c.colorD9D9D9>​ん か？</c>
+
+00:00:25.309 --> 00:00:25.576 line:78%
+<c.colorFA6432>​纏うそれは仮面​</c><c.colorD9D9D9>​か？</c>
+
+00:00:25.309 --> 00:00:25.576 line:0%
+<c.colorFA6432>​まとう それ は かめん ​</c><c.colorD9D9D9>​か？</c>
+
+00:00:25.576 --> 00:00:26.343 line:78%
+<c.colorFA6432>​纏うそれは仮面か？</c>
+
+00:00:25.576 --> 00:00:26.343 line:0%
+<c.colorFA6432>​まとう それ は かめん か？</c>
+
+00:00:27.678 --> 00:00:27.945 line:78%
+<c.colorB496E1>​本​</c><c.colorD9D9D9>​当の自分を教えて</c>
+
+00:00:27.678 --> 00:00:27.945 line:0%
+<c.colorB496E1>​ほ​</c><c.colorD9D9D9>​んとう の じぶん を おしえて</c>
+
+00:00:27.945 --> 00:00:28.045 line:78%
+<c.colorB496E1>​本​</c><c.colorD9D9D9>​当の自分を教えて</c>
+
+00:00:27.945 --> 00:00:28.045 line:0%
+<c.colorB496E1>​ほん​</c><c.colorD9D9D9>​とう の じぶん を おしえて</c>
+
+00:00:28.045 --> 00:00:28.245 line:78%
+<c.colorB496E1>​本当​</c><c.colorD9D9D9>​の自分を教えて</c>
+
+00:00:28.045 --> 00:00:28.245 line:0%
+<c.colorB496E1>​ほんと​</c><c.colorD9D9D9>​う の じぶん を おしえて</c>
+
+00:00:28.245 --> 00:00:28.345 line:78%
+<c.colorB496E1>​本当​</c><c.colorD9D9D9>​の自分を教えて</c>
+
+00:00:28.245 --> 00:00:28.345 line:0%
+<c.colorB496E1>​ほんとう ​</c><c.colorD9D9D9>​の じぶん を おしえて</c>
+
+00:00:28.345 --> 00:00:28.645 line:78%
+<c.colorB496E1>​本当の​</c><c.colorD9D9D9>​自分を教えて</c>
+
+00:00:28.345 --> 00:00:28.645 line:0%
+<c.colorB496E1>​ほんとう の ​</c><c.colorD9D9D9>​じぶん を おしえて</c>
+
+00:00:28.645 --> 00:00:28.846 line:78%
+<c.colorB496E1>​本当の自​</c><c.colorD9D9D9>​分を教えて</c>
+
+00:00:28.645 --> 00:00:28.846 line:0%
+<c.colorB496E1>​ほんとう の じ​</c><c.colorD9D9D9>​ぶん を おしえて</c>
+
+00:00:28.846 --> 00:00:29.046 line:78%
+<c.colorB496E1>​本当の自分​</c><c.colorD9D9D9>​を教えて</c>
+
+00:00:28.846 --> 00:00:29.046 line:0%
+<c.colorB496E1>​ほんとう の じぶ​</c><c.colorD9D9D9>​ん を おしえて</c>
+
+00:00:29.046 --> 00:00:29.213 line:78%
+<c.colorB496E1>​本当の自分​</c><c.colorD9D9D9>​を教えて</c>
+
+00:00:29.046 --> 00:00:29.213 line:0%
+<c.colorB496E1>​ほんとう の じぶん ​</c><c.colorD9D9D9>​を おしえて</c>
+
+00:00:29.213 --> 00:00:29.413 line:78%
+<c.colorB496E1>​本当の自分を​</c><c.colorD9D9D9>​教えて</c>
+
+00:00:29.213 --> 00:00:29.413 line:0%
+<c.colorB496E1>​ほんとう の じぶん を ​</c><c.colorD9D9D9>​おしえて</c>
+
+00:00:29.413 --> 00:00:29.613 line:78%
+<c.colorB496E1>​本当の自分を教​</c><c.colorD9D9D9>​えて</c>
+
+00:00:29.413 --> 00:00:29.613 line:0%
+<c.colorB496E1>​ほんとう の じぶん を お​</c><c.colorD9D9D9>​しえて</c>
+
+00:00:29.613 --> 00:00:29.980 line:78%
+<c.colorB496E1>​本当の自分を教​</c><c.colorD9D9D9>​えて</c>
+
+00:00:29.613 --> 00:00:29.980 line:0%
+<c.colorB496E1>​ほんとう の じぶん を おし​</c><c.colorD9D9D9>​えて</c>
+
+00:00:29.980 --> 00:00:30.180 line:78%
+<c.colorB496E1>​本当の自分を教え​</c><c.colorD9D9D9>​て</c>
+
+00:00:29.980 --> 00:00:30.180 line:0%
+<c.colorB496E1>​ほんとう の じぶん を おしえ​</c><c.colorD9D9D9>​て</c>
+
+00:00:30.180 --> 00:00:30.914 line:78%
+<c.colorB496E1>​本当の自分を教えて</c>
+
+00:00:30.180 --> 00:00:30.914 line:0%
+<c.colorB496E1>​ほんとう の じぶん を おしえて</c>
+
+00:00:30.914 --> 00:00:31.115 line:78%
+<c.colorB496E1>​着​</c><c.colorD9D9D9>​飾りすまし顔じゃなく</c>
+
+00:00:30.914 --> 00:00:31.115 line:0%
+<c.colorB496E1>​き​</c><c.colorD9D9D9>​かざり すましがお じゃなく</c>
+
+00:00:31.115 --> 00:00:31.281 line:78%
+<c.colorB496E1>​着飾​</c><c.colorD9D9D9>​りすまし顔じゃなく</c>
+
+00:00:31.115 --> 00:00:31.281 line:0%
+<c.colorB496E1>​きか​</c><c.colorD9D9D9>​ざり すましがお じゃなく</c>
+
+00:00:31.281 --> 00:00:31.415 line:78%
+<c.colorB496E1>​着飾​</c><c.colorD9D9D9>​りすまし顔じゃなく</c>
+
+00:00:31.281 --> 00:00:31.415 line:0%
+<c.colorB496E1>​きかざ​</c><c.colorD9D9D9>​り すましがお じゃなく</c>
+
+00:00:31.415 --> 00:00:31.682 line:78%
+<c.colorB496E1>​着飾り​</c><c.colorD9D9D9>​すまし顔じゃなく</c>
+
+00:00:31.415 --> 00:00:31.682 line:0%
+<c.colorB496E1>​きかざり ​</c><c.colorD9D9D9>​すましがお じゃなく</c>
+
+00:00:31.682 --> 00:00:31.882 line:78%
+<c.colorB496E1>​着飾りす​</c><c.colorD9D9D9>​まし顔じゃなく</c>
+
+00:00:31.682 --> 00:00:31.882 line:0%
+<c.colorB496E1>​きかざり す​</c><c.colorD9D9D9>​ましがお じゃなく</c>
+
+00:00:31.882 --> 00:00:32.049 line:78%
+<c.colorB496E1>​着飾りすま​</c><c.colorD9D9D9>​し顔じゃなく</c>
+
+00:00:31.882 --> 00:00:32.049 line:0%
+<c.colorB496E1>​きかざり すま​</c><c.colorD9D9D9>​しがお じゃなく</c>
+
+00:00:32.049 --> 00:00:32.249 line:78%
+<c.colorB496E1>​着飾りすまし​</c><c.colorD9D9D9>​顔じゃなく</c>
+
+00:00:32.049 --> 00:00:32.249 line:0%
+<c.colorB496E1>​きかざり すまし​</c><c.colorD9D9D9>​がお じゃなく</c>
+
+00:00:32.249 --> 00:00:32.449 line:78%
+<c.colorB496E1>​着飾りすまし顔​</c><c.colorD9D9D9>​じゃなく</c>
+
+00:00:32.249 --> 00:00:32.449 line:0%
+<c.colorB496E1>​きかざり すましが​</c><c.colorD9D9D9>​お じゃなく</c>
+
+00:00:32.449 --> 00:00:32.616 line:78%
+<c.colorB496E1>​着飾りすまし顔​</c><c.colorD9D9D9>​じゃなく</c>
+
+00:00:32.449 --> 00:00:32.616 line:0%
+<c.colorB496E1>​きかざり すましがお ​</c><c.colorD9D9D9>​じゃなく</c>
+
+00:00:32.616 --> 00:00:32.916 line:78%
+<c.colorB496E1>​着飾りすまし顔じゃ​</c><c.colorD9D9D9>​なく</c>
+
+00:00:32.616 --> 00:00:32.916 line:0%
+<c.colorB496E1>​きかざり すましがお じゃ​</c><c.colorD9D9D9>​なく</c>
+
+00:00:32.916 --> 00:00:33.217 line:78%
+<c.colorB496E1>​着飾りすまし顔じゃな​</c><c.colorD9D9D9>​く</c>
+
+00:00:32.916 --> 00:00:33.217 line:0%
+<c.colorB496E1>​きかざり すましがお じゃな​</c><c.colorD9D9D9>​く</c>
+
+00:00:33.217 --> 00:00:34.351 line:78%
+<c.colorB496E1>​着飾りすまし顔じゃなく</c>
+
+00:00:33.217 --> 00:00:34.351 line:0%
+<c.colorB496E1>​きかざり すましがお じゃなく</c>
+
+00:00:34.351 --> 00:00:34.551 line:78%
+<c.colorB496E1>​呆​</c><c.colorD9D9D9>​れるほど臆病なリアル</c>
+
+00:00:34.351 --> 00:00:34.551 line:0%
+<c.colorB496E1>​あ​</c><c.colorD9D9D9>​きれる ほど おくびょうな りある</c>
+
+00:00:34.551 --> 00:00:34.752 line:78%
+<c.colorB496E1>​呆​</c><c.colorD9D9D9>​れるほど臆病なリアル</c>
+
+00:00:34.551 --> 00:00:34.752 line:0%
+<c.colorB496E1>​あき​</c><c.colorD9D9D9>​れる ほど おくびょうな りある</c>
+
+00:00:34.752 --> 00:00:34.952 line:78%
+<c.colorB496E1>​呆れ​</c><c.colorD9D9D9>​るほど臆病なリアル</c>
+
+00:00:34.752 --> 00:00:34.952 line:0%
+<c.colorB496E1>​あきれ​</c><c.colorD9D9D9>​る ほど おくびょうな りある</c>
+
+00:00:34.952 --> 00:00:35.219 line:78%
+<c.colorB496E1>​呆れる​</c><c.colorD9D9D9>​ほど臆病なリアル</c>
+
+00:00:34.952 --> 00:00:35.219 line:0%
+<c.colorB496E1>​あきれる ​</c><c.colorD9D9D9>​ほど おくびょうな りある</c>
+
+00:00:35.219 --> 00:00:35.519 line:78%
+<c.colorB496E1>​呆れるほ​</c><c.colorD9D9D9>​ど臆病なリアル</c>
+
+00:00:35.219 --> 00:00:35.519 line:0%
+<c.colorB496E1>​あきれる ほ​</c><c.colorD9D9D9>​ど おくびょうな りある</c>
+
+00:00:35.519 --> 00:00:36.286 line:78%
+<c.colorB496E1>​呆れるほど​</c><c.colorD9D9D9>​臆病なリアル</c>
+
+00:00:35.519 --> 00:00:36.286 line:0%
+<c.colorB496E1>​あきれる ほど ​</c><c.colorD9D9D9>​おくびょうな りある</c>
+
+00:00:36.286 --> 00:00:36.387 line:78%
+<c.colorB496E1>​呆れるほど臆​</c><c.colorD9D9D9>​病なリアル</c>
+
+00:00:36.286 --> 00:00:36.387 line:0%
+<c.colorB496E1>​あきれる ほど お​</c><c.colorD9D9D9>​くびょうな りある</c>
+
+00:00:36.387 --> 00:00:36.453 line:78%
+<c.colorB496E1>​呆れるほど臆​</c><c.colorD9D9D9>​病なリアル</c>
+
+00:00:36.387 --> 00:00:36.453 line:0%
+<c.colorB496E1>​あきれる ほど おく​</c><c.colorD9D9D9>​びょうな りある</c>
+
+00:00:36.453 --> 00:00:36.653 line:78%
+<c.colorB496E1>​呆れるほど臆病​</c><c.colorD9D9D9>​なリアル</c>
+
+00:00:36.453 --> 00:00:36.653 line:0%
+<c.colorB496E1>​あきれる ほど おくびょ​</c><c.colorD9D9D9>​うな りある</c>
+
+00:00:36.653 --> 00:00:36.754 line:78%
+<c.colorB496E1>​呆れるほど臆病​</c><c.colorD9D9D9>​なリアル</c>
+
+00:00:36.653 --> 00:00:36.754 line:0%
+<c.colorB496E1>​あきれる ほど おくびょう​</c><c.colorD9D9D9>​な りある</c>
+
+00:00:36.754 --> 00:00:37.054 line:78%
+<c.colorB496E1>​呆れるほど臆病な​</c><c.colorD9D9D9>​リアル</c>
+
+00:00:36.754 --> 00:00:37.054 line:0%
+<c.colorB496E1>​あきれる ほど おくびょうな ​</c><c.colorD9D9D9>​りある</c>
+
+00:00:37.054 --> 00:00:37.221 line:78%
+<c.colorB496E1>​呆れるほど臆病なリ​</c><c.colorD9D9D9>​アル</c>
+
+00:00:37.054 --> 00:00:37.221 line:0%
+<c.colorB496E1>​あきれる ほど おくびょうな り​</c><c.colorD9D9D9>​ある</c>
+
+00:00:37.221 --> 00:00:38.455 line:78%
+<c.colorB496E1>​呆れるほど臆病なリア​</c><c.colorD9D9D9>​ル</c>
+
+00:00:37.221 --> 00:00:38.455 line:0%
+<c.colorB496E1>​あきれる ほど おくびょうな りあ​</c><c.colorD9D9D9>​る</c>
+
+00:00:38.455 --> 00:00:38.756 line:78%
+<c.colorB496E1>​呆れるほど臆病なリアル</c>
+
+00:00:38.455 --> 00:00:38.756 line:0%
+<c.colorB496E1>​あきれる ほど おくびょうな りある</c>
+
+00:00:39.323 --> 00:00:39.556 line:78%
+<c.color96CDFF>​偽​</c><c.colorD9D9D9>​りは</c>
+
+00:00:39.323 --> 00:00:39.556 line:0%
+<c.color96CDFF>​い​</c><c.colorD9D9D9>​つわり は</c>
+
+00:00:39.556 --> 00:00:39.723 line:78%
+<c.color96CDFF>​偽​</c><c.colorD9D9D9>​りは</c>
+
+00:00:39.556 --> 00:00:39.723 line:0%
+<c.color96CDFF>​いつ​</c><c.colorD9D9D9>​わり は</c>
+
+00:00:39.723 --> 00:00:39.923 line:78%
+<c.color96CDFF>​偽​</c><c.colorD9D9D9>​りは</c>
+
+00:00:39.723 --> 00:00:39.923 line:0%
+<c.color96CDFF>​いつわ​</c><c.colorD9D9D9>​り は</c>
+
+00:00:39.923 --> 00:00:40.124 line:78%
+<c.color96CDFF>​偽り​</c><c.colorD9D9D9>​は</c>
+
+00:00:39.923 --> 00:00:40.124 line:0%
+<c.color96CDFF>​いつわり ​</c><c.colorD9D9D9>​は</c>
+
+00:00:40.124 --> 00:00:40.290 line:78%
+<c.color96CDFF>​偽りは</c>
+
+00:00:40.124 --> 00:00:40.290 line:0%
+<c.color96CDFF>​いつわり は</c>
+
+00:00:40.290 --> 00:00:40.657 line:78%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD9D9D9>​all nothing</c>
+
+00:00:40.290 --> 00:00:40.657 line:0%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD9D9D9>​all nothing</c>
+
+00:00:40.657 --> 00:00:41.258 line:78%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD48C81>​a</c><c.colorE37C61>​l</c><c.colorF26C42>​l </c><c.colorD9D9D9>​nothing</c>
+
+00:00:40.657 --> 00:00:41.258 line:0%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD48C81>​a</c><c.colorE37C61>​l</c><c.colorF26C42>​l </c><c.colorD9D9D9>​nothing</c>
+
+00:00:41.258 --> 00:00:41.625 line:78%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD48C81>​a</c><c.colorE37C61>​l</c><c.colorF26C42>​l </c><c.colorF5683F>​n</c><c.colorEA705A>​o</c><c.colorDF7775>​t</c><c.colorD47F90>​h</c><c.colorD9D9D9>​ing</c>
+
+00:00:41.258 --> 00:00:41.625 line:0%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD48C81>​a</c><c.colorE37C61>​l</c><c.colorF26C42>​l </c><c.colorF5683F>​n</c><c.colorEA705A>​o</c><c.colorDF7775>​t</c><c.colorD47F90>​h</c><c.colorD9D9D9>​ing</c>
+
+00:00:41.625 --> 00:00:42.393 line:78%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD48C81>​a</c><c.colorE37C61>​l</c><c.colorF26C42>​l </c><c.colorF5683F>​n</c><c.colorEA705A>​o</c><c.colorDF7775>​t</c><c.colorD47F90>​h</c><c.colorCA87AB>​i</c><c.colorBF8EC6>​n</c><c.colorB496E1>​g</c>
+
+00:00:41.625 --> 00:00:42.393 line:0%
+<c.color96CDFF>​i​</c><c.colorA5BDDF>​t</c><c.colorB5ADC0>​'</c><c.colorC49DA0>​s </c><c.colorD48C81>​a</c><c.colorE37C61>​l</c><c.colorF26C42>​l </c><c.colorF5683F>​n</c><c.colorEA705A>​o</c><c.colorDF7775>​t</c><c.colorD47F90>​h</c><c.colorCA87AB>​i</c><c.colorBF8EC6>​n</c><c.colorB496E1>​g</c>
+
+00:00:42.393 --> 00:00:42.593 line:78%
+<c.color96CDFF>​真​</c><c.colorD9D9D9>​実を</c>
+
+00:00:42.393 --> 00:00:42.593 line:0%
+<c.color96CDFF>​し​</c><c.colorD9D9D9>​んじつ を</c>
+
+00:00:42.593 --> 00:00:42.760 line:78%
+<c.color96CDFF>​真​</c><c.colorD9D9D9>​実を</c>
+
+00:00:42.593 --> 00:00:42.760 line:0%
+<c.color96CDFF>​しん​</c><c.colorD9D9D9>​じつ を</c>
+
+00:00:42.760 --> 00:00:42.960 line:78%
+<c.color96CDFF>​真実​</c><c.colorD9D9D9>​を</c>
+
+00:00:42.760 --> 00:00:42.960 line:0%
+<c.color96CDFF>​しんじ​</c><c.colorD9D9D9>​つ を</c>
+
+00:00:42.960 --> 00:00:43.160 line:78%
+<c.color96CDFF>​真実​</c><c.colorD9D9D9>​を</c>
+
+00:00:42.960 --> 00:00:43.160 line:0%
+<c.color96CDFF>​しんじつ ​</c><c.colorD9D9D9>​を</c>
+
+00:00:43.160 --> 00:00:43.327 line:78%
+<c.color96CDFF>​真実を</c>
+
+00:00:43.160 --> 00:00:43.327 line:0%
+<c.color96CDFF>​しんじつ を</c>
+
+00:00:43.327 --> 00:00:43.727 line:78%
+<c.color96CDFF>​o​</c><c.colorD9D9D9>​pen my heart</c>
+
+00:00:43.327 --> 00:00:43.727 line:0%
+<c.color96CDFF>​o​</c><c.colorD9D9D9>​pen my heart</c>
+
+00:00:43.727 --> 00:00:44.294 line:78%
+<c.color96CDFF>​o​</c><c.colorAAB8D6>​p</c><c.colorBEA3AD>​e</c><c.colorD28E84>​n </c><c.colorD9D9D9>​my heart</c>
+
+00:00:43.727 --> 00:00:44.294 line:0%
+<c.color96CDFF>​o​</c><c.colorAAB8D6>​p</c><c.colorBEA3AD>​e</c><c.colorD28E84>​n </c><c.colorD9D9D9>​my heart</c>
+
+00:00:44.294 --> 00:00:44.661 line:78%
+<c.color96CDFF>​o​</c><c.colorAAB8D6>​p</c><c.colorBEA3AD>​e</c><c.colorD28E84>​n </c><c.colorE6795B>​m</c><c.colorFA6432>​y </c><c.colorD9D9D9>​heart</c>
+
+00:00:44.294 --> 00:00:44.661 line:0%
+<c.color96CDFF>​o​</c><c.colorAAB8D6>​p</c><c.colorBEA3AD>​e</c><c.colorD28E84>​n </c><c.colorE6795B>​m</c><c.colorFA6432>​y </c><c.colorD9D9D9>​heart</c>
+
+00:00:44.661 --> 00:00:45.429 line:78%
+<c.color96CDFF>​o​</c><c.colorAAB8D6>​p</c><c.colorBEA3AD>​e</c><c.colorD28E84>​n </c><c.colorE6795B>​m</c><c.colorFA6432>​y </c><c.colorEC6E55>​h</c><c.colorDE7878>​e</c><c.colorD0829B>​a</c><c.colorC28CBE>​r</c><c.colorB496E1>​t</c>
+
+00:00:44.661 --> 00:00:45.429 line:0%
+<c.color96CDFF>​o​</c><c.colorAAB8D6>​p</c><c.colorBEA3AD>​e</c><c.colorD28E84>​n </c><c.colorE6795B>​m</c><c.colorFA6432>​y </c><c.colorEC6E55>​h</c><c.colorDE7878>​e</c><c.colorD0829B>​a</c><c.colorC28CBE>​r</c><c.colorB496E1>​t</c>
+
+00:00:45.429 --> 00:00:45.796 line:78%
+<c.color96CDFF>​君​</c><c.colorD9D9D9>​に全てを受け止めてほしい</c>
+
+00:00:45.429 --> 00:00:45.796 line:0%
+<c.color96CDFF>​き​</c><c.colorD9D9D9>​み に すべて を うけとめて ほしい</c>
+
+00:00:45.796 --> 00:00:46.030 line:78%
+<c.color96CDFF>​君​</c><c.colorD9D9D9>​に全てを受け止めてほしい</c>
+
+00:00:45.796 --> 00:00:46.030 line:0%
+<c.color96CDFF>​きみ ​</c><c.colorD9D9D9>​に すべて を うけとめて ほしい</c>
+
+00:00:46.030 --> 00:00:46.764 line:78%
+<c.color96CDFF>​君に​</c><c.colorD9D9D9>​全てを受け止めてほしい</c>
+
+00:00:46.030 --> 00:00:46.764 line:0%
+<c.color96CDFF>​きみ に ​</c><c.colorD9D9D9>​すべて を うけとめて ほしい</c>
+
+00:00:46.764 --> 00:00:47.164 line:78%
+<c.color96CDFF>​君に全​</c><c.colorD9D9D9>​てを受け止めてほしい</c>
+
+00:00:46.764 --> 00:00:47.164 line:0%
+<c.color96CDFF>​きみ に す​</c><c.colorD9D9D9>​べて を うけとめて ほしい</c>
+
+00:00:47.164 --> 00:00:47.431 line:78%
+<c.color96CDFF>​君に全​</c><c.colorD9D9D9>​てを受け止めてほしい</c>
+
+00:00:47.164 --> 00:00:47.431 line:0%
+<c.color96CDFF>​きみ に すべ​</c><c.colorD9D9D9>​て を うけとめて ほしい</c>
+
+00:00:47.431 --> 00:00:47.731 line:78%
+<c.color96CDFF>​君に全て​</c><c.colorD9D9D9>​を受け止めてほしい</c>
+
+00:00:47.431 --> 00:00:47.731 line:0%
+<c.color96CDFF>​きみ に すべて ​</c><c.colorD9D9D9>​を うけとめて ほしい</c>
+
+00:00:47.731 --> 00:00:48.465 line:78%
+<c.color96CDFF>​君に全てを​</c><c.colorD9D9D9>​受け止めてほしい</c>
+
+00:00:47.731 --> 00:00:48.465 line:0%
+<c.color96CDFF>​きみ に すべて を ​</c><c.colorD9D9D9>​うけとめて ほしい</c>
+
+00:00:48.465 --> 00:00:48.665 line:78%
+<c.color96CDFF>​君に全てを受​</c><c.colorD9D9D9>​け止めてほしい</c>
+
+00:00:48.465 --> 00:00:48.665 line:0%
+<c.color96CDFF>​きみ に すべて を う​</c><c.colorD9D9D9>​けとめて ほしい</c>
+
+00:00:48.665 --> 00:00:48.966 line:78%
+<c.color96CDFF>​君に全てを受け​</c><c.colorD9D9D9>​止めてほしい</c>
+
+00:00:48.665 --> 00:00:48.966 line:0%
+<c.color96CDFF>​きみ に すべて を うけ​</c><c.colorD9D9D9>​とめて ほしい</c>
+
+00:00:48.966 --> 00:00:49.266 line:78%
+<c.color96CDFF>​君に全てを受け止​</c><c.colorD9D9D9>​めてほしい</c>
+
+00:00:48.966 --> 00:00:49.266 line:0%
+<c.color96CDFF>​きみ に すべて を うけと​</c><c.colorD9D9D9>​めて ほしい</c>
+
+00:00:49.266 --> 00:00:49.466 line:78%
+<c.color96CDFF>​君に全てを受け止め​</c><c.colorD9D9D9>​てほしい</c>
+
+00:00:49.266 --> 00:00:49.466 line:0%
+<c.color96CDFF>​きみ に すべて を うけとめ​</c><c.colorD9D9D9>​て ほしい</c>
+
+00:00:49.466 --> 00:00:50.234 line:78%
+<c.color96CDFF>​君に全てを受け止めて​</c><c.colorD9D9D9>​ほしい</c>
+
+00:00:49.466 --> 00:00:50.234 line:0%
+<c.color96CDFF>​きみ に すべて を うけとめて ​</c><c.colorD9D9D9>​ほしい</c>
+
+00:00:50.234 --> 00:00:50.968 line:78%
+<c.color96CDFF>​君に全てを受け止めてほ​</c><c.colorD9D9D9>​しい</c>
+
+00:00:50.234 --> 00:00:50.968 line:0%
+<c.color96CDFF>​きみ に すべて を うけとめて ほ​</c><c.colorD9D9D9>​しい</c>
+
+00:00:50.968 --> 00:00:51.568 line:78%
+<c.color96CDFF>​君に全てを受け止めてほしい</c>
+
+00:00:50.968 --> 00:00:51.568 line:0%
+<c.color96CDFF>​きみ に すべて を うけとめて ほしい</c>
+
+00:00:51.568 --> 00:00:51.935 line:78%
+<c.color96CDFF>​加​</c><c.colorD9D9D9>​速していく世界で生きてく僕ら</c>
+
+00:00:51.568 --> 00:00:51.935 line:0%
+<c.color96CDFF>​か​</c><c.colorD9D9D9>​そくしていく せかい で いきてく ぼくら</c>
+
+00:00:51.935 --> 00:00:52.136 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorD9D9D9>​していく世界で生きてく僕ら</c>
+
+00:00:51.935 --> 00:00:52.136 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorD9D9D9>​くしていく せかい で いきてく ぼくら</c>
+
+00:00:52.136 --> 00:00:52.336 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorD9D9D9>​していく世界で生きてく僕ら</c>
+
+00:00:52.136 --> 00:00:52.336 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorD9D9D9>​していく せかい で いきてく ぼくら</c>
+
+00:00:52.336 --> 00:00:52.503 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorD9D9D9>​ていく世界で生きてく僕ら</c>
+
+00:00:52.336 --> 00:00:52.503 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorD9D9D9>​ていく せかい で いきてく ぼくら</c>
+
+00:00:52.503 --> 00:00:52.836 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD9D9D9>​いく世界で生きてく僕ら</c>
+
+00:00:52.503 --> 00:00:52.836 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD9D9D9>​いく せかい で いきてく ぼくら</c>
+
+00:00:52.836 --> 00:00:53.103 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorD9D9D9>​く世界で生きてく僕ら</c>
+
+00:00:52.836 --> 00:00:53.103 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorD9D9D9>​く せかい で いきてく ぼくら</c>
+
+00:00:53.103 --> 00:00:53.837 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorD9D9D9>​世界で生きてく僕ら</c>
+
+00:00:53.103 --> 00:00:53.837 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorD9D9D9>​せかい で いきてく ぼくら</c>
+
+00:00:53.837 --> 00:00:54.038 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorD9D9D9>​界で生きてく僕ら</c>
+
+00:00:53.837 --> 00:00:54.038 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorD9D9D9>​かい で いきてく ぼくら</c>
+
+00:00:54.038 --> 00:00:54.338 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorD9D9D9>​で生きてく僕ら</c>
+
+00:00:54.038 --> 00:00:54.338 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorD9D9D9>​い で いきてく ぼくら</c>
+
+00:00:54.338 --> 00:00:54.638 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorD9D9D9>​で生きてく僕ら</c>
+
+00:00:54.338 --> 00:00:54.638 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorD9D9D9>​で いきてく ぼくら</c>
+
+00:00:54.638 --> 00:00:54.805 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorD9D9D9>​生きてく僕ら</c>
+
+00:00:54.638 --> 00:00:54.805 line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorD9D9D9>​いきてく ぼくら</c>
+
+00:00:54.805 --> 00:00:55.105 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorE57365>​生</c><c.colorD9D9D9>​きてく僕ら</c>
+
+00:00:54.805 --> 00:00:55.105 position:56% line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorE57365>​い</c><c.colorD9D9D9>​きてく ぼくら</c>
+
+00:00:55.105 --> 00:00:55.406 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorE57365>​生</c><c.colorDD797A>​き</c><c.colorD9D9D9>​てく僕ら</c>
+
+00:00:55.105 --> 00:00:55.406 position:58% line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorE57365>​い</c><c.colorDD797A>​き</c><c.colorD9D9D9>​てく ぼくら</c>
+
+00:00:55.406 --> 00:00:55.572 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorE57365>​生</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorD9D9D9>​く僕ら</c>
+
+00:00:55.406 --> 00:00:55.572 position:59% line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorE57365>​い</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorD9D9D9>​く ぼくら</c>
+
+00:00:55.572 --> 00:00:56.340 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorE57365>​生</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く</c><c.colorD9D9D9>​僕ら</c>
+
+00:00:55.572 --> 00:00:56.340 position:61% line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorE57365>​い</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く </c><c.colorD9D9D9>​ぼくら</c>
+
+00:00:56.340 --> 00:00:56.707 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorE57365>​生</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く</c><c.colorC48AB8>​僕</c><c.colorD9D9D9>​ら</c>
+
+00:00:56.340 --> 00:00:56.707 position:63% line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorE57365>​い</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く </c><c.colorC48AB8>​ぼ</c><c.colorD9D9D9>​くら</c>
+
+00:00:56.707 --> 00:00:56.907 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorE57365>​生</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く</c><c.colorC48AB8>​僕</c><c.colorD9D9D9>​ら</c>
+
+00:00:56.707 --> 00:00:56.907 position:64% line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorE57365>​い</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く </c><c.colorC48AB8>​ぼ</c><c.colorBC90CC>​く</c><c.colorD9D9D9>​ら</c>
+
+00:00:56.907 --> 00:00:58.042 line:78%
+<c.color96CDFF>​加​</c><c.colorA2C1E7>​速</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く</c><c.colorE87756>​世</c><c.colorF46A3E>​界</c><c.colorEE6D51>​で</c><c.colorE57365>​生</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く</c><c.colorC48AB8>​僕</c><c.colorB496E1>​ら</c>
+
+00:00:56.907 --> 00:00:58.042 position:64% line:0%
+<c.color96CDFF>​か​</c><c.colorA2C1E7>​そ</c><c.colorAEB4CF>​く</c><c.colorB9A8B7>​し</c><c.colorC59C9F>​て</c><c.colorD18F86>​い</c><c.colorDD836E>​く </c><c.colorE87756>​せ</c><c.colorF46A3E>​か</c><c.colorF6673C>​い </c><c.colorEE6D51>​で </c><c.colorE57365>​い</c><c.colorDD797A>​き</c><c.colorD57E8F>​て</c><c.colorCD84A3>​く </c><c.colorC48AB8>​ぼ</c><c.colorBC90CC>​く</c><c.colorB496E1>​ら</c>
+
+00:00:58.042 --> 00:00:58.242 line:78%
+<c.color96CDFF>​聞​</c><c.colorD9D9D9>​き飽きたよ 比べたがりの声</c>
+
+00:00:58.042 --> 00:00:58.242 line:0%
+<c.color96CDFF>​き​</c><c.colorD9D9D9>​きあきた よ くらべた がり の こえ</c>
+
+00:00:58.242 --> 00:00:58.409 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.colorD9D9D9>​飽きたよ 比べたがりの声</c>
+
+00:00:58.242 --> 00:00:58.409 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.colorD9D9D9>​あきた よ くらべた がり の こえ</c>
+
+00:00:58.409 --> 00:00:58.609 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.colorD9D9D9>​きたよ 比べたがりの声</c>
+
+00:00:58.409 --> 00:00:58.609 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.colorD9D9D9>​きた よ くらべた がり の こえ</c>
+
+00:00:58.609 --> 00:00:58.909 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.colorD9D9D9>​たよ 比べたがりの声</c>
+
+00:00:58.609 --> 00:00:58.909 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.colorD9D9D9>​た よ くらべた がり の こえ</c>
+
+00:00:58.909 --> 00:00:59.209 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorD9D9D9>​よ 比べたがりの声</c>
+
+00:00:58.909 --> 00:00:59.209 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorD9D9D9>​よ くらべた がり の こえ</c>
+
+00:00:59.209 --> 00:00:59.943 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorD9D9D9>​比べたがりの声</c>
+
+00:00:59.209 --> 00:00:59.943 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorD9D9D9>​くらべた がり の こえ</c>
+
+00:00:59.943 --> 00:01:00.044 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorD9D9D9>​べたがりの声</c>
+
+00:00:59.943 --> 00:01:00.044 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorD9D9D9>​らべた がり の こえ</c>
+
+00:01:00.044 --> 00:01:00.144 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorD9D9D9>​べたがりの声</c>
+
+00:01:00.044 --> 00:01:00.144 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorD9D9D9>​べた がり の こえ</c>
+
+00:01:00.144 --> 00:01:00.444 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorA7AEEE>​べ</c><c.colorD9D9D9>​たがりの声</c>
+
+00:01:00.144 --> 00:01:00.444 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorA7AEEE>​べ</c><c.colorD9D9D9>​た がり の こえ</c>
+
+00:01:00.444 --> 00:01:00.711 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た</c><c.colorD9D9D9>​がりの声</c>
+
+00:01:00.444 --> 00:01:00.711 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た </c><c.colorD9D9D9>​がり の こえ</c>
+
+00:01:00.711 --> 00:01:00.911 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た</c><c.colorABA6EA>​が</c><c.colorD9D9D9>​りの声</c>
+
+00:01:00.711 --> 00:01:00.911 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た </c><c.colorABA6EA>​が</c><c.colorD9D9D9>​り の こえ</c>
+
+00:01:00.911 --> 00:01:01.211 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た</c><c.colorABA6EA>​が</c><c.colorAEA2E7>​り</c><c.colorD9D9D9>​の声</c>
+
+00:01:00.911 --> 00:01:01.211 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た </c><c.colorABA6EA>​が</c><c.colorAEA2E7>​り </c><c.colorD9D9D9>​の こえ</c>
+
+00:01:01.211 --> 00:01:01.478 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た</c><c.colorABA6EA>​が</c><c.colorAEA2E7>​り</c><c.colorB09EE5>​の</c><c.colorD9D9D9>​声</c>
+
+00:01:01.211 --> 00:01:01.478 line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た </c><c.colorABA6EA>​が</c><c.colorAEA2E7>​り </c><c.colorB09EE5>​の </c><c.colorD9D9D9>​こえ</c>
+
+00:01:01.478 --> 00:01:03.747 line:78%
+<c.color96CDFF>​聞​</c><c.color98C9FD>​き</c><c.color9AC5FB>​飽</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た</c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​比</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た</c><c.colorABA6EA>​が</c><c.colorAEA2E7>​り</c><c.colorB09EE5>​の</c><c.colorB29AE3>​声</c>
+
+00:01:01.478 --> 00:01:01.678 position:56% line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た </c><c.colorABA6EA>​が</c><c.colorAEA2E7>​り </c><c.colorB09EE5>​の </c><c.colorB29AE3>​こ</c><c.colorD9D9D9>​え</c>
+
+00:01:01.678 --> 00:01:03.747 position:56% line:0%
+<c.color96CDFF>​き​</c><c.color98C9FD>​き</c><c.color9AC5FB>​あ</c><c.color9CC1F9>​き</c><c.color9FBDF6>​た </c><c.colorA1B9F4>​よ </c><c.colorA3B5F2>​く</c><c.colorA5B2F0>​ら</c><c.colorA7AEEE>​べ</c><c.colorA9AAEC>​た </c><c.colorABA6EA>​が</c><c.colorAEA2E7>​り </c><c.colorB09EE5>​の </c><c.colorB29AE3>​こ</c><c.colorB496E1>​え</c>
+
+00:01:03.747 --> 00:01:04.148 line:78%
+<c.color96CDFF>​１​</c><c.colorD9D9D9>​か０かで決められた運命ならば</c>
+
+00:01:03.747 --> 00:01:04.148 line:0%
+<c.color96CDFF>​い​</c><c.colorD9D9D9>​ち か ぜろ か で きめられた うんめい ならば</c>
+
+00:01:04.148 --> 00:01:04.348 line:78%
+<c.color96CDFF>​１​</c><c.colorD9D9D9>​か０かで決められた運命ならば</c>
+
+00:01:04.148 --> 00:01:04.348 line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorD9D9D9>​か ぜろ か で きめられた うんめい ならば</c>
+
+00:01:04.348 --> 00:01:04.515 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorD9D9D9>​０かで決められた運命ならば</c>
+
+00:01:04.348 --> 00:01:04.515 line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorD9D9D9>​ぜろ か で きめられた うんめい ならば</c>
+
+00:01:04.515 --> 00:01:04.715 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorD9D9D9>​かで決められた運命ならば</c>
+
+00:01:04.515 --> 00:01:04.715 line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorD9D9D9>​ろ か で きめられた うんめい ならば</c>
+
+00:01:04.715 --> 00:01:05.015 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorD9D9D9>​かで決められた運命ならば</c>
+
+00:01:04.715 --> 00:01:05.015 line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorD9D9D9>​か で きめられた うんめい ならば</c>
+
+00:01:05.015 --> 00:01:05.315 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD9D9D9>​で決められた運命ならば</c>
+
+00:01:05.015 --> 00:01:05.315 line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD9D9D9>​で きめられた うんめい ならば</c>
+
+00:01:05.315 --> 00:01:06.083 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorD9D9D9>​決められた運命ならば</c>
+
+00:01:05.315 --> 00:01:06.083 line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorD9D9D9>​きめられた うんめい ならば</c>
+
+00:01:06.083 --> 00:01:06.183 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorD9D9D9>​められた運命ならば</c>
+
+00:01:06.083 --> 00:01:06.183 position:56% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorD9D9D9>​められた うんめい ならば</c>
+
+00:01:06.183 --> 00:01:06.283 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorD9D9D9>​られた運命ならば</c>
+
+00:01:06.183 --> 00:01:06.283 position:58% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorD9D9D9>​られた うんめい ならば</c>
+
+00:01:06.283 --> 00:01:06.550 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorD9D9D9>​れた運命ならば</c>
+
+00:01:06.283 --> 00:01:06.550 position:59% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorD9D9D9>​れた うんめい ならば</c>
+
+00:01:06.550 --> 00:01:06.817 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorD9D9D9>​た運命ならば</c>
+
+00:01:06.550 --> 00:01:06.817 position:61% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorD9D9D9>​た うんめい ならば</c>
+
+00:01:06.817 --> 00:01:07.017 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorD9D9D9>​運命ならば</c>
+
+00:01:06.817 --> 00:01:07.017 position:63% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorD9D9D9>​うんめい ならば</c>
+
+00:01:07.017 --> 00:01:07.317 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorE3756C>​運</c><c.colorD9D9D9>​命ならば</c>
+
+00:01:07.017 --> 00:01:07.317 position:64% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorE3756C>​う</c><c.colorD9D9D9>​んめい ならば</c>
+
+00:01:07.317 --> 00:01:07.584 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorE3756C>​運</c><c.colorD9D9D9>​命ならば</c>
+
+00:01:07.317 --> 00:01:07.584 position:66% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorE3756C>​う</c><c.colorDB7A80>​ん</c><c.colorD9D9D9>​めい ならば</c>
+
+00:01:07.584 --> 00:01:07.785 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorE3756C>​運</c><c.colorD38093>​命</c><c.colorD9D9D9>​ならば</c>
+
+00:01:07.584 --> 00:01:07.785 position:67% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorE3756C>​う</c><c.colorDB7A80>​ん</c><c.colorD38093>​め</c><c.colorD9D9D9>​い ならば</c>
+
+00:01:07.785 --> 00:01:08.552 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorE3756C>​運</c><c.colorD38093>​命</c><c.colorD9D9D9>​ならば</c>
+
+00:01:07.785 --> 00:01:08.552 position:69% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorE3756C>​う</c><c.colorDB7A80>​ん</c><c.colorD38093>​め</c><c.colorCB85A7>​い </c><c.colorD9D9D9>​ならば</c>
+
+00:01:08.552 --> 00:01:08.919 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorE3756C>​運</c><c.colorD38093>​命</c><c.colorC48BBA>​な</c><c.colorD9D9D9>​らば</c>
+
+00:01:08.552 --> 00:01:08.919 position:70% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorE3756C>​う</c><c.colorDB7A80>​ん</c><c.colorD38093>​め</c><c.colorCB85A7>​い </c><c.colorC48BBA>​な</c><c.colorD9D9D9>​らば</c>
+
+00:01:08.919 --> 00:01:09.119 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorE3756C>​運</c><c.colorD38093>​命</c><c.colorC48BBA>​な</c><c.colorBC90CE>​ら</c><c.colorD9D9D9>​ば</c>
+
+00:01:08.919 --> 00:01:09.119 position:72% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorE3756C>​う</c><c.colorDB7A80>​ん</c><c.colorD38093>​め</c><c.colorCB85A7>​い </c><c.colorC48BBA>​な</c><c.colorBC90CE>​ら</c><c.colorD9D9D9>​ば</c>
+
+00:01:09.119 --> 00:01:10.487 line:78%
+<c.color96CDFF>​１​</c><c.colorACB6D1>​か</c><c.colorB7AABB>​０</c><c.colorCE938D>​か</c><c.colorD98776>​で</c><c.colorE47B60>​決</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た</c><c.colorE3756C>​運</c><c.colorD38093>​命</c><c.colorC48BBA>​な</c><c.colorBC90CE>​ら</c><c.colorB496E1>​ば</c>
+
+00:01:09.119 --> 00:01:10.487 position:72% line:0%
+<c.color96CDFF>​い​</c><c.colorA1C1E8>​ち </c><c.colorACB6D1>​か </c><c.colorB7AABB>​ぜ</c><c.colorC29EA4>​ろ </c><c.colorCE938D>​か </c><c.colorD98776>​で </c><c.colorE47B60>​き</c><c.colorEF7049>​め</c><c.colorFA6432>​ら</c><c.colorF26A45>​れ</c><c.colorEA6F59>​た </c><c.colorE3756C>​う</c><c.colorDB7A80>​ん</c><c.colorD38093>​め</c><c.colorCB85A7>​い </c><c.colorC48BBA>​な</c><c.colorBC90CE>​ら</c><c.colorB496E1>​ば</c>
+
+00:01:10.487 --> 00:01:10.687 line:78%
+<c.colorFA6432>​抗​</c><c.colorD9D9D9>​うよ</c>
+
+00:01:10.487 --> 00:01:10.687 line:0%
+<c.colorFA6432>​あ​</c><c.colorD9D9D9>​らがう よ</c>
+
+00:01:10.687 --> 00:01:10.854 line:78%
+<c.colorFA6432>​抗​</c><c.colorD9D9D9>​うよ</c>
+
+00:01:10.687 --> 00:01:10.854 line:0%
+<c.colorFA6432>​あら​</c><c.colorD9D9D9>​がう よ</c>
+
+00:01:10.854 --> 00:01:11.188 line:78%
+<c.colorFA6432>​抗​</c><c.colorD9D9D9>​うよ</c>
+
+00:01:10.854 --> 00:01:11.188 line:0%
+<c.colorFA6432>​あらが​</c><c.colorD9D9D9>​う よ</c>
+
+00:01:11.188 --> 00:01:11.455 line:78%
+<c.colorFA6432>​抗う​</c><c.colorD9D9D9>​よ</c>
+
+00:01:11.188 --> 00:01:11.455 line:0%
+<c.colorFA6432>​あらがう ​</c><c.colorD9D9D9>​よ</c>
+
+00:01:11.455 --> 00:01:12.189 line:78%
+<c.colorFA6432>​抗うよ</c>
+
+00:01:11.455 --> 00:01:12.189 line:0%
+<c.colorFA6432>​あらがう よ</c>
+
+00:01:12.189 --> 00:01:12.289 line:78%
+<c.colorB496E1>​見​</c><c.colorD9D9D9>​つけるよ</c>
+
+00:01:12.189 --> 00:01:12.289 line:0%
+<c.colorB496E1>​み​</c><c.colorD9D9D9>​つける よ</c>
+
+00:01:12.289 --> 00:01:12.356 line:78%
+<c.colorB496E1>​見つ​</c><c.colorD9D9D9>​けるよ</c>
+
+00:01:12.289 --> 00:01:12.356 line:0%
+<c.colorB496E1>​みつ​</c><c.colorD9D9D9>​ける よ</c>
+
+00:01:12.356 --> 00:01:12.656 line:78%
+<c.colorB496E1>​見つけ​</c><c.colorD9D9D9>​るよ</c>
+
+00:01:12.356 --> 00:01:12.656 line:0%
+<c.colorB496E1>​みつけ​</c><c.colorD9D9D9>​る よ</c>
+
+00:01:12.656 --> 00:01:12.956 line:78%
+<c.colorB496E1>​見つける​</c><c.colorD9D9D9>​よ</c>
+
+00:01:12.656 --> 00:01:12.956 line:0%
+<c.colorB496E1>​みつける ​</c><c.colorD9D9D9>​よ</c>
+
+00:01:12.956 --> 00:01:13.924 line:78%
+<c.colorB496E1>​見つけるよ</c>
+
+00:01:12.956 --> 00:01:13.924 line:0%
+<c.colorB496E1>​みつける よ</c>
+
+00:01:13.924 --> 00:01:14.224 line:78%
+<c.color96CDFF>​僕​</c><c.colorD9D9D9>​である理由</c>
+
+00:01:13.924 --> 00:01:14.224 line:0%
+<c.color96CDFF>​ぼ​</c><c.colorD9D9D9>​く で ある りゆう</c>
+
+00:01:14.224 --> 00:01:14.491 line:78%
+<c.color96CDFF>​僕​</c><c.colorD9D9D9>​である理由</c>
+
+00:01:14.224 --> 00:01:14.491 line:0%
+<c.color96CDFF>​ぼく ​</c><c.colorD9D9D9>​で ある りゆう</c>
+
+00:01:14.491 --> 00:01:14.691 line:78%
+<c.color96CDFF>​僕で​</c><c.colorD9D9D9>​ある理由</c>
+
+00:01:14.491 --> 00:01:14.691 line:0%
+<c.color96CDFF>​ぼく で ​</c><c.colorD9D9D9>​ある りゆう</c>
+
+00:01:14.691 --> 00:01:14.992 line:78%
+<c.color96CDFF>​僕であ​</c><c.colorD9D9D9>​る理由</c>
+
+00:01:14.691 --> 00:01:14.992 line:0%
+<c.color96CDFF>​ぼく で あ​</c><c.colorD9D9D9>​る りゆう</c>
+
+00:01:14.992 --> 00:01:15.259 line:78%
+<c.color96CDFF>​僕である​</c><c.colorD9D9D9>​理由</c>
+
+00:01:14.992 --> 00:01:15.259 line:0%
+<c.color96CDFF>​ぼく で ある ​</c><c.colorD9D9D9>​りゆう</c>
+
+00:01:15.259 --> 00:01:15.459 line:78%
+<c.color96CDFF>​僕である理​</c><c.colorD9D9D9>​由</c>
+
+00:01:15.259 --> 00:01:15.459 line:0%
+<c.color96CDFF>​ぼく で ある り​</c><c.colorD9D9D9>​ゆう</c>
+
+00:01:15.459 --> 00:01:15.993 line:78%
+<c.color96CDFF>​僕である理由</c>
+
+00:01:15.459 --> 00:01:15.993 line:0%
+<c.color96CDFF>​ぼく で ある りゆう</c>
+
+00:01:15.993 --> 00:01:16.393 line:78%
+<c.color96CDFF>​カ​</c><c.colorD9D9D9>​ワイイだけじゃもういられない</c>
+
+00:01:15.993 --> 00:01:16.393 line:0%
+<c.color96CDFF>​か​</c><c.colorD9D9D9>​わいい だけ じゃ もう いられない</c>
+
+00:01:16.393 --> 00:01:16.560 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorD9D9D9>​イイだけじゃもういられない</c>
+
+00:01:16.393 --> 00:01:16.560 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorD9D9D9>​いい だけ じゃ もう いられない</c>
+
+00:01:16.560 --> 00:01:16.760 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorD9D9D9>​イだけじゃもういられない</c>
+
+00:01:16.560 --> 00:01:16.760 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorD9D9D9>​い だけ じゃ もう いられない</c>
+
+00:01:16.760 --> 00:01:16.960 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorD9D9D9>​だけじゃもういられない</c>
+
+00:01:16.760 --> 00:01:16.960 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorD9D9D9>​だけ じゃ もう いられない</c>
+
+00:01:16.960 --> 00:01:17.261 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorD9D9D9>​けじゃもういられない</c>
+
+00:01:16.960 --> 00:01:17.261 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorD9D9D9>​け じゃ もう いられない</c>
+
+00:01:17.261 --> 00:01:17.528 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorD9D9D9>​じゃもういられない</c>
+
+00:01:17.261 --> 00:01:17.528 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorD9D9D9>​じゃ もう いられない</c>
+
+00:01:17.528 --> 00:01:17.728 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorD9D9D9>​もういられない</c>
+
+00:01:17.528 --> 00:01:17.728 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorD9D9D9>​もう いられない</c>
+
+00:01:17.728 --> 00:01:17.861 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorF06B4B>​も</c><c.colorD9D9D9>​ういられない</c>
+
+00:01:17.728 --> 00:01:17.861 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorF06B4B>​も</c><c.colorD9D9D9>​う いられない</c>
+
+00:01:17.861 --> 00:01:17.995 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorF06B4B>​も</c><c.colorE67264>​う</c><c.colorD9D9D9>​いられない</c>
+
+00:01:17.861 --> 00:01:17.995 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorF06B4B>​も</c><c.colorE67264>​う </c><c.colorD9D9D9>​いられない</c>
+
+00:01:17.995 --> 00:01:18.295 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorF06B4B>​も</c><c.colorE67264>​う</c><c.colorDC797D>​い</c><c.colorD9D9D9>​られない</c>
+
+00:01:17.995 --> 00:01:18.295 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorF06B4B>​も</c><c.colorE67264>​う </c><c.colorDC797D>​い</c><c.colorD9D9D9>​られない</c>
+
+00:01:18.295 --> 00:01:18.462 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorF06B4B>​も</c><c.colorE67264>​う</c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorD9D9D9>​れない</c>
+
+00:01:18.295 --> 00:01:18.462 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorF06B4B>​も</c><c.colorE67264>​う </c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorD9D9D9>​れない</c>
+
+00:01:18.462 --> 00:01:18.762 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorF06B4B>​も</c><c.colorE67264>​う</c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorC888AF>​れ</c><c.colorD9D9D9>​ない</c>
+
+00:01:18.462 --> 00:01:18.762 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorF06B4B>​も</c><c.colorE67264>​う </c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorC888AF>​れ</c><c.colorD9D9D9>​ない</c>
+
+00:01:18.762 --> 00:01:19.029 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorF06B4B>​も</c><c.colorE67264>​う</c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorC888AF>​れ</c><c.colorBE8FC8>​な</c><c.colorD9D9D9>​い</c>
+
+00:01:18.762 --> 00:01:19.029 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorF06B4B>​も</c><c.colorE67264>​う </c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorC888AF>​れ</c><c.colorBE8FC8>​な</c><c.colorD9D9D9>​い</c>
+
+00:01:19.029 --> 00:01:19.463 line:78%
+<c.color96CDFF>​カ​</c><c.colorA4BEE2>​ワ</c><c.colorB3AFC4>​イ</c><c.colorC1A0A7>​イ</c><c.colorCF918A>​だ</c><c.colorDD826D>​け</c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ</c><c.colorF06B4B>​も</c><c.colorE67264>​う</c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorC888AF>​れ</c><c.colorBE8FC8>​な</c><c.colorB496E1>​い</c>
+
+00:01:19.029 --> 00:01:19.463 line:0%
+<c.color96CDFF>​か​</c><c.colorA4BEE2>​わ</c><c.colorB3AFC4>​い</c><c.colorC1A0A7>​い </c><c.colorCF918A>​だ</c><c.colorDD826D>​け </c><c.colorEC734F>​じ</c><c.colorFA6432>​ゃ </c><c.colorF06B4B>​も</c><c.colorE67264>​う </c><c.colorDC797D>​い</c><c.colorD28196>​ら</c><c.colorC888AF>​れ</c><c.colorBE8FC8>​な</c><c.colorB496E1>​い</c>
+
+00:01:19.463 --> 00:01:19.630 line:78%
+<c.color96CDFF>​声​</c><c.colorD9D9D9>​をあげていくんだ STARDUST SONG</c>
+
+00:01:19.463 --> 00:01:19.630 line:0%
+<c.color96CDFF>​こ​</c><c.colorD9D9D9>​え を あげていく ん だ STARDUST SONG</c>
+
+00:01:19.630 --> 00:01:19.830 line:78%
+<c.color96CDFF>​声​</c><c.colorD9D9D9>​をあげていくんだ STARDUST SONG</c>
+
+00:01:19.630 --> 00:01:19.830 line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorD9D9D9>​を あげていく ん だ STARDUST SONG</c>
+
+00:01:19.830 --> 00:01:20.030 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorD9D9D9>​あげていくんだ STARDUST SONG</c>
+
+00:01:19.830 --> 00:01:20.030 line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorD9D9D9>​あげていく ん だ STARDUST SONG</c>
+
+00:01:20.030 --> 00:01:20.330 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorD9D9D9>​げていくんだ STARDUST SONG</c>
+
+00:01:20.030 --> 00:01:20.330 line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorD9D9D9>​げていく ん だ STARDUST SONG</c>
+
+00:01:20.330 --> 00:01:20.597 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorD9D9D9>​ていくんだ STARDUST SONG</c>
+
+00:01:20.330 --> 00:01:20.597 line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorD9D9D9>​ていく ん だ STARDUST SONG</c>
+
+00:01:20.597 --> 00:01:20.831 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorD9D9D9>​いくんだ STARDUST SONG</c>
+
+00:01:20.597 --> 00:01:20.831 position:56% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorD9D9D9>​いく ん だ STARDUST SONG</c>
+
+00:01:20.831 --> 00:01:21.065 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD9D9D9>​くんだ STARDUST SONG</c>
+
+00:01:20.831 --> 00:01:21.065 position:58% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD9D9D9>​く ん だ STARDUST SONG</c>
+
+00:01:21.065 --> 00:01:21.231 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く</c><c.colorD9D9D9>​んだ STARDUST SONG</c>
+
+00:01:21.065 --> 00:01:21.231 position:59% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く </c><c.colorD9D9D9>​ん だ STARDUST SONG</c>
+
+00:01:21.231 --> 00:01:21.365 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く</c><c.colorE27D63>​ん</c><c.colorD9D9D9>​だ STARDUST SONG</c>
+
+00:01:21.231 --> 00:01:21.365 position:61% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く </c><c.colorE27D63>​ん </c><c.colorD9D9D9>​だ STARDUST SONG</c>
+
+00:01:21.365 --> 00:01:21.565 line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く</c><c.colorE27D63>​ん</c><c.colorEC734F>​だ </c><c.colorD9D9D9>​STARDUST SONG</c>
+
+00:01:21.365 --> 00:01:21.565 position:63% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く </c><c.colorE27D63>​ん </c><c.colorEC734F>​だ </c><c.colorD9D9D9>​STARDUST SONG</c>
+
+00:01:21.565 --> 00:01:21.865 position:59% line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く</c><c.colorE27D63>​ん</c><c.colorEC734F>​だ </c><c.colorF5693C>​S</c><c.colorF7663A>​T</c><c.colorF06B4B>​A</c><c.colorE9705C>​R</c><c.colorD9D9D9>​DUST SONG</c>
+
+00:01:21.565 --> 00:01:21.865 position:69% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く </c><c.colorE27D63>​ん </c><c.colorEC734F>​だ </c><c.colorF5693C>​S</c><c.colorF7663A>​T</c><c.colorF06B4B>​A</c><c.colorE9705C>​R</c><c.colorD9D9D9>​DUST SONG</c>
+
+00:01:21.865 --> 00:01:22.132 position:66% line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く</c><c.colorE27D63>​ん</c><c.colorEC734F>​だ </c><c.colorF5693C>​S</c><c.colorF7663A>​T</c><c.colorF06B4B>​A</c><c.colorE9705C>​R</c><c.colorE3756C>​D</c><c.colorDC797D>​U</c><c.colorD57E8E>​S</c><c.colorCF839E>​T </c><c.colorD9D9D9>​SONG</c>
+
+00:01:21.865 --> 00:01:22.132 position:75% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く </c><c.colorE27D63>​ん </c><c.colorEC734F>​だ </c><c.colorF5693C>​S</c><c.colorF7663A>​T</c><c.colorF06B4B>​A</c><c.colorE9705C>​R</c><c.colorE3756C>​D</c><c.colorDC797D>​U</c><c.colorD57E8E>​S</c><c.colorCF839E>​T </c><c.colorD9D9D9>​SONG</c>
+
+00:01:22.132 --> 00:01:23.067 position:70% line:78%
+<c.color96CDFF>​声​</c><c.colorA9B9D8>​を</c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く</c><c.colorE27D63>​ん</c><c.colorEC734F>​だ </c><c.colorF5693C>​S</c><c.colorF7663A>​T</c><c.colorF06B4B>​A</c><c.colorE9705C>​R</c><c.colorE3756C>​D</c><c.colorDC797D>​U</c><c.colorD57E8E>​S</c><c.colorCF839E>​T </c><c.colorC888AF>​S</c><c.colorC18CC0>​O</c><c.colorBB91D0>​N</c><c.colorB496E1>​G</c>
+
+00:01:22.132 --> 00:01:23.067 position:80% line:0%
+<c.color96CDFF>​こ​</c><c.colorA0C3EB>​え </c><c.colorA9B9D8>​を </c><c.colorB3AFC4>​あ</c><c.colorBCA5B1>​げ</c><c.colorC69B9D>​て</c><c.colorCF918A>​い</c><c.colorD98776>​く </c><c.colorE27D63>​ん </c><c.colorEC734F>​だ </c><c.colorF5693C>​S</c><c.colorF7663A>​T</c><c.colorF06B4B>​A</c><c.colorE9705C>​R</c><c.colorE3756C>​D</c><c.colorDC797D>​U</c><c.colorD57E8E>​S</c><c.colorCF839E>​T </c><c.colorC888AF>​S</c><c.colorC18CC0>​O</c><c.colorBB91D0>​N</c><c.colorB496E1>​G</c>
+
