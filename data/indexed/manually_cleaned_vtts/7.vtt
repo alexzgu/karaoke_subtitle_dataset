@@ -77,21 +77,6 @@ Style:
 ::cue(c.yellow) { color: yellow; }
 ##
 
-00:00:04.188 --> 00:00:17.634 line:0%
-<c.colorFFF19E>​角巻わため - ​</c><c.red>​R</c><c.colorFF7F00>​A</c><c.yellow>​I</c><c.green>​N</c><c.cyan>​B</c><c.blue>​O</c><c.color8B00FF>​W</c>
-
-00:00:04.188 --> 00:00:07.558 line:92%
-<c.colorFFF19E>​作詞: DECO*27</c>
-
-00:00:07.558 --> 00:00:10.894 line:92%
-<c.colorFFF19E>​作曲: DECO*27</c>
-
-00:00:10.894 --> 00:00:14.264 line:92%
-<c.colorFFF19E>​編曲: Rockwell</c>
-
-00:00:14.264 --> 00:00:17.634 line:92%
-<c.colorFFF19E>​唄: 角巻わため</c>
-
 00:00:17.634 --> 00:00:17.835 line:92%
 <c.colorFFF19E>​ね​</c><c.colorD9D9D9>​え「おはよう」のあと</c>
 
@@ -3221,9 +3206,6 @@ Style:
 00:03:00.197 --> 00:03:01.231 line:85%
 <c.colorFFF19E>​lalalalala</c>
 
-00:03:02.099 --> 00:03:05.435 position:61% line:92%
-<c.colorFFF19E>​Director / Cinematographer: Yuma Saito</c>
-
 00:03:02.099 --> 00:03:02.499 line:85%
 <c.colorFFF19E>​la​</c><c.colorD9D9D9>​lala lalala lalala</c>
 
@@ -3250,9 +3232,6 @@ Style:
 
 00:03:04.401 --> 00:03:05.435 line:85%
 <c.colorFFF19E>​lalala lalala lalala</c>
-
-00:03:05.435 --> 00:03:08.805 line:92%
-<c.colorFFF19E>​Cinematographer: Rei Kasai</c>
 
 00:03:05.435 --> 00:03:05.836 line:85%
 <c.colorFFF19E>​la​</c><c.colorD9D9D9>​lala lalala lalala</c>
@@ -3281,9 +3260,6 @@ Style:
 00:03:07.738 --> 00:03:08.372 line:85%
 <c.colorFFF19E>​lalala lalala lalala</c>
 
-00:03:08.805 --> 00:03:10.507 line:92%
-<c.colorFFF19E>​Assistant: Motty, Hikari</c>
-
 00:03:09.206 --> 00:03:09.640 line:85%
 <c.colorFFF19E>​la​</c><c.colorD9D9D9>​lala</c>
 
@@ -3293,9 +3269,6 @@ Style:
 00:03:10.040 --> 00:03:10.908 line:85%
 <c.colorFFF19E>​lalala</c>
 
-00:03:10.507 --> 00:03:12.142 line:92%
-<c.colorFFF19E>​Project Manager: Iori Majima</c>
-
 00:03:10.908 --> 00:03:11.341 line:85%
 <c.colorFFF19E>​la​</c><c.colorD9D9D9>​lala</c>
 
@@ -3304,9 +3277,6 @@ Style:
 
 00:03:11.742 --> 00:03:12.576 line:85%
 <c.colorFFF19E>​lalala</c>
-
-00:03:12.142 --> 00:03:15.512 line:92%
-<c.colorFFF19E>​Tsunomaki Production team</c>
 
 00:03:12.576 --> 00:03:13.010 line:85%
 <c.colorFFF19E>​la​</c><c.colorD9D9D9>​lalalala</c>
@@ -3326,9 +3296,6 @@ Style:
 00:03:14.678 --> 00:03:15.512 line:85%
 <c.colorFFF19E>​la​</c><c.colorD9D9D9>​la...</c>
 
-00:03:15.512 --> 00:03:18.649 line:0%
-<c.colorFFF19E>​Special thanks: わためいと／watamates</c>
-
 00:03:15.512 --> 00:03:18.649 line:85%
-<c.colorFFF19E>​lala...</c>
+<c.colorFFF19E>​lala</c>
 
