@@ -1,9 +1,4 @@
 start,end,line,unformatted,token
-4.188,7.558,92,作詞:deco*27,作詞:deco*27
-4.188,17.634,0,角巻わため-rainbow,角巻わため-rainbow
-7.558,10.894,92,作曲:deco*27,作曲:deco*27
-10.894,14.264,92,編曲:rockwell,編曲:rockwell
-14.264,17.634,92,唄:角巻わため,唄:角巻わため
 17.634,17.835,92,ねえ「おはよう」のあと,ね
 17.634,17.835,0,ねえ「おはよう」のあと,ね
 17.835,18.669,92,ねえ「おはよう」のあと,え
@@ -1027,7 +1022,7 @@ start,end,line,unformatted,token
 170.554,170.754,85,lalalalalalalalala,la
 170.754,170.954,85,lalalalalalalalala,la
 170.954,172.022,85,lalalalalalalalala,la
-172.022,172.456,85,lalalalalalalalala,lalalalalalalala
+172.022,172.456,85,lalalalalalalalala,la
 172.456,172.656,85,lalalalalalalalala,la
 172.656,173.09,85,lalalalalalalalala,la
 173.09,173.257,85,lalalalalalalalala,la
@@ -1039,7 +1034,7 @@ start,end,line,unformatted,token
 175.792,176.193,85,lalala,la
 176.193,176.627,85,lalala,la
 176.627,177.461,85,lalala,la
-177.461,177.861,85,lalala,lala
+177.461,177.861,85,lalala,la
 177.861,178.295,85,lalala,la
 178.295,179.163,85,lalala,la
 179.163,179.563,85,lalalalala,la
@@ -1047,7 +1042,6 @@ start,end,line,unformatted,token
 179.796,179.997,85,lalalalala,la
 179.997,180.197,85,lalalalala,la
 180.197,181.231,85,lalalalala,la
-182.099,185.435,92,director/cinematographer:yumasaito,director/cinematographer:yumasaito
 182.099,182.499,85,lalalalalalalalala,la
 182.499,182.733,85,lalalalalalalalala,la
 182.733,183.133,85,lalalalalalalalala,la
@@ -1057,8 +1051,7 @@ start,end,line,unformatted,token
 183.967,184.201,85,lalalalalalalalala,la
 184.201,184.401,85,lalalalalalalalala,la
 184.401,185.435,85,lalalalalalalalala,la
-185.435,188.805,92,cinematographer:reikasai,cinematographer:reikasai
-185.435,185.836,85,lalalalalalalalala,lalalalalalalala
+185.435,185.836,85,lalalalalalalalala,la
 185.836,186.036,85,lalalalalalalalala,la
 186.036,186.47,85,lalalalalalalalala,la
 186.47,186.67,85,lalalalalalalalala,la
@@ -1067,15 +1060,12 @@ start,end,line,unformatted,token
 187.304,187.504,85,lalalalalalalalala,la
 187.504,187.738,85,lalalalalalalalala,la
 187.738,188.372,85,lalalalalalalalala,la
-188.805,190.507,92,assistant:mottyhikari,assistant:mottyhikari
 189.206,189.64,85,lalala,la
 189.64,190.04,85,lalala,la
 190.04,190.908,85,lalala,la
-190.507,192.142,92,projectmanager:iorimajima,projectmanager:iorimajima
-190.908,191.341,85,lalala,lala
+190.908,191.341,85,lalala,la
 191.341,191.742,85,lalala,la
 191.742,192.576,85,lalala,la
-192.142,195.512,92,tsunomakiproductionteam,tsunomakiproductionteam
 192.576,193.01,85,lalalalala,la
 193.01,193.21,85,lalalalala,la
 193.21,193.41,85,lalalalala,la
@@ -1083,4 +1073,3 @@ start,end,line,unformatted,token
 193.61,194.678,85,lalalalala,la
 194.678,195.512,85,lala...,la
 195.512,198.649,85,lala...,la...
-195.512,198.649,0,specialthanks:わためいと／watamates,specialthanks:わためいと／watamates

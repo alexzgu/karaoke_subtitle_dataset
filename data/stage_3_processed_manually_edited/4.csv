@@ -63,11 +63,6 @@ start,end,line,unformatted,token
 6.89,7.458,-1,いっせーの、せ！,の、
 7.458,7.958,0,いっせーの、せ！,せ！
 7.458,7.958,-1,いっせーの、せ！,せ！
-7.958,9.727,-1,作詞：角巻わため,作詞：角巻わため
-7.958,13.197,0,夢見る羊/角巻わため,夢見る羊/角巻わため
-9.727,11.428,-1,作曲：堀江晶太,作曲：堀江晶太
-11.428,13.197,91,drums:山本真央樹strings:室屋光一郎ストリングス,drums:山本真央樹strings:室屋光一郎ストリングス
-13.197,14.898,91,stringsscoring:宮野幸子（shangri-lainc.）allotherinstruments&amp;programming:堀江晶太,stringsscoring:宮野幸子（shangri-lainc.）allotherinstruments&amp;programming:堀江晶太
 14.898,15.032,0,まっしろなひつじにいのちがやどって,ま
 14.898,15.032,-1,真っ白な羊に命が宿って,真
 15.032,15.199,0,まっしろなひつじにいのちがやどって,っ
@@ -588,14 +583,10 @@ start,end,line,unformatted,token
 87.538,87.771,-1,一緒に隣歩いて行こう,て
 87.771,87.971,0,いっしょにとなりあるいていこう,い
 87.771,87.971,-1,一緒に隣歩いて行こう,行
-87.971,89.706,83,recordingengineer:neerajkhajanchi、沢田悠介（studiojive）,recordingengineer:neerajkhajanchi、沢田悠介（studiojive）
 87.971,88.138,0,いっしょにとなりあるいていこう,こ
 87.971,88.138,-1,一緒に隣歩いて行こう,こ
 88.138,88.405,0,いっしょにとなりあるいていこう,う
 88.138,88.405,-1,一緒に隣歩いて行こう,う
-89.706,91.442,91,mixingstudio:studioarterecording&amp;mixingengineer:菊池司（arterefact）,mixingstudio:studioarterecording&amp;mixingengineer:菊池司（arterefact）
-91.442,93.177,-1,sounddirectedby宮家智彦（arterefact）,sounddirectedby宮家智彦（arterefact）
-93.177,94.912,-1,soundproducedby小濱信慶（arterefact）,soundproducedby小濱信慶（arterefact）
 94.912,95.045,0,まっすぐなひつじにまよいはないのさ,ま
 94.912,95.045,-1,まっすぐな羊に迷いはないのさ,ま
 95.045,95.145,0,まっすぐなひつじにまよいはないのさ,っ
