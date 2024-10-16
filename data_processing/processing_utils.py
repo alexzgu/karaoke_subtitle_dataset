@@ -151,9 +151,9 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
 
     def helper_token(row):
         if row['ref_end']:
-            if row['ref_start']:
-                # string with all characters from segments
+            if row['ref_start']: # singleton (both ref_start and ref_end)
                 return ''.join([char for _, char in row['segments']])
+
             ref_idx = compare_character_segments(row['segments'], row['prev_segments'])[1]
             if ref_idx == -1:
                 return "<dupe_ref_end>"
@@ -178,6 +178,22 @@ def generate_tokens(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def process_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+    def process_dupe_ref_end(input_row):
+        ref_color = input_row['segments'][-1][0]
+
+        idx = -1
+        for color, char in input_row['segments'][::-1]:
+            if color != ref_color:
+                out = ''.join([char for _, char in input_row['segments'][:idx+1]])
+                return "<dupe_ref_end_1>" if out == "" else out
+            idx -= 1
+        out = input_row['unformatted']
+        return "<dupe_ref_end_2>" if out == "" else out
+
+    # apply process_dupe_ref_end to all rows
+    # with token = "<dupe_ref_end>"
+    df['token'] = df.apply(lambda x: process_dupe_ref_end(x) if x['token'] == '<dupe_ref_end>' else x['token'], axis=1)
+
     # dupe boolean column
     def dupe_helper(input_row) -> bool:
         if input_row['token'] == '<dupe>':
@@ -190,7 +206,7 @@ def process_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     # the token of the last row with dupe = False, which is not necessarily the previous row
     last_non_dupe_token = None
     for index, row in df[::-1].iterrows():
-        if row['token'] != '<dupe>':
+        if row['token'] != '<dupe>': # not row['dupe']:
             last_non_dupe_token = row['token']
         elif last_non_dupe_token is not None:
             df.at[index, 'token'] = last_non_dupe_token
@@ -202,7 +218,7 @@ def process_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     # if the row has ref_start == True, then set its token equal to the value in its 'unformatted' column
     # else, set its token to token_last_seen
 
-    token_last_seen = None
+    """token_last_seen = None
     for index, row in df.iterrows():
         if row['token'] != '<dupe_ref_end>':
             token_last_seen = row['token']
@@ -214,7 +230,7 @@ def process_duplicates(df: pd.DataFrame) -> pd.DataFrame:
         else:
             # print(df.loc[index])
             # raise ValueError("No token_last_seen found for <dupe_ref_end> token.")
-            df.at[index, 'token'] = row['unformatted']
+            df.at[index, 'token'] = row['unformatted']"""
 
     return df
 
