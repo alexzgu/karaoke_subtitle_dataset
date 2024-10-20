@@ -10,6 +10,9 @@ def process_file(f) -> pd.DataFrame or None:
         print(f"Skipping {f.name.split('/')[-1]} because it has less than 3 rows.")
         return None
 
+    # drop duplicate rows
+    df = df.drop_duplicates(subset=['start', 'end', 'unformatted', 'line'], keep='first')
+
     df = create_segments(df)
     df = clean_segments(df)
     df = df.drop(columns=['position', 'text'])  # !!! DEBUGGING PURPOSES ONLY
