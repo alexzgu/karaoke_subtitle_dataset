@@ -7,15 +7,6 @@ start,end,line,unformatted,token
 9.76,10.06,0,mayday、mayday,may
 10.06,10.394,92,mayday、mayday,day
 10.06,10.394,0,mayday、mayday,day
-10.394,12.896,92,作詞:junky,作詞:junky
-10.394,20.504,0,角巻わため-mayday、mayday,角巻わため-mayday、mayday
-12.896,15.466,92,作曲:junky,作曲:junky
-15.466,17.968,92,編曲:junky,編曲:junky
-17.968,20.504,92,歌:角巻わため,歌:角巻わため
-20.504,23.007,92,recording&amp;mixingengineer:nnzn(ofutone),recording&amp;mixingengineer:nnzn(ofutone)
-23.007,25.542,92,vocaldirection:かっさん(nekohacker),vocaldirection:かっさん(nekohacker)
-25.542,28.045,92,イラスト:詰め木,イラスト:詰め木
-28.045,30.581,92,movie:quro,movie:quro
 30.581,30.914,0,maydayこえはとどいてる？,may
 30.581,30.914,92,mayday声は届いてる？,may
 30.914,31.181,0,maydayこえはとどいてる？,day
@@ -1279,5 +1270,3 @@ start,end,line,unformatted,token
 244.928,245.162,0,rescuemeして,し
 245.162,245.596,92,rescuemeして,て
 245.162,245.596,0,rescuemeして,て
-251.001,253.537,0,角巻productionteam,角巻productionteam
-253.537,256.073,0,specialthanks:わためいと／watamates,specialthanks:わためいと／watamates
